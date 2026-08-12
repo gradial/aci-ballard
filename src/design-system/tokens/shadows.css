@@ -1,0 +1,9 @@
+@theme {
+  --shadow-card: 0 1px 3px rgba(15, 23, 42, 0.04), 0 12px 32px rgba(15, 23, 42, 0.08);
+  --shadow-card-dark: 0 1px 3px rgba(0, 0, 0, 0.1), 0 16px 40px rgba(0, 0, 0, 0.15);
+  --shadow-card-default: var(--shadow-card);
+  --shadow-elevated: 0 1px 3px rgba(15, 23, 42, 0.05), 0 20px 48px rgba(15, 23, 42, 0.12);
+  --shadow-glow: 0 0 30px rgba(14, 165, 233, 0.25);
+  --shadow-glow-sm: 0 0 15px rgba(14, 165, 233, 0.18);
+  --shadow-glow-lg: 0 0 40px rgba(14, 165, 233, 0.3);
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "site_footer",
+  "type": "object",
+  "properties": {
+    "brandLogo": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string"
+        },
+        "alt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "src",
+        "alt"
+      ],
+      "additionalProperties": false
+    },
+    "statement": {
+      "type": "string"
+    },
+    "columns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "links": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "href": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "label",
+                "href"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "links"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "legalLinks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "href"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "copyright": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "brandLogo",
+    "statement",
+    "columns",
+    "legalLinks",
+    "copyright"
+  ],
+  "additionalProperties": false
+}

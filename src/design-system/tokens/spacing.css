@@ -1,0 +1,26 @@
+@theme {
+  --max-width-container: 80rem;
+  --max-width-container-narrow: 48rem;
+  --max-width-rich-text: var(--max-width-container-narrow);
+  --max-width-rich-text-wide: 54rem;
+  --max-width-cta: 76rem;
+
+  --spacing-container: clamp(1rem, 5vw, 3rem);
+  --spacing-section-y: clamp(4rem, 8vw, 7rem);
+  --spacing-footer-y: clamp(4rem, 8vw, 6rem);
+  --spacing-cta-y: clamp(4rem, 8vw, 6rem);
+  --spacing-cta-x: clamp(1.5rem, 5vw, 5rem);
+  --spacing-card: 1.5rem;
+  --spacing-hero-py: clamp(8rem, 20vh, 14rem);
+
+  --height-header: 4.5rem;
+  --height-hero-min: 100svh;
+  --width-hero-content: 48rem;
+  --height-button-min: 3rem;
+
+  --spacing-button-x: 1.5rem;
+  --spacing-button-y: 0.875rem;
+
+  --z-header: 50;
+  --z-overlay: 60;
+}

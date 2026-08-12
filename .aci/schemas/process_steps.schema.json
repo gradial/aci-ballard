@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "process_steps",
+  "type": "object",
+  "properties": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "number": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "number",
+          "title",
+          "description"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "ctaHref": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "heading",
+    "introduction",
+    "steps"
+  ],
+  "additionalProperties": false
+}

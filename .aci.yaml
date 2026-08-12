@@ -1,0 +1,26 @@
+version: "1"
+siteId: "aci-ballard"
+domain: "meridian.local"
+framework: next
+
+source:
+  root: "./"
+
+componentRegistry: ./src/cms/contracts/components/index.ts
+layoutRegistry: ./src/cms/contracts/layouts/index.ts
+
+capabilities:
+  staticRender: true
+  ssr: true
+  ssrIslands: true
+  clientIslands: true
+  fragmentRender: true
+
+routes:
+  cmsManaged: "/[...slug]"
+  frameworkOwned:
+    - "/api/*"
+    - "/_next/*"
+    - "/.gradial-dam/*"
+
+rendererProtocol: stdio-json

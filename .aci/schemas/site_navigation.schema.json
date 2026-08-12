@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "site_navigation",
+  "type": "object",
+  "properties": {
+    "brandHref": {
+      "type": "string"
+    },
+    "brandLabel": {
+      "type": "string"
+    },
+    "brandLogo": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string"
+        },
+        "alt": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "src",
+        "alt"
+      ],
+      "additionalProperties": false
+    },
+    "navigation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "href"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "utility": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "href": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "href"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "brandHref",
+    "brandLabel",
+    "brandLogo",
+    "navigation"
+  ],
+  "additionalProperties": false
+}

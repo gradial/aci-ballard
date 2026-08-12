@@ -1,0 +1,14 @@
+{
+  "$type": "dam.editorial",
+  "schemaVersion": 1,
+  "title": "Meridian about hero",
+  "description": "Seeded hero image for the Meridian about page.",
+  "altText": "Satellite ground station at twilight",
+  "tags": ["meridian", "hero", "ground-station", "satellite"],
+  "properties": {
+    "source": "unsplash",
+    "sourceUrl": "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?w=1920&q=80"
+  },
+  "customFields": {},
+  "notes": "Downloaded for the local DAM bridge harness."
+}

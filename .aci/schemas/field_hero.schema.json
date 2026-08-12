@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "field_hero",
+  "type": "object",
+  "properties": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "primaryLabel": {
+      "type": "string"
+    },
+    "primaryHref": {
+      "type": "string"
+    },
+    "secondaryLabel": {
+      "type": "string"
+    },
+    "secondaryHref": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    },
+    "tone": {
+      "default": "pine",
+      "type": "string",
+      "enum": [
+        "pine",
+        "cedar",
+        "canvas"
+      ]
+    }
+  },
+  "required": [
+    "eyebrow",
+    "headline",
+    "description",
+    "tone"
+  ],
+  "additionalProperties": false
+}

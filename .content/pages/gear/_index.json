@@ -1,0 +1,12 @@
+{
+  "$type": "page", "id": "ballard-gear", "status": "published", "layout": "default",
+  "metadata": { "title": "Ballard gear | Built around conditions", "description": "Browse Ballard outerwear, work layers, and carry gear by use condition.", "canonical": "https://ballard.local/gear/" },
+  "regions": { "main": [
+    { "id": "hero", "component": "field_hero", "props": { "eyebrow": "Gear index", "headline": "Choose by the day ahead.", "description": "Start with rain, cold, movement, or load. Then check construction, fit, care, and the stated limitation.", "tone": "cedar", "note": "Specifications appear when approved." } },
+    { "id": "gear", "component": "gear_grid", "props": { "eyebrow": "Categories", "heading": "A smaller, harder-working system.", "introduction": "This test catalog uses category-level content only. Product measurements and performance claims remain pending approved sources.", "cards": [
+      { "id": "outerwear", "number": "A / OUTER", "title": "Outerwear", "description": "Jackets and shells organized by rain, wind, temperature, and intended layer system.", "details": ["[TBD: approved product specifications]", "Fit note on every SKU", "Tradeoff on every SKU"], "href": "/contact/", "linkLabel": "Ask about outerwear", "tone": "pine" },
+      { "id": "layers", "number": "B / LAYER", "title": "Work layers", "description": "Base, mid, and overshirt layers designed to be assessed as a system.", "details": ["[TBD: approved material weights]", "Care by material", "Fit through shoulder and body"], "href": "/contact/", "linkLabel": "Ask about layers", "tone": "stone" },
+      { "id": "carry", "number": "C / CARRY", "title": "Packs and carry", "description": "Carry gear organized around access, load, weather exposure, and repairability.", "details": ["[TBD: approved capacities]", "Pocket layout", "Repair eligibility"], "href": "/contact/", "linkLabel": "Ask about carry gear", "tone": "cedar" }
+    ] } }
+  ] }
+}

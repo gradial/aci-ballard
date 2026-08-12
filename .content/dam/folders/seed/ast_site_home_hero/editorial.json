@@ -1,0 +1,14 @@
+{
+  "$type": "dam.editorial",
+  "schemaVersion": 1,
+  "title": "Meridian home hero",
+  "description": "Seeded hero image for the Meridian home page.",
+  "altText": "Earth from space with satellite constellation",
+  "tags": ["meridian", "hero", "space", "earth"],
+  "properties": {
+    "source": "unsplash",
+    "sourceUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80"
+  },
+  "customFields": {},
+  "notes": "Downloaded for the local DAM bridge harness."
+}

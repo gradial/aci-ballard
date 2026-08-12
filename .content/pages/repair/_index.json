@@ -1,0 +1,8 @@
+{
+  "$type": "page", "id": "ballard-repair", "status": "published", "layout": "default",
+  "metadata": { "title": "Ballard repair | Keep gear in use", "description": "Learn how the Ballard repair intake process works.", "canonical": "https://ballard.local/repair/" },
+  "regions": { "main": [
+    { "id": "hero", "component": "field_hero", "props": { "eyebrow": "Repair", "headline": "Use leaves a record.", "description": "A torn cuff or failed closure doesn't always end the useful life of your gear. Eligibility, pricing, and turnaround depend on inspection.", "primaryLabel": "Start a repair request", "primaryHref": "/contact/", "tone": "canvas", "note": "Terms [TBD: approval needed]." } },
+    { "id": "process", "component": "process_steps", "props": { "eyebrow": "Repair intake", "heading": "Three steps, then an answer.", "introduction": "This test flow describes the decision process without promising eligibility, cost, or timing.", "steps": [{ "number": "01", "title": "Send the details", "description": "Provide the gear name, purchase information, damage location, and clear photographs." }, { "number": "02", "title": "We inspect the request", "description": "The repair team checks construction, damage, available materials, and whether the work is feasible." }, { "number": "03", "title": "Review the next action", "description": "You receive the approved options, cost, and expected timing before work begins. Terms are [TBD: approval needed]." }], "ctaLabel": "Begin repair intake", "ctaHref": "/contact/" } }
+  ] }
+}

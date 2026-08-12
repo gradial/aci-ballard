@@ -1,0 +1,31 @@
+{
+  "$type": "fragment",
+  "fragmentId": "site-footer",
+  "component": "site_footer",
+  "props": {
+    "brandLogo": { "src": "/assets/ballard-wordmark.svg", "alt": "Ballard. Gear that earns its keep. Founded 1963." },
+    "statement": "Gear for people whose comfort is a working condition, not a preference.",
+    "columns": [
+      { "id": "gear", "title": "Gear", "links": [
+        { "id": "outerwear", "label": "Outerwear", "href": "/gear/#outerwear" },
+        { "id": "layers", "label": "Work layers", "href": "/gear/#layers" },
+        { "id": "packs", "label": "Packs and carry", "href": "/gear/#carry" }
+      ] },
+      { "id": "programs", "title": "Programs", "links": [
+        { "id": "field", "label": "Ballard Field", "href": "/field/" },
+        { "id": "repair", "label": "Repair", "href": "/repair/" },
+        { "id": "stores", "label": "Find a store", "href": "/stores/" }
+      ] },
+      { "id": "company", "title": "Company", "links": [
+        { "id": "about", "label": "About Ballard", "href": "/about/" },
+        { "id": "standards", "label": "Our working standard", "href": "/about/#standard" },
+        { "id": "contact", "label": "Contact", "href": "/contact/" }
+      ] }
+    ],
+    "legalLinks": [
+      { "id": "privacy", "label": "Privacy", "href": "/privacy/" },
+      { "id": "terms", "label": "Terms", "href": "/terms/" }
+    ],
+    "copyright": "Copyright 2026 Ballard Inc. Seattle, Washington."
+  }
+}

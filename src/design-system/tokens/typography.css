@@ -1,0 +1,22 @@
+@theme {
+  --font-family-display: var(--font-roboto-slab), Rockwell, Georgia, serif;
+  --font-family-heading: var(--font-family-display);
+  --font-family-base: var(--font-roboto-condensed), "Arial Narrow", Arial, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --text-size-body: 1.05rem;
+  --text-size-body-large: clamp(1.15rem, 2vw, 1.4rem);
+  --text-size-eyebrow: 0.78rem;
+  --text-size-h1-mobile: clamp(3.4rem, 15vw, 5.8rem);
+  --text-size-h1: clamp(5rem, 10vw, 9.5rem);
+  --text-size-h2-mobile: 2.4rem;
+  --text-size-h2: clamp(3rem, 6vw, 5.6rem);
+  --text-size-h3: 1.65rem;
+  --leading-tight: 0.9;
+  --leading-heading: 0.98;
+  --leading-body: 1.55;
+  --letter-spacing-label: 0.14em;
+  --letter-spacing-tight: -0.045em;
+}

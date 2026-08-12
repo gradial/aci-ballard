@@ -1,0 +1,15 @@
+/.next/
+/node_modules/
+/out/
+/.aci/compiled/
+/.baremetal/
+/.vercel/
+*.log
+*.tsbuildinfo
+.env
+.env.*
+.DS_Store
+.vercel
+/storybook-static/
+pnpm-lock.yaml
+pnpm-workspace.yaml

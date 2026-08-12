@@ -1,0 +1,16 @@
+@theme {
+  --color-cedar: #a84a28;
+  --color-cedar-dark: #82381f;
+  --color-pine: #203a2d;
+  --color-pine-dark: #14261d;
+  --color-canvas: #f3efe5;
+  --color-coal: #292824;
+  --color-stone: #d9cfbb;
+  --color-white: #fffdf8;
+  --color-black: #151513;
+
+  --color-page: var(--color-canvas);
+  --color-fg: var(--color-coal);
+  --color-fg-muted: #655f54;
+  --color-focus: var(--color-cedar);
+}

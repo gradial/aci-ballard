@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://baremetal.local/schemas/site.schema.json",
+  "title": "bare-metal Site Config",
+  "type": "object",
+  "required": ["$type", "id", "status", "title", "domain", "defaultLocale", "overlayResolution"],
+  "additionalProperties": true,
+  "properties": {
+    "$type": { "const": "site" },
+    "id": { "type": "string", "minLength": 1 },
+    "status": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "domain": { "type": "string", "minLength": 1 },
+    "defaultLocale": { "type": "string", "minLength": 1 },
+    "locales": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "overlayResolution": {
+      "type": "array",
+      "items": { "enum": ["locale", "audience"] }
+    },
+    "brandHref": { "type": "string" },
+    "brandLogo": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "src": { "type": "string", "minLength": 1 },
+        "alt": { "type": "string" }
+      }
+    },
+    "navigation": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/link" }
+    },
+    "utilities": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          { "$ref": "#/$defs/link" },
+          {
+            "type": "object",
+            "properties": {
+              "variant": {
+                "enum": ["primary", "secondary", "outline", "ghost"]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "footer": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "columns": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/footerColumn" }
+        },
+        "social": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/link" }
+        },
+        "legalLinks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/link" }
+        },
+        "copyright": { "type": "string" }
+      }
+    },
+    "seo": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "siteName": { "type": "string" }
+      }
+    },
+    "personalization": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "collect": { "type": "boolean" },
+        "consentPreset": {
+          "enum": ["c15t", "onetrust", "cookiebot", "trustarc", "manual"]
+        },
+        "consentCategories": {
+          "type": "string",
+          "pattern": "^\\s*[A-Za-z0-9._-]+(\\s*,\\s*[A-Za-z0-9._-]+)*\\s*$"
+        },
+        "debug": { "type": "boolean" }
+      }
+    }
+  },
+  "$defs": {
+    "link": {
+      "type": "object",
+      "required": ["id", "label", "href"],
+      "additionalProperties": true,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "label": { "type": "string", "minLength": 1 },
+        "href": { "type": "string", "minLength": 1 }
+      }
+    },
+    "footerGroup": {
+      "type": "object",
+      "required": ["id", "title", "links"],
+      "additionalProperties": true,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string" },
+        "links": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/link" }
+        }
+      }
+    },
+    "footerColumn": {
+      "type": "object",
+      "required": ["id"],
+      "additionalProperties": true,
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string" },
+        "groups": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/footerGroup" }
+        },
+        "links": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/link" }
+        }
+      }
+    }
+  }
+}

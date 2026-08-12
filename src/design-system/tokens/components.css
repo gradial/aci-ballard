@@ -1,0 +1,86 @@
+@theme {
+  --width-logo-mobile: 8rem;
+  --width-logo: 12rem;
+  --width-logo-footer-mobile: 9rem;
+  --width-logo-footer: 14rem;
+  --logo-filter: none;
+
+  --text-button: var(--text-size-base);
+  --leading-button: 1;
+  --button-hover-opacity: 0.92;
+  --transition-duration-fast: 200ms;
+
+  --button-primary-bg: var(--color-accent-primary);
+  --button-primary-text: var(--color-white);
+  --button-primary-border: var(--color-accent-primary);
+  --button-primary-hover-bg: var(--color-brand-500);
+  --button-primary-hover-border: var(--color-brand-500);
+
+  --button-secondary-bg: var(--color-surface-100);
+  --button-secondary-text: var(--color-text-primary);
+  --button-secondary-border: var(--color-surface-200);
+  --button-secondary-hover-bg: var(--color-surface-200);
+  --button-secondary-hover-border: var(--color-surface-300);
+
+  --button-outline-bg: transparent;
+  --button-outline-text: var(--color-text-primary);
+  --button-outline-border: var(--color-border-strong);
+  --button-outline-hover-bg: var(--color-surface-100);
+  --button-outline-hover-border: var(--color-text-primary);
+
+  --button-tertiary-bg: transparent;
+  --button-tertiary-text: var(--color-accent-primary);
+  --button-tertiary-border: transparent;
+  --button-tertiary-hover-bg: rgba(14, 165, 233, 0.08);
+  --button-tertiary-hover-text: var(--color-brand-600);
+
+  --button-ghost-bg: transparent;
+  --button-ghost-text: var(--color-text-primary);
+  --button-ghost-border: transparent;
+  --button-ghost-hover-bg: var(--color-surface-100);
+  --button-ghost-hover-text: var(--color-text-primary);
+
+  --header-bg: rgba(255, 255, 255, 0.85);
+  --header-text: var(--color-text-primary);
+  --header-muted: var(--color-text-secondary);
+  --header-border: var(--color-border-default);
+  --header-link-hover: var(--color-accent-primary);
+  --header-icon: var(--color-text-tertiary);
+  --header-scrolled-bg: var(--color-white);
+
+  --mobile-nav-bg: var(--color-white);
+  --mobile-nav-text: var(--color-text-primary);
+  --mobile-nav-muted: var(--color-text-secondary);
+  --mobile-nav-border: var(--color-border-default);
+  --mobile-nav-link-hover: var(--color-accent-primary);
+  --mobile-nav-link-size: 1.75rem;
+  --mobile-nav-link-line-height: 1.1;
+
+  --footer-bg: var(--color-surface-100);
+  --footer-text: var(--color-text-primary);
+  --footer-muted: var(--color-text-secondary);
+  --footer-border: var(--color-border-default);
+  --footer-link-hover: var(--color-accent-primary);
+  --footer-grid-columns: 1fr 2fr;
+
+  --color-callout-icon-bg-light: rgba(14, 165, 233, 0.08);
+  --color-callout-icon-bg-dark: rgba(14, 165, 233, 0.12);
+  --color-callout-icon-bg: var(--color-callout-icon-bg-light);
+  --callout-icon-color: var(--color-accent-primary);
+
+  --rich-text-flow-space: 1.5rem;
+  --rich-text-heading-space: 2rem;
+  --rich-text-link-decoration-thickness: 0.09em;
+  --rich-text-link-underline-offset: 0.18em;
+  --rich-text-list-indent: 1.4em;
+  --rich-text-blockquote-border-width: 0.25rem;
+  --rich-text-inline-code-padding: 0.08em 0.32em;
+  --rich-text-quote-border: var(--color-brand-500);
+  --rich-text-quote-bg: rgba(14, 165, 233, 0.06);
+  --rich-text-quote-bg-dark: rgba(14, 165, 233, 0.1);
+  --rich-text-quote-bg-default: var(--rich-text-quote-bg-light);
+  --rich-text-inline-code-bg: rgba(15, 23, 42, 0.06);
+  --rich-text-inline-code-bg-dark: rgba(255, 255, 255, 0.08);
+  --rich-text-inline-code-bg-default: var(--rich-text-inline-code-bg);
+  --rich-text-inline-code-text: var(--color-fg);
+}

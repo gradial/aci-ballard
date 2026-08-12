@@ -1,0 +1,36 @@
+{
+  "$type": "page",
+  "id": "ballard-home",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Ballard | Gear that earns its keep",
+    "description": "Technical outdoor and work apparel from Seattle, Washington. Founded in 1963.",
+    "canonical": "https://ballard.local/"
+  },
+  "regions": { "main": [
+    { "id": "hero", "component": "field_hero", "props": {
+      "eyebrow": "Seattle, Washington / Since 1963",
+      "headline": "Weather doesn't clock out.",
+      "description": "Ballard makes technical outdoor and work apparel for long hours, wet mornings, and the jobs that keep moving.",
+      "primaryLabel": "Shop gear", "primaryHref": "/gear/",
+      "secondaryLabel": "Our working standard", "secondaryHref": "/about/#standard",
+      "note": "Gear that earns its keep.", "tone": "pine"
+    } },
+    { "id": "categories", "component": "gear_grid", "props": {
+      "eyebrow": "Built around use", "heading": "Start with the conditions.",
+      "introduction": "Choose gear by what the day asks of it. Every category makes room for fit, construction, care, and an honest tradeoff.",
+      "cards": [
+        { "id": "outerwear", "number": "01 / WET", "title": "Outerwear", "description": "Shells and work jackets for rain, wind, and repeated use.", "details": ["Construction details", "Layering guidance", "Care instructions"], "href": "/gear/#outerwear", "linkLabel": "View outerwear", "tone": "cedar" },
+        { "id": "layers", "number": "02 / COLD", "title": "Work layers", "description": "Shirts, overshirts, and insulation that fit into a working system.", "details": ["Fit notes", "Material weights", "Use conditions"], "href": "/gear/#layers", "linkLabel": "View layers", "tone": "stone" },
+        { "id": "carry", "number": "03 / LOAD", "title": "Packs and carry", "description": "Straightforward storage for tools, wet gear, and daily movement.", "details": ["Capacity", "Carry layout", "Repair guidance"], "href": "/gear/#carry", "linkLabel": "View carry gear", "tone": "pine" }
+      ]
+    } },
+    { "id": "standard", "component": "working_standard", "props": {
+      "eyebrow": "The working standard", "heading": "Useful before impressive.",
+      "paragraphs": ["We start with the condition, then choose construction, fit, and materials around the work.", "We state the limitation with the benefit. You should know what a piece does, how it fits, and where it gives something up."],
+      "facts": [{ "label": "Origin", "value": "Seattle, Washington" }, { "label": "Founded", "value": "1963" }, { "label": "Standard", "value": "Working" }, { "label": "Program", "value": "Repair" }],
+      "linkLabel": "Read about Ballard", "linkHref": "/about/", "markSrc": "/assets/ballard-wordmark.svg", "markAlt": "Ballard. Gear that earns its keep. Founded 1963."
+    } }
+  ] }
+}

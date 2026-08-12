@@ -1,0 +1,17 @@
+{
+  "$type": "fragment",
+  "fragmentId": "navbar",
+  "component": "site_navigation",
+  "props": {
+    "brandHref": "/",
+    "brandLabel": "Ballard",
+    "brandLogo": { "src": "/assets/ballard-horizontal-lockup.svg", "alt": "Ballard. Gear that earns its keep." },
+    "navigation": [
+      { "id": "gear", "label": "Gear", "href": "/gear/" },
+      { "id": "field", "label": "Ballard Field", "href": "/field/" },
+      { "id": "repair", "label": "Repair", "href": "/repair/" },
+      { "id": "about", "label": "About", "href": "/about/" }
+    ],
+    "utility": { "id": "find-store", "label": "Find a store", "href": "/stores/" }
+  }
+}

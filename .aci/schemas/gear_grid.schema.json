@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "gear_grid",
+  "type": "object",
+  "properties": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "href": {
+            "type": "string"
+          },
+          "linkLabel": {
+            "type": "string"
+          },
+          "tone": {
+            "default": "stone",
+            "type": "string",
+            "enum": [
+              "cedar",
+              "pine",
+              "stone"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "description",
+          "href",
+          "linkLabel",
+          "tone"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "heading",
+    "cards"
+  ],
+  "additionalProperties": false
+}

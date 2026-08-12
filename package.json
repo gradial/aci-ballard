@@ -1,0 +1,45 @@
+{
+  "name": "aci-ballard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ACI_CONTENT_PROVIDER=file next dev -H 0.0.0.0",
+    "build": "next build",
+    "preview": "next start -H 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/**/*.test.ts",
+    "content:compile": "node ./node_modules/@gradial/aci/bin/aci.js content compile --content ./.content --out ./.aci/compiled",
+    "lint": "eslint .",
+    "storybook": "storybook dev -p 6006",
+    "build:storybook": "storybook build"
+  },
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10"
+  },
+  "dependencies": {
+    "@gradial/aci": "0.1.41",
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@eslint/compat": "^1.2.0",
+    "@eslint/eslintrc": "^3.2.0",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "^15.1.6",
+    "eslint-plugin-import": "^2.29.1",
+    "tailwindcss": "^4.2.4",
+    "@tailwindcss/postcss": "^4.2.4",
+    "tsx": "^4.20.0",
+    "typescript": "5.9.3",
+    "zod": "^4.0.0",
+    "storybook": "^9.0.0",
+    "@storybook/nextjs": "^9.0.0",
+    "@storybook/addon-docs": "^9.0.0"
+  }
+}

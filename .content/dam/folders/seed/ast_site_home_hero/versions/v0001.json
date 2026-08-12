@@ -1,0 +1,37 @@
+{
+  "$type": "dam.assetVersion",
+  "schemaVersion": 1,
+  "versionId": "v0001",
+  "blob": {
+    "sha256": "a0f506689de9b15a7055f70103a3f02cd3ba105771ae2de6754df2ede1210d3a",
+    "key": ".gradial-dam/blobs/sha256/a0/f5/a0f506689de9b15a7055f70103a3f02cd3ba105771ae2de6754df2ede1210d3a",
+    "byteSize": 15601,
+    "mime": "image/jpeg",
+    "originalFilename": "home-hero.jpg",
+    "checksumSource": "server-computed"
+  },
+  "technical": {
+    "dimensions": {
+      "width": 1200,
+      "height": 600
+    },
+    "duration": null,
+    "exif": {},
+    "iptc": {},
+    "xmp": {},
+    "video": null,
+    "audio": null,
+    "document": null,
+    "analysis": {
+      "saliency": null,
+      "faces": [],
+      "objects": [],
+      "segments": [],
+      "textRegions": [],
+      "logoRegions": [],
+      "safeAreas": []
+    }
+  },
+  "createdAt": "2026-06-01T00:00:00Z",
+  "createdBy": "local-seed"
+}

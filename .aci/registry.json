@@ -1,0 +1,72 @@
+{
+  "manifestVersion": "1",
+  "generatedAt": "2026-08-12T03:57:53.944Z",
+  "components": [
+    {
+      "id": "field_hero",
+      "name": "field_hero",
+      "props": "schemas/field_hero.schema.json"
+    },
+    {
+      "id": "gear_grid",
+      "name": "gear_grid",
+      "props": "schemas/gear_grid.schema.json"
+    },
+    {
+      "id": "process_steps",
+      "name": "process_steps",
+      "props": "schemas/process_steps.schema.json"
+    },
+    {
+      "id": "site_footer",
+      "name": "site_footer",
+      "props": "schemas/site_footer.schema.json"
+    },
+    {
+      "id": "site_navigation",
+      "name": "site_navigation",
+      "props": "schemas/site_navigation.schema.json"
+    },
+    {
+      "id": "working_standard",
+      "name": "working_standard",
+      "props": "schemas/working_standard.schema.json"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "slots": [
+        {
+          "name": "header",
+          "required": false
+        },
+        {
+          "name": "main",
+          "required": true
+        },
+        {
+          "name": "footer",
+          "required": false
+        }
+      ],
+      "defaults": {
+        "header": [
+          {
+            "kind": "fragment-ref",
+            "fragmentId": "navbar",
+            "inline": true
+          }
+        ],
+        "footer": [
+          {
+            "kind": "fragment-ref",
+            "fragmentId": "site-footer",
+            "inline": true
+          }
+        ]
+      }
+    }
+  ],
+  "dataModels": []
+}

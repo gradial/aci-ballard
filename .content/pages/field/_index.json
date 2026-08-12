@@ -1,0 +1,8 @@
+{
+  "$type": "page", "id": "ballard-field", "status": "published", "layout": "default",
+  "metadata": { "title": "Ballard Field | Uniform programs", "description": "Ballard Field uniform programs for organizations and facilities.", "canonical": "https://ballard.local/field/" },
+  "regions": { "main": [
+    { "id": "hero", "component": "field_hero", "props": { "eyebrow": "Ballard Field", "headline": "Uniform programs start with requirements.", "description": "Tell us about your facility, roles, conditions, size range, decoration needs, and delivery window. We will identify what requires approval.", "primaryLabel": "Start a program brief", "primaryHref": "/contact/", "tone": "pine", "note": "Program terms [TBD: approval needed]." } },
+    { "id": "process", "component": "process_steps", "props": { "eyebrow": "Program sequence", "heading": "Put the constraints on the table.", "introduction": "Ballard Field uses a more formal, specification-led process. Requirements come before assortment.", "steps": [{ "number": "01", "title": "Define the facility", "description": "Document roles, work areas, weather exposure, and any applicable safety standards." }, { "number": "02", "title": "Confirm program limits", "description": "Review sizing, decoration, minimums, lead times, and repair boundaries. All program terms are [TBD: approval needed]." }, { "number": "03", "title": "Approve the specification", "description": "Your organization reviews the selected gear, placement, and approved claims before ordering." }], "ctaLabel": "Contact Ballard Field", "ctaHref": "/contact/" } }
+  ] }
+}
