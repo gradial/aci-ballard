@@ -1,6 +1,6 @@
 version: "1"
 siteId: "aci-ballard"
-domain: "meridian.local"
+domain: "ballard.local"
 framework: next
 
 source:
