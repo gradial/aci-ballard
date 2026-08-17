@@ -9,13 +9,6 @@ source:
 componentRegistry: ./src/cms/contracts/components/index.ts
 layoutRegistry: ./src/cms/contracts/layouts/index.ts
 
-capabilities:
-  staticRender: true
-  ssr: true
-  ssrIslands: true
-  clientIslands: true
-  fragmentRender: true
-
 routes:
   cmsManaged: "/[...slug]"
   frameworkOwned:
