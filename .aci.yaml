@@ -11,9 +11,5 @@ layoutRegistry: ./src/cms/contracts/layouts/index.ts
 
 routes:
   cmsManaged: "/[...slug]"
-  frameworkOwned:
-    - "/api/*"
-    - "/_next/*"
-    - "/.gradial-dam/*"
 
 rendererProtocol: stdio-json
