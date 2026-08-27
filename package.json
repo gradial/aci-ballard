@@ -19,7 +19,7 @@
     "npm": ">=10"
   },
   "dependencies": {
-    "@gradial/aci": "0.1.41",
+    "@gradial/aci": "0.1.52-rc.16",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
