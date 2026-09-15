@@ -1,0 +1,252 @@
+{
+  "$type": "page",
+  "id": "product-field-polo",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Field Polo, program polo",
+    "description": "4.5 oz snag-resistant polyester polo, embroidery-ready, 50 industrial launder cycles. XS to 5XL."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Ballard Field",
+              "href": "/shop/field"
+            },
+            {
+              "label": "Work shirts",
+              "href": "/shop/field?sub=shirts"
+            },
+            {
+              "label": "Field Polo",
+              "href": "/products/field-polo"
+            }
+          ],
+          "name": "Field Polo",
+          "tagline": "Program polo, moisture-wicking, embroidery-ready on both chests.",
+          "price": "$42",
+          "colorName": "Navy",
+          "colors": [
+            "#22304a",
+            "#3d3d3d",
+            "#9fb4c7",
+            "#e8f01e"
+          ],
+          "colorOptions": [
+            {
+              "name": "Navy",
+              "hex": "#22304a"
+            },
+            {
+              "name": "Charcoal",
+              "hex": "#3d3d3d"
+            },
+            {
+              "name": "Light Blue",
+              "hex": "#9fb4c7"
+            },
+            {
+              "name": "Hi-Vis Yellow",
+              "hex": "#e8f01e"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL",
+            "4XL",
+            "5XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-workwear-5.webp",
+              "alt": "Field Polo",
+              "caption": "Navy"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "4.5 oz polyester piqué with a moisture-wicking finish and a snag-resistant knit for crews who work around metal and brick. Three-button placket, no pocket, embroidery field on both chests and the right sleeve. Rated to 50 industrial launder cycles.",
+            "It is 100% polyester. It wicks and dries fast, and it will hold a smell by the end of a long shift. The Field Work Shirt is the cotton-blend alternative."
+          ],
+          "tradeoff": "Holds odor by the end of a long shift.",
+          "fit": "Regular fit. Runs true.",
+          "care": "Industrial launder compatible. Not repair-eligible.",
+          "repairEligible": false,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "100% polyester piqué, 4.5 oz, snag resistant"
+            },
+            {
+              "label": "Sizes",
+              "value": "XS to 5XL"
+            },
+            {
+              "label": "Launder rating",
+              "value": "50 industrial cycles"
+            },
+            {
+              "label": "Made in",
+              "value": "Honduras"
+            }
+          ],
+          "related": [
+            {
+              "id": "field-fr-coverall",
+              "image": "/assets/ballard/images/photo-workwear-2.webp",
+              "imageAlt": "Field FR Coverall in Navy",
+              "title": "Field FR Coverall",
+              "href": "/products/field-fr-coverall",
+              "description": "NFPA 70E CAT 2 arc-rated coverall for line and gas crews.",
+              "price": "$249",
+              "colors": [
+                "#22304a",
+                "#b8a37a"
+              ],
+              "category": "coveralls",
+              "conditions": [
+                "deck"
+              ],
+              "materials": [
+                "cotton",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-rain-jacket",
+              "image": "/assets/ballard/images/photo-hi-vis-1.webp",
+              "imageAlt": "Field Hi-Vis Rain Jacket in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Rain Jacket",
+              "href": "/products/field-hi-vis-rain-jacket",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3, waterproof to 15,000mm.",
+              "price": "$219",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-softshell",
+              "image": "/assets/ballard/images/photo-hi-vis-0.webp",
+              "imageAlt": "Field Hi-Vis Softshell in Hi-Vis Yellow",
+              "title": "Field Hi-Vis Softshell",
+              "href": "/products/field-hi-vis-softshell",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3 certified outer layer.",
+              "price": "$189",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "wind",
+                "cold"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-vest",
+              "image": "/assets/ballard/images/photo-workwear-0.webp",
+              "imageAlt": "Field Hi-Vis Vest in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Vest",
+              "href": "/products/field-hi-vis-vest",
+              "description": "ANSI/ISEA 107-2020 Type R Class 2 vest, zip front, five pockets.",
+              "price": "$32",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "vests",
+              "conditions": [
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

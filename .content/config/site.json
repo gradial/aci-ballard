@@ -3,15 +3,19 @@
   "id": "aci-ballard",
   "status": "published",
   "title": "Ballard",
-  "domain": "ballard.local",
+  "domain": "ballard-five.vercel.app",
   "defaultLocale": "en-us",
   "locales": ["en-us"],
   "overlayResolution": ["locale"],
   "brandHref": "/",
-  "brandLogo": { "src": "/assets/ballard-horizontal-lockup.svg", "alt": "Ballard. Gear that earns its keep." },
+  "brandLogo": { "src": "/assets/ballard/images/ballard-logo-black-transparent.svg", "alt": "Ballard" },
   "seo": {
-    "title": "Ballard | Gear that earns its keep",
+    "title": "Ballard technical outdoor and work apparel",
     "description": "Technical outdoor and work apparel from Seattle, Washington. Founded in 1963.",
     "siteName": "Ballard"
+  },
+  "errorPages": {
+    "notFound": "/404/",
+    "catchAll": "/error/"
   }
 }

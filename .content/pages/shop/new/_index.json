@@ -1,0 +1,197 @@
+{
+  "$type": "page",
+  "id": "shop-new",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "New this season | Ballard",
+    "description": "What's new for fall. Every piece has a tradeoff line."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "listing",
+        "component": "product_listing",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Shop",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "New this season",
+              "href": "/shop/new"
+            }
+          ],
+          "heading": "New this season",
+          "description": "What's new for fall. Every piece has a tradeoff line.",
+          "categories": [],
+          "products": [
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "fathom-shell",
+              "image": "/assets/ballard/images/photo-men-jackets-2.webp",
+              "imageAlt": "Fathom Shell in Dark Slate",
+              "badge": "New",
+              "title": "Fathom Shell",
+              "href": "/products/fathom-shell",
+              "description": "Rain you didn't plan for. Packs into its own pocket.",
+              "price": "$229",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#5a5f3e"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-fathom-shell",
+              "image": "/assets/ballard/images/photo-women-jackets-7.webp",
+              "imageAlt": "Fathom Shell in Rust",
+              "badge": "New",
+              "title": "Fathom Shell",
+              "href": "/products/w-fathom-shell",
+              "description": "Rain you didn't plan for. Packs into its own pocket.",
+              "price": "$229",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#3b4a3a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-sound-rain-jacket",
+              "image": "/assets/ballard/images/photo-women-jackets-4.webp",
+              "imageAlt": "Sound Rain Jacket in Kelp",
+              "badge": "New",
+              "title": "Sound Rain Jacket",
+              "href": "/products/w-sound-rain-jacket",
+              "description": "Daily rain, 12,000mm, long enough to cover a seat.",
+              "price": "$179",
+              "colors": [
+                "#3b4a3a",
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

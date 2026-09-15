@@ -1,0 +1,245 @@
+{
+  "$type": "page",
+  "id": "product-tideline-vest",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Tideline Vest, 60 g synthetic insulation",
+    "description": "60 g/m² synthetic insulated vest, 260 g, keeps loft when wet. No inside pocket."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Men's",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Jackets and shells",
+              "href": "/shop/mens?sub=jackets"
+            },
+            {
+              "label": "Tideline Vest",
+              "href": "/products/tideline-vest"
+            }
+          ],
+          "name": "Tideline Vest",
+          "tagline": "Core warmth over a flannel, 40°F to 55°F.",
+          "price": "$149",
+          "colorName": "Olive",
+          "colors": [
+            "#5a5f3e",
+            "#2f3840",
+            "#a8482a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Olive",
+              "hex": "#5a5f3e"
+            },
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            },
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-vest-1.webp",
+              "alt": "Tideline Vest",
+              "caption": "Olive"
+            },
+            {
+              "image": "/assets/ballard/images/photo-vest-6.webp",
+              "alt": "Tideline Vest",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "60 g/m² synthetic insulation that keeps most of its loft when wet. 30D shell with a DWR. Two zipped hand pockets and a chest pocket that fits a phone. Armholes are cut high so the vest doesn't gape when you lift your arms.",
+            "No inside pocket. We took it out to save 40 g and a seam that used to fail. If you carry a wallet on the inside, this isn't your vest."
+          ],
+          "tradeoff": "No inside pocket.",
+          "fit": "Runs slightly slim. Size up to wear over a shirt jacket.",
+          "care": "Machine wash cold, tumble dry low. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Insulation",
+              "value": "60 g/m² polyester, 100% recycled"
+            },
+            {
+              "label": "Shell",
+              "value": "30D nylon, DWR"
+            },
+            {
+              "label": "Weight",
+              "value": "260 g (size M)"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "bosun-sweater",
+              "image": "/assets/ballard/images/photo-sweater-2.webp",
+              "imageAlt": "Bosun Sweater in Oat",
+              "title": "Bosun Sweater",
+              "href": "/products/bosun-sweater",
+              "description": "8-gauge wool for wind on the water.",
+              "price": "$169",
+              "colors": [
+                "#d8cdb8",
+                "#22304a",
+                "#3d3d3d"
+              ],
+              "category": "sweaters",
+              "conditions": [
+                "cold",
+                "wind",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

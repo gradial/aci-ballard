@@ -1,0 +1,254 @@
+{
+  "$type": "page",
+  "id": "product-field-hi-vis-softshell",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Field Hi-Vis Softshell, ANSI Class 3",
+    "description": "ANSI/ISEA 107-2020 Type R Class 3 softshell, bonded fleece, radio loops, S to 5XL. Not waterproof."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Ballard Field",
+              "href": "/shop/field"
+            },
+            {
+              "label": "Hi-vis outerwear",
+              "href": "/shop/field?sub=jackets"
+            },
+            {
+              "label": "Field Hi-Vis Softshell",
+              "href": "/products/field-hi-vis-softshell"
+            }
+          ],
+          "name": "Field Hi-Vis Softshell",
+          "tagline": "ANSI/ISEA 107-2020 Type R Class 3 certified outer layer.",
+          "price": "$189",
+          "colorName": "Hi-Vis Yellow",
+          "colors": [
+            "#e8f01e",
+            "#ff6a13"
+          ],
+          "colorOptions": [
+            {
+              "name": "Hi-Vis Yellow",
+              "hex": "#e8f01e"
+            },
+            {
+              "name": "Hi-Vis Orange",
+              "hex": "#ff6a13"
+            }
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL",
+            "4XL",
+            "5XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-hi-vis-0.webp",
+              "alt": "Field Hi-Vis Softshell",
+              "caption": "Hi-Vis Yellow"
+            },
+            {
+              "image": "/assets/ballard/images/photo-hi-vis-7.webp",
+              "alt": "Field Hi-Vis Softshell",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "Certified to ANSI/ISEA 107-2020 Type R Class 3. Fluorescent polyester softshell with a bonded fleece back, 50mm segmented reflective tape, and a zip-off hood. Wind-resistant, water-resistant to 5,000mm (hydrostatic head). Radio loop and mic tab on both shoulders.",
+            "Not waterproof. In steady rain your crew will need a shell over it, which covers the tape and voids the class rating. For wet-weather compliance, ask about the Field Hi-Vis Rain Jacket."
+          ],
+          "tradeoff": "Not waterproof. A shell over it covers the tape and voids the class rating.",
+          "fit": "Runs large to fit over layers. Order your street size.",
+          "care": "Machine wash warm, 25 wash cycles rated. Repair-eligible under program terms.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Certification",
+              "value": "ANSI/ISEA 107-2020 Type R Class 3"
+            },
+            {
+              "label": "Fabric",
+              "value": "100% polyester softshell, bonded fleece back"
+            },
+            {
+              "label": "Tape",
+              "value": "50mm segmented, 3M Scotchlite"
+            },
+            {
+              "label": "Water resistance",
+              "value": "5,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Sizes",
+              "value": "S to 5XL"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-fathom-shell",
+              "image": "/assets/ballard/images/photo-women-jackets-7.webp",
+              "imageAlt": "Fathom Shell in Rust",
+              "badge": "New",
+              "title": "Fathom Shell",
+              "href": "/products/w-fathom-shell",
+              "description": "Rain you didn't plan for. Packs into its own pocket.",
+              "price": "$229",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#3b4a3a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "fathom-shell",
+              "image": "/assets/ballard/images/photo-men-jackets-2.webp",
+              "imageAlt": "Fathom Shell in Dark Slate",
+              "badge": "New",
+              "title": "Fathom Shell",
+              "href": "/products/fathom-shell",
+              "description": "Rain you didn't plan for. Packs into its own pocket.",
+              "price": "$229",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#5a5f3e"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

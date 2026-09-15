@@ -1,0 +1,258 @@
+{
+  "$type": "page",
+  "id": "product-field-hi-vis-rain-jacket",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Field Hi-Vis Rain Jacket, ANSI Class 3 waterproof",
+    "description": "ANSI/ISEA 107-2020 Type R Class 3 rain jacket, 15,000mm hydrostatic head, seam-taped. S to 5XL."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Ballard Field",
+              "href": "/shop/field"
+            },
+            {
+              "label": "Hi-vis outerwear",
+              "href": "/shop/field?sub=jackets"
+            },
+            {
+              "label": "Field Hi-Vis Rain Jacket",
+              "href": "/products/field-hi-vis-rain-jacket"
+            }
+          ],
+          "name": "Field Hi-Vis Rain Jacket",
+          "tagline": "ANSI/ISEA 107-2020 Type R Class 3, waterproof to 15,000mm.",
+          "price": "$219",
+          "colorName": "Hi-Vis Yellow",
+          "colors": [
+            "#e8f01e",
+            "#ff6a13"
+          ],
+          "colorOptions": [
+            {
+              "name": "Hi-Vis Yellow",
+              "hex": "#e8f01e"
+            },
+            {
+              "name": "Hi-Vis Orange",
+              "hex": "#ff6a13"
+            }
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL",
+            "4XL",
+            "5XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-hi-vis-1.webp",
+              "alt": "Field Hi-Vis Rain Jacket",
+              "caption": "Hi-Vis Yellow"
+            },
+            {
+              "image": "/assets/ballard/images/photo-hi-vis-5.webp",
+              "alt": "Field Hi-Vis Rain Jacket",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "Certified to ANSI/ISEA 107-2020 Type R Class 3 in a waterproof shell, so your crew stays compliant in steady rain without layering a shell over the tape. 2.5-layer fluorescent polyester, 15,000mm (hydrostatic head), fully seam-taped. 50mm segmented reflective tape, zip-off hood, radio loop and mic tab on both shoulders. Embroidery field on the left chest.",
+            "Breathability is limited at 8,000 g/m²/24h. For crews working at high output, the Field Hi-Vis Softshell is the lighter option in dry conditions."
+          ],
+          "tradeoff": "Limited breathability at high output.",
+          "fit": "Runs large to fit over layers. Order street size.",
+          "care": "Industrial launder compatible, 50 cycles rated. Repair-eligible under program terms.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Certification",
+              "value": "ANSI/ISEA 107-2020 Type R Class 3"
+            },
+            {
+              "label": "Shell",
+              "value": "2.5-layer 150D polyester, 15,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Breathability",
+              "value": "8,000 g/m²/24h (JIS L1099 B1)"
+            },
+            {
+              "label": "Tape",
+              "value": "50mm segmented, 3M Scotchlite"
+            },
+            {
+              "label": "Sizes",
+              "value": "S to 5XL, regular and tall"
+            },
+            {
+              "label": "Launder rating",
+              "value": "50 industrial cycles"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-fathom-shell",
+              "image": "/assets/ballard/images/photo-women-jackets-7.webp",
+              "imageAlt": "Fathom Shell in Rust",
+              "badge": "New",
+              "title": "Fathom Shell",
+              "href": "/products/w-fathom-shell",
+              "description": "Rain you didn't plan for. Packs into its own pocket.",
+              "price": "$229",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#3b4a3a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "fathom-shell",
+              "image": "/assets/ballard/images/photo-men-jackets-2.webp",
+              "imageAlt": "Fathom Shell in Dark Slate",
+              "badge": "New",
+              "title": "Fathom Shell",
+              "href": "/products/fathom-shell",
+              "description": "Rain you didn't plan for. Packs into its own pocket.",
+              "price": "$229",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#5a5f3e"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

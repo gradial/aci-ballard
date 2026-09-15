@@ -1,0 +1,220 @@
+{
+  "$type": "page",
+  "id": "product-deckhand-glove",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Deckhand Glove, goatskin palm",
+    "description": "0.9mm goatskin work glove with neoprene cuff. Made for wet rope. Not waterproof, not warm below 35°F."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Packs and gear",
+              "href": "/shop/packs-gear"
+            },
+            {
+              "label": "Gloves and socks",
+              "href": "/shop/packs-gear?sub=accessories"
+            },
+            {
+              "label": "Deckhand Glove",
+              "href": "/products/deckhand-glove"
+            }
+          ],
+          "name": "Deckhand Glove",
+          "tagline": "Line handling, wet rope, cold hands.",
+          "price": "$48",
+          "colorName": "Tan",
+          "colors": [
+            "#b89a6a",
+            "#151515"
+          ],
+          "colorOptions": [
+            {
+              "name": "Tan",
+              "hex": "#b89a6a"
+            },
+            {
+              "name": "Black",
+              "hex": "#151515"
+            }
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-gloves-1.webp",
+              "alt": "Deckhand Glove",
+              "caption": "Tan"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "Goatskin palm, 0.9mm, with a stretch nylon back and a neoprene cuff. Fingers are pre-curved so you don't fight the glove to close your hand on a line. Reinforced across the palm where rope runs.",
+            "Not waterproof, and not warm below 35°F. They're a grip glove for wet work, not a winter glove."
+          ],
+          "tradeoff": "Not waterproof and not warm below 35°F.",
+          "fit": "Runs true. Between sizes, size down; the leather stretches.",
+          "care": "Rinse in fresh water, air dry away from heat. Not repair-eligible.",
+          "repairEligible": false,
+          "specs": [
+            {
+              "label": "Palm",
+              "value": "Goatskin, 0.9mm"
+            },
+            {
+              "label": "Back",
+              "value": "Nylon spandex, 4-way stretch"
+            },
+            {
+              "label": "Cuff",
+              "value": "3mm neoprene, hook and loop"
+            },
+            {
+              "label": "Made in",
+              "value": "Pakistan"
+            }
+          ],
+          "related": [
+            {
+              "id": "bosun-duffel",
+              "image": "/assets/ballard/images/photo-backpack-product-3.webp",
+              "imageAlt": "Bosun Duffel in Dark Slate",
+              "title": "Bosun Duffel",
+              "href": "/products/bosun-duffel",
+              "description": "70 L. Thrown in a truck bed, left in the rain.",
+              "price": "$189",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "bags",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "70 L"
+              ]
+            },
+            {
+              "id": "deck-boot",
+              "image": "/assets/ballard/images/photo-boots-2.webp",
+              "imageAlt": "Deck Boot in Dark Slate",
+              "title": "Deck Boot",
+              "href": "/products/deck-boot",
+              "description": "Wet deck, fish slime, hose-down at the end of the day.",
+              "price": "$119",
+              "colors": [
+                "#2f3840",
+                "#b89a6a"
+              ],
+              "category": "footwear",
+              "conditions": [
+                "deck",
+                "rain"
+              ],
+              "materials": [
+                "rubber"
+              ],
+              "sizes": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13"
+              ]
+            },
+            {
+              "id": "foghorn-daypack",
+              "image": "/assets/ballard/images/photo-backpack-product-0.webp",
+              "imageAlt": "Foghorn Daypack in Dark Slate",
+              "badge": "Best seller",
+              "title": "Foghorn Daypack",
+              "href": "/products/foghorn-daypack",
+              "description": "22 L. Commute in rain without a cover.",
+              "price": "$129",
+              "colors": [
+                "#2f3840",
+                "#5a5f3e",
+                "#b89a6a"
+              ],
+              "category": "packs",
+              "conditions": [
+                "rain",
+                "commute",
+                "trail"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "22 L"
+              ]
+            },
+            {
+              "id": "gale-beanie",
+              "image": "/assets/ballard/images/photo-beanie-3.webp",
+              "imageAlt": "Gale Beanie in Oat",
+              "title": "Gale Beanie",
+              "href": "/products/gale-beanie",
+              "description": "Merino for wet wind. Doesn't smell after a week.",
+              "price": "$34",
+              "colors": [
+                "#d8cdb8",
+                "#3d3d3d",
+                "#a8482a",
+                "#3b4a3a"
+              ],
+              "category": "accessories",
+              "conditions": [
+                "cold",
+                "wind",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "One size"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

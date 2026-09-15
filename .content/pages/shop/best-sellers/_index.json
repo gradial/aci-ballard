@@ -1,0 +1,357 @@
+{
+  "$type": "page",
+  "id": "shop-best-sellers",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Best sellers | Ballard",
+    "description": "The gear we make the most of, because it's the gear that comes back for repair the least."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "listing",
+        "component": "product_listing",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Shop",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Best sellers",
+              "href": "/shop/best-sellers"
+            }
+          ],
+          "heading": "Best sellers",
+          "description": "The gear we make the most of, because it's the gear that comes back for repair the least.",
+          "categories": [],
+          "products": [
+            {
+              "id": "duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-1.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "badge": "Best seller",
+              "title": "Duwamish Work Pant",
+              "href": "/products/duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e",
+                "#2f3840"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "30",
+                "32",
+                "33",
+                "34",
+                "36",
+                "38",
+                "40"
+              ]
+            },
+            {
+              "id": "fathom-fleece",
+              "image": "/assets/ballard/images/photo-fleece-0.webp",
+              "imageAlt": "Fathom Fleece in Oat",
+              "badge": "Best seller",
+              "title": "Fathom Fleece",
+              "href": "/products/fathom-fleece",
+              "description": "Mid-layer for 30°F to 50°F under a shell.",
+              "price": "$139",
+              "colors": [
+                "#d8cdb8",
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-fathom-fleece",
+              "image": "/assets/ballard/images/photo-fleece-5.webp",
+              "imageAlt": "Fathom Fleece in Oat",
+              "badge": "Best seller",
+              "title": "Fathom Fleece",
+              "href": "/products/w-fathom-fleece",
+              "description": "Mid-layer for 30°F to 50°F under a shell.",
+              "price": "$139",
+              "colors": [
+                "#d8cdb8",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-rain-jacket",
+              "image": "/assets/ballard/images/photo-hi-vis-1.webp",
+              "imageAlt": "Field Hi-Vis Rain Jacket in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Rain Jacket",
+              "href": "/products/field-hi-vis-rain-jacket",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3, waterproof to 15,000mm.",
+              "price": "$219",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-vest",
+              "image": "/assets/ballard/images/photo-workwear-0.webp",
+              "imageAlt": "Field Hi-Vis Vest in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Vest",
+              "href": "/products/field-hi-vis-vest",
+              "description": "ANSI/ISEA 107-2020 Type R Class 2 vest, zip front, five pockets.",
+              "price": "$32",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "vests",
+              "conditions": [
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "foghorn-daypack",
+              "image": "/assets/ballard/images/photo-backpack-product-0.webp",
+              "imageAlt": "Foghorn Daypack in Dark Slate",
+              "badge": "Best seller",
+              "title": "Foghorn Daypack",
+              "href": "/products/foghorn-daypack",
+              "description": "22 L. Commute in rain without a cover.",
+              "price": "$129",
+              "colors": [
+                "#2f3840",
+                "#5a5f3e",
+                "#b89a6a"
+              ],
+              "category": "packs",
+              "conditions": [
+                "rain",
+                "commute",
+                "trail"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "22 L"
+              ]
+            },
+            {
+              "id": "halyard-shirt-jacket",
+              "image": "/assets/ballard/images/photo-canvas-work-6.webp",
+              "imageAlt": "Halyard Shirt Jacket in Olive",
+              "badge": "Best seller",
+              "title": "Halyard Shirt Jacket",
+              "href": "/products/halyard-shirt-jacket",
+              "description": "Wind and drizzle under 60°F. Waxed cotton, reproofable.",
+              "price": "$189",
+              "colors": [
+                "#5a5f3e",
+                "#b89a6a",
+                "#2f3840"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "wind",
+                "commute",
+                "rain"
+              ],
+              "materials": [
+                "waxed-cotton"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "salmon-bay-parka",
+              "image": "/assets/ballard/images/photo-kayak-0.webp",
+              "imageAlt": "Salmon Bay Parka in Slate",
+              "badge": "Best seller",
+              "title": "Salmon Bay Parka",
+              "href": "/products/salmon-bay-parka",
+              "description": "Standing on a wet deck for eight hours.",
+              "price": "$349",
+              "colors": [
+                "#5b6670",
+                "#2f3840",
+                "#a8482a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "deck",
+                "wind"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-salmon-bay-parka",
+              "image": "/assets/ballard/images/photo-women-jackets-2.webp",
+              "imageAlt": "Salmon Bay Parka in Slate",
+              "badge": "Best seller",
+              "title": "Salmon Bay Parka",
+              "href": "/products/w-salmon-bay-parka",
+              "description": "Standing on a wet deck for eight hours.",
+              "price": "$349",
+              "colors": [
+                "#5b6670",
+                "#2f3840",
+                "#a8482a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "deck",
+                "wind"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "k-squall-rain-jacket",
+              "image": "/assets/ballard/images/photo-kids-2.webp",
+              "imageAlt": "Squall Rain Jacket in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Squall Rain Jacket",
+              "href": "/products/k-squall-rain-jacket",
+              "description": "School-day rain. Grows one size with the cuffs let out.",
+              "price": "$89",
+              "colors": [
+                "#e8f01e",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

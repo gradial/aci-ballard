@@ -1,0 +1,247 @@
+{
+  "$type": "page",
+  "id": "product-k-tidepool-fleece",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Kids' Tidepool Fleece",
+    "description": "Kids' 200-weight fleece with chin guard and thumb loops. Pills after a season."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Kids'",
+              "href": "/shop/kids"
+            },
+            {
+              "label": "Fleece",
+              "href": "/shop/kids?sub=fleece"
+            },
+            {
+              "label": "Tidepool Fleece",
+              "href": "/products/k-tidepool-fleece"
+            }
+          ],
+          "name": "Tidepool Fleece",
+          "tagline": "The layer under the rain jacket, 30°F to 55°F.",
+          "price": "$69",
+          "colorName": "Rust",
+          "colors": [
+            "#a8482a",
+            "#d8cdb8",
+            "#3b4a3a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            },
+            {
+              "name": "Oat",
+              "hex": "#d8cdb8"
+            },
+            {
+              "name": "Kelp",
+              "hex": "#3b4a3a"
+            }
+          ],
+          "sizes": [
+            "2T",
+            "3T",
+            "4T",
+            "5T",
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-kids-7.webp",
+              "alt": "Tidepool Fleece",
+              "caption": "Rust"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "200-weight polyester fleece, full zip with a chin guard so the zipper doesn't bite. Two hand pockets. Thumb loops in sizes S and up.",
+            "Pills after a season of daily wear. Fleece this price does. It'll still be warm; it just won't look new."
+          ],
+          "tradeoff": "Pills after a season of daily wear.",
+          "fit": "Runs true.",
+          "care": "Machine wash cold, tumble dry low. Repair-eligible for zips.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "100% polyester, 200 g/m² fleece"
+            },
+            {
+              "label": "Weight",
+              "value": "220 g (size M)"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "k-drizzle-rain-pant",
+              "image": "/assets/ballard/images/photo-kids-0.webp",
+              "imageAlt": "Drizzle Rain Pant in Navy",
+              "title": "Drizzle Rain Pant",
+              "href": "/products/k-drizzle-rain-pant",
+              "description": "Puddles and wet grass. Goes on over boots.",
+              "price": "$59",
+              "colors": [
+                "#22304a",
+                "#e8f01e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            },
+            {
+              "id": "fathom-fleece",
+              "image": "/assets/ballard/images/photo-fleece-0.webp",
+              "imageAlt": "Fathom Fleece in Oat",
+              "badge": "Best seller",
+              "title": "Fathom Fleece",
+              "href": "/products/fathom-fleece",
+              "description": "Mid-layer for 30°F to 50°F under a shell.",
+              "price": "$139",
+              "colors": [
+                "#d8cdb8",
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-fathom-fleece",
+              "image": "/assets/ballard/images/photo-fleece-5.webp",
+              "imageAlt": "Fathom Fleece in Oat",
+              "badge": "Best seller",
+              "title": "Fathom Fleece",
+              "href": "/products/w-fathom-fleece",
+              "description": "Mid-layer for 30°F to 50°F under a shell.",
+              "price": "$139",
+              "colors": [
+                "#d8cdb8",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "k-squall-rain-jacket",
+              "image": "/assets/ballard/images/photo-kids-2.webp",
+              "imageAlt": "Squall Rain Jacket in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Squall Rain Jacket",
+              "href": "/products/k-squall-rain-jacket",
+              "description": "School-day rain. Grows one size with the cuffs let out.",
+              "price": "$89",
+              "colors": [
+                "#e8f01e",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

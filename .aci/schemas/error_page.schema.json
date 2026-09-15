@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "error_page",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "minLength": 1
+    },
+    "heading": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "links": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1
+          },
+          "variant": {
+            "default": "outline",
+            "type": "string",
+            "enum": [
+              "primary",
+              "outline"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "href",
+          "variant"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "code",
+    "heading",
+    "description",
+    "links"
+  ],
+  "additionalProperties": false
+}

@@ -1,31 +1,26 @@
 {
-  "$type": "fragment",
-  "fragmentId": "site-footer",
-  "component": "site_footer",
+  "$type": "fragment", "fragmentId": "site-footer", "component": "site_footer",
   "props": {
-    "brandLogo": { "src": "/assets/ballard-wordmark.svg", "alt": "Ballard. Gear that earns its keep. Founded 1963." },
-    "statement": "Gear for people whose comfort is a working condition, not a preference.",
+    "brandLogo": "/assets/ballard/images/ballard-logo-white-transparent.svg",
+    "brandHref": "/",
+    "brandName": "Ballard",
+    "statement": "Gear that earns its keep. Seattle, since 1963.",
+    "newsletterLabel": "Newsletter", "newsletterDescription": "Restocks, repair tips, and drops. About twice a month. No exclamation points.", "newsletterPlaceholder": "Email", "newsletterSubmitLabel": "Sign up", "newsletterSuccessMessage": "You're on the list. First email goes out within two weeks.",
     "columns": [
-      { "id": "gear", "title": "Gear", "links": [
-        { "id": "outerwear", "label": "Outerwear", "href": "/gear/#outerwear" },
-        { "id": "layers", "label": "Work layers", "href": "/gear/#layers" },
-        { "id": "packs", "label": "Packs and carry", "href": "/gear/#carry" }
-      ] },
-      { "id": "programs", "title": "Programs", "links": [
-        { "id": "field", "label": "Ballard Field", "href": "/field/" },
-        { "id": "repair", "label": "Repair", "href": "/repair/" },
-        { "id": "stores", "label": "Find a store", "href": "/stores/" }
+      { "id": "help", "title": "Help", "links": [
+        { "id": "center", "label": "Help center", "href": "/help" }, { "id": "orders", "label": "Order status", "href": "/help#orders" }, { "id": "sizing", "label": "Size and fit", "href": "/help#sizing" }, { "id": "returns", "label": "Returns and exchanges", "href": "/help#returns" }, { "id": "repair", "label": "Repair", "href": "/repair" }, { "id": "care", "label": "Care guides", "href": "/help" }, { "id": "accessibility", "label": "Accessibility", "href": "/help#accessibility" }
       ] },
       { "id": "company", "title": "Company", "links": [
-        { "id": "about", "label": "About Ballard", "href": "/about/" },
-        { "id": "standards", "label": "Our working standard", "href": "/about/#standard" },
-        { "id": "contact", "label": "Contact", "href": "/contact/" }
+        { "id": "about", "label": "About Ballard", "href": "/company" }, { "id": "stories", "label": "Stories", "href": "/stories" }, { "id": "stores", "label": "Find a store", "href": "/stores" }, { "id": "field", "label": "Ballard Field", "href": "/field" }, { "id": "drops", "label": "Ballard Drops", "href": "/drops" }, { "id": "wrenfield", "label": "Wrenfield", "href": "/wrenfield" }, { "id": "careers", "label": "Careers", "href": "/company#careers" }
+      ] },
+      { "id": "programs", "title": "Programs", "links": [
+        { "id": "repair", "label": "Free repair", "href": "/repair" }, { "id": "uniform", "label": "Uniform programs", "href": "/field#programs" }, { "id": "pro", "label": "Pro purchase", "href": "/help#pro" }, { "id": "gifts", "label": "Gift cards", "href": "/help#gift-cards" }, { "id": "group", "label": "Group sales", "href": "/field#quote" }
       ] }
     ],
     "legalLinks": [
-      { "id": "privacy", "label": "Privacy", "href": "/privacy/" },
-      { "id": "terms", "label": "Terms", "href": "/terms/" }
+      { "id": "privacy", "label": "Privacy notice", "href": "/help#privacy" }, { "id": "terms", "label": "Terms of use", "href": "/help#terms" }, { "id": "data", "label": "Do not sell or share my data", "href": "/help#privacy" }
     ],
-    "copyright": "Copyright 2026 Ballard Inc. Seattle, Washington."
+    "countryLabel": "United States (USD)",
+    "copyright": "© 2026 Ballard. All rights reserved. Photography via Unsplash."
   }
 }

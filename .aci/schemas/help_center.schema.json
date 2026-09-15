@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "help_center",
+  "type": "object",
+  "properties": {
+    "heading": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "string"
+    },
+    "faqGroups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "questions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "answer": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "title",
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "heading",
+          "questions"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "sizes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "size": {
+            "type": "string"
+          },
+          "chest": {
+            "type": "string"
+          },
+          "waist": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "size",
+          "chest",
+          "waist"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "info": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "heading",
+          "text"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "heading",
+    "introduction",
+    "faqGroups",
+    "sizes",
+    "info"
+  ],
+  "additionalProperties": false
+}

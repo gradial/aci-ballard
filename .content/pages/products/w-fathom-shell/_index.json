@@ -1,0 +1,250 @@
+{
+  "$type": "page",
+  "id": "product-w-fathom-shell",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Women's Fathom Shell, packable rain shell",
+    "description": "2.5-layer rain shell, 15,000mm hydrostatic head, 280 g, packs into its own pocket."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Women's",
+              "href": "/shop/womens"
+            },
+            {
+              "label": "Jackets and shells",
+              "href": "/shop/womens?sub=jackets"
+            },
+            {
+              "label": "Fathom Shell",
+              "href": "/products/w-fathom-shell"
+            }
+          ],
+          "name": "Fathom Shell",
+          "tagline": "Rain you didn't plan for. Packs into its own pocket.",
+          "price": "$229",
+          "colorName": "Rust",
+          "colors": [
+            "#a8482a",
+            "#2f3840",
+            "#3b4a3a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            },
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            },
+            {
+              "name": "Kelp",
+              "hex": "#3b4a3a"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-women-jackets-7.webp",
+              "alt": "Fathom Shell",
+              "caption": "Rust"
+            },
+            {
+              "image": "/assets/ballard/images/photo-women-jackets-3.webp",
+              "alt": "Fathom Shell",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "A 2.5-layer shell that packs into its own chest pocket, about the size of a fist. 15,000mm (hydrostatic head), seam-taped, 280 g in a size M. Pit zips run 28 cm. The hood has a single rear cinch and a stiffened brim.",
+            "Not breathable enough for high output. If you're running or climbing in it, you'll get wet from the inside."
+          ],
+          "tradeoff": "Not breathable enough for high output.",
+          "fit": "Runs true. Room for a fleece underneath, not a parka.",
+          "care": "Machine wash cold, tech wash only. Tumble dry low. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Shell",
+              "value": "2.5-layer 40D ripstop nylon, 15,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Weight",
+              "value": "280 g (size M)"
+            },
+            {
+              "label": "Packed size",
+              "value": "12 × 10 × 8 cm"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-2.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "title": "Duwamish Work Pant",
+              "href": "/products/w-duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "0",
+                "2",
+                "4",
+                "6",
+                "8",
+                "10",
+                "12",
+                "14",
+                "16"
+              ]
+            },
+            {
+              "id": "w-fathom-fleece",
+              "image": "/assets/ballard/images/photo-fleece-5.webp",
+              "imageAlt": "Fathom Fleece in Oat",
+              "badge": "Best seller",
+              "title": "Fathom Fleece",
+              "href": "/products/w-fathom-fleece",
+              "description": "Mid-layer for 30°F to 50°F under a shell.",
+              "price": "$139",
+              "colors": [
+                "#d8cdb8",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

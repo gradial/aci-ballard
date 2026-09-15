@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "shopping_cart",
+  "type": "object",
+  "properties": {
+    "heading": {
+      "type": "string"
+    },
+    "emptyMessage": {
+      "type": "string"
+    },
+    "mensHref": {
+      "type": "string"
+    },
+    "womensHref": {
+      "type": "string"
+    },
+    "mensLabel": {
+      "type": "string"
+    },
+    "womensLabel": {
+      "type": "string"
+    },
+    "checkoutMessage": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "heading",
+    "emptyMessage",
+    "mensHref",
+    "womensHref",
+    "mensLabel",
+    "womensLabel",
+    "checkoutMessage"
+  ],
+  "additionalProperties": false
+}

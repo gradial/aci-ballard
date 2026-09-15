@@ -1,0 +1,254 @@
+{
+  "$type": "page",
+  "id": "product-field-fr-coverall",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Field FR Coverall, NFPA 70E CAT 2",
+    "description": "Arc-rated coverall, ATPV 12 cal/cm², NFPA 2112 certified, XS to 5XL. Made in Kent, WA."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Ballard Field",
+              "href": "/shop/field"
+            },
+            {
+              "label": "Coveralls",
+              "href": "/shop/field?sub=coveralls"
+            },
+            {
+              "label": "Field FR Coverall",
+              "href": "/products/field-fr-coverall"
+            }
+          ],
+          "name": "Field FR Coverall",
+          "tagline": "NFPA 70E CAT 2 arc-rated coverall for line and gas crews.",
+          "price": "$249",
+          "colorName": "Navy",
+          "colors": [
+            "#22304a",
+            "#b8a37a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Navy",
+              "hex": "#22304a"
+            },
+            {
+              "name": "Khaki",
+              "hex": "#b8a37a"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL",
+            "4XL",
+            "5XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-workwear-2.webp",
+              "alt": "Field FR Coverall",
+              "caption": "Navy"
+            },
+            {
+              "image": "/assets/ballard/images/photo-utility-work-0.webp",
+              "alt": "Field FR Coverall",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "Arc-rated to NFPA 70E CAT 2 (ATPV 12 cal/cm²) in a 9 oz FR cotton-nylon twill. Two-way brass front zip with FR tape, action back, ten pockets, and a pass-through to your pants. Certified to NFPA 2112 for flash fire. Available in regular and tall, XS to 5XL.",
+            "The fabric is heavier and warmer than the standard Field Utility Coverall, which matters in summer. Program documentation and certificates of conformity ship with every order."
+          ],
+          "tradeoff": "Heavier and warmer than the standard coverall.",
+          "fit": "Runs large to fit over work clothes. Order street size.",
+          "care": "Industrial launder compatible. Do not use fabric softener or bleach; both degrade FR performance. Repair-eligible under program terms.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Arc rating",
+              "value": "NFPA 70E CAT 2, ATPV 12 cal/cm² (ASTM F1959)"
+            },
+            {
+              "label": "Flash fire",
+              "value": "NFPA 2112 certified"
+            },
+            {
+              "label": "Fabric",
+              "value": "88/12 cotton-nylon FR twill, 9 oz"
+            },
+            {
+              "label": "Sizes",
+              "value": "XS to 5XL, regular and tall"
+            },
+            {
+              "label": "Launder rating",
+              "value": "100 industrial cycles"
+            },
+            {
+              "label": "Made in",
+              "value": "USA (Kent, WA)"
+            }
+          ],
+          "related": [
+            {
+              "id": "field-hi-vis-rain-jacket",
+              "image": "/assets/ballard/images/photo-hi-vis-1.webp",
+              "imageAlt": "Field Hi-Vis Rain Jacket in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Rain Jacket",
+              "href": "/products/field-hi-vis-rain-jacket",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3, waterproof to 15,000mm.",
+              "price": "$219",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-softshell",
+              "image": "/assets/ballard/images/photo-hi-vis-0.webp",
+              "imageAlt": "Field Hi-Vis Softshell in Hi-Vis Yellow",
+              "title": "Field Hi-Vis Softshell",
+              "href": "/products/field-hi-vis-softshell",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3 certified outer layer.",
+              "price": "$189",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "wind",
+                "cold"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-vest",
+              "image": "/assets/ballard/images/photo-workwear-0.webp",
+              "imageAlt": "Field Hi-Vis Vest in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Vest",
+              "href": "/products/field-hi-vis-vest",
+              "description": "ANSI/ISEA 107-2020 Type R Class 2 vest, zip front, five pockets.",
+              "price": "$32",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "vests",
+              "conditions": [
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-insulated-bib",
+              "image": "/assets/ballard/images/photo-hi-vis-2.webp",
+              "imageAlt": "Field Insulated Bib in Hi-Vis Yellow",
+              "title": "Field Insulated Bib",
+              "href": "/products/field-insulated-bib",
+              "description": "ANSI/ISEA 107-2020 Class E insulated bib for winter crews.",
+              "price": "$189",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "cold",
+                "rain"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

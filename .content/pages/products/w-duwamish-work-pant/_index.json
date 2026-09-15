@@ -1,0 +1,240 @@
+{
+  "$type": "page",
+  "id": "product-w-duwamish-work-pant",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Women's Duwamish Work Pant, 12 oz duck",
+    "description": "12 oz cotton duck work pant, high rise, double front knees. Stiff for the first ten washes."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Women's",
+              "href": "/shop/womens"
+            },
+            {
+              "label": "Pants and bibs",
+              "href": "/shop/womens?sub=pants"
+            },
+            {
+              "label": "Duwamish Work Pant",
+              "href": "/products/w-duwamish-work-pant"
+            }
+          ],
+          "name": "Duwamish Work Pant",
+          "tagline": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+          "price": "$98",
+          "colorName": "Tan",
+          "colors": [
+            "#b89a6a",
+            "#3d3d3d",
+            "#5a5f3e"
+          ],
+          "colorOptions": [
+            {
+              "name": "Tan",
+              "hex": "#b89a6a"
+            },
+            {
+              "name": "Charcoal",
+              "hex": "#3d3d3d"
+            },
+            {
+              "name": "Olive",
+              "hex": "#5a5f3e"
+            }
+          ],
+          "sizes": [
+            "0",
+            "2",
+            "4",
+            "6",
+            "8",
+            "10",
+            "12",
+            "14",
+            "16"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-work-pants-2.webp",
+              "alt": "Duwamish Work Pant",
+              "caption": "Tan"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "12 oz cotton duck, triple-stitched at the seat and inseam, bar-tacked at every stress point. Double front knees with an opening for foam pads. Cut with a higher rise and a contoured waistband so they don't gap when you bend.",
+            "Stiff for the first ten washes. Heavy in summer."
+          ],
+          "tradeoff": "Stiff for the first ten washes.",
+          "fit": "Straight leg, high rise. Runs true. Inseams 30, 32, 34 unhemmed.",
+          "care": "Machine wash cold, tumble dry low. Expect 1% shrink. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "100% cotton duck, 12 oz"
+            },
+            {
+              "label": "Knees",
+              "value": "Double layer, pad-ready"
+            },
+            {
+              "label": "Weight",
+              "value": "680 g (size 8)"
+            },
+            {
+              "label": "Made in",
+              "value": "Mexico"
+            }
+          ],
+          "related": [
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "drop-chinook-rust",
+              "image": "/assets/ballard/images/photo-hero-deck-4.webp",
+              "imageAlt": "Chinook Bib in Rust",
+              "badge": "Limited run",
+              "title": "Chinook Bib",
+              "href": "/products/drop-chinook-rust",
+              "description": "Rust colorway with a hi-vis cuff. 120 made.",
+              "price": "$279",
+              "colors": [
+                "#a8482a"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "k-drizzle-rain-pant",
+              "image": "/assets/ballard/images/photo-kids-0.webp",
+              "imageAlt": "Drizzle Rain Pant in Navy",
+              "title": "Drizzle Rain Pant",
+              "href": "/products/k-drizzle-rain-pant",
+              "description": "Puddles and wet grass. Goes on over boots.",
+              "price": "$59",
+              "colors": [
+                "#22304a",
+                "#e8f01e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

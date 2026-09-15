@@ -1,0 +1,258 @@
+{
+  "$type": "page",
+  "id": "product-w-salmon-bay-parka",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Women's Salmon Bay Parka, 3-layer shell",
+    "description": "3-layer waterproof parka, 20,000mm hydrostatic head, cut on a women's block. Built for eight hours on a wet deck."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Women's",
+              "href": "/shop/womens"
+            },
+            {
+              "label": "Jackets and shells",
+              "href": "/shop/womens?sub=jackets"
+            },
+            {
+              "label": "Salmon Bay Parka",
+              "href": "/products/w-salmon-bay-parka"
+            }
+          ],
+          "name": "Salmon Bay Parka",
+          "tagline": "Standing on a wet deck for eight hours.",
+          "price": "$349",
+          "colorName": "Slate",
+          "colors": [
+            "#5b6670",
+            "#2f3840",
+            "#a8482a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Slate",
+              "hex": "#5b6670"
+            },
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            },
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-women-jackets-2.webp",
+              "alt": "Salmon Bay Parka",
+              "caption": "Slate"
+            },
+            {
+              "image": "/assets/ballard/images/photo-kayak-6.webp",
+              "alt": "Salmon Bay Parka",
+              "caption": "Model is 5'11\", wearing a size M"
+            },
+            {
+              "image": "/assets/ballard/images/photo-hero-rain-1.webp",
+              "alt": "Salmon Bay Parka"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "Built for standing on a wet deck for eight hours. 3-layer waterproof shell, 20,000mm (hydrostatic head), fully seam-sealed, with a hood that turns with your head instead of against it. Pockets sit above a harness line. Cut on a women's block with a shorter torso and narrower shoulder.",
+            "Heavy. This is not a jacket you carry in case of rain. It's one you put on when you know. If you want something packable, look at the Fathom Shell."
+          ],
+          "tradeoff": "Heavy for its warmth. You won't want to carry it in a pack.",
+          "fit": "Runs true through the shoulder, large at the hip. Length hits mid-thigh on a 5'6\" wearer.",
+          "care": "Machine wash cold, tech wash only. Tumble dry low. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Shell",
+              "value": "3-layer 70D nylon, PU membrane, 20,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Breathability",
+              "value": "15,000 g/m²/24h (JIS L1099 B1)"
+            },
+            {
+              "label": "Weight",
+              "value": "980 g (size M)"
+            },
+            {
+              "label": "Seams",
+              "value": "Fully taped, 13mm tape"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-2.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "title": "Duwamish Work Pant",
+              "href": "/products/w-duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "0",
+                "2",
+                "4",
+                "6",
+                "8",
+                "10",
+                "12",
+                "14",
+                "16"
+              ]
+            },
+            {
+              "id": "w-fathom-fleece",
+              "image": "/assets/ballard/images/photo-fleece-5.webp",
+              "imageAlt": "Fathom Fleece in Oat",
+              "badge": "Best seller",
+              "title": "Fathom Fleece",
+              "href": "/products/w-fathom-fleece",
+              "description": "Mid-layer for 30°F to 50°F under a shell.",
+              "price": "$139",
+              "colors": [
+                "#d8cdb8",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

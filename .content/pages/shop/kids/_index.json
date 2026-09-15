@@ -1,0 +1,153 @@
+{
+  "$type": "page",
+  "id": "shop-kids",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Kids' | Ballard",
+    "description": "Rain gear that goes on over boots and grows a size. Sizes 2T to XL."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "listing",
+        "component": "product_listing",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Shop",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Kids'",
+              "href": "/shop/kids"
+            }
+          ],
+          "heading": "Kids'",
+          "description": "Rain gear that goes on over boots and grows a size. Sizes 2T to XL.",
+          "categories": [
+            {
+              "label": "All",
+              "key": ""
+            },
+            {
+              "label": "Rain jackets",
+              "key": "jackets"
+            },
+            {
+              "label": "Rain pants",
+              "key": "pants"
+            },
+            {
+              "label": "Fleece",
+              "key": "fleece"
+            }
+          ],
+          "products": [
+            {
+              "id": "k-drizzle-rain-pant",
+              "image": "/assets/ballard/images/photo-kids-0.webp",
+              "imageAlt": "Drizzle Rain Pant in Navy",
+              "title": "Drizzle Rain Pant",
+              "href": "/products/k-drizzle-rain-pant",
+              "description": "Puddles and wet grass. Goes on over boots.",
+              "price": "$59",
+              "colors": [
+                "#22304a",
+                "#e8f01e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            },
+            {
+              "id": "k-squall-rain-jacket",
+              "image": "/assets/ballard/images/photo-kids-2.webp",
+              "imageAlt": "Squall Rain Jacket in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Squall Rain Jacket",
+              "href": "/products/k-squall-rain-jacket",
+              "description": "School-day rain. Grows one size with the cuffs let out.",
+              "price": "$89",
+              "colors": [
+                "#e8f01e",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            },
+            {
+              "id": "k-tidepool-fleece",
+              "image": "/assets/ballard/images/photo-kids-7.webp",
+              "imageAlt": "Tidepool Fleece in Rust",
+              "title": "Tidepool Fleece",
+              "href": "/products/k-tidepool-fleece",
+              "description": "The layer under the rain jacket, 30°F to 55°F.",
+              "price": "$69",
+              "colors": [
+                "#a8482a",
+                "#d8cdb8",
+                "#3b4a3a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

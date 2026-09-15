@@ -1,0 +1,259 @@
+{
+  "$type": "page",
+  "id": "product-w-sound-rain-jacket",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Women's Sound Rain Jacket, 12,000mm",
+    "description": "2.5-layer rain jacket, 12,000mm hydrostatic head, thigh length, 360 g. Wets out after three hours."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Women's",
+              "href": "/shop/womens"
+            },
+            {
+              "label": "Jackets and shells",
+              "href": "/shop/womens?sub=jackets"
+            },
+            {
+              "label": "Sound Rain Jacket",
+              "href": "/products/w-sound-rain-jacket"
+            }
+          ],
+          "name": "Sound Rain Jacket",
+          "tagline": "Daily rain, 12,000mm, long enough to cover a seat.",
+          "price": "$179",
+          "colorName": "Kelp",
+          "colors": [
+            "#3b4a3a",
+            "#a8482a",
+            "#2f3840",
+            "#d8cdb8"
+          ],
+          "colorOptions": [
+            {
+              "name": "Kelp",
+              "hex": "#3b4a3a"
+            },
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            },
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            },
+            {
+              "name": "Oat",
+              "hex": "#d8cdb8"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-women-jackets-4.webp",
+              "alt": "Sound Rain Jacket",
+              "caption": "Kelp"
+            },
+            {
+              "image": "/assets/ballard/images/photo-women-jackets-1.webp",
+              "alt": "Sound Rain Jacket",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "2.5-layer shell, 12,000mm (hydrostatic head), cut to the top of the thigh so a bike seat stays dry. Seam-taped. Hood with a stiffened brim and a rear cinch. Two hand pockets and one chest pocket, all with water-resistant zips. 360 g.",
+            "Not a deck jacket. The face fabric wets out after about three hours of steady rain. For all-day rain, look at the Salmon Bay Parka."
+          ],
+          "tradeoff": "Face fabric wets out after about three hours of steady rain.",
+          "fit": "Runs true. Room for a fleece underneath.",
+          "care": "Machine wash cold, tech wash only. Tumble dry low. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Shell",
+              "value": "2.5-layer 50D nylon, 12,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Breathability",
+              "value": "8,000 g/m²/24h (JIS L1099 B1)"
+            },
+            {
+              "label": "Weight",
+              "value": "360 g (size M)"
+            },
+            {
+              "label": "Length",
+              "value": "78 cm center back (size M)"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-2.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "title": "Duwamish Work Pant",
+              "href": "/products/w-duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "0",
+                "2",
+                "4",
+                "6",
+                "8",
+                "10",
+                "12",
+                "14",
+                "16"
+              ]
+            },
+            {
+              "id": "w-fathom-fleece",
+              "image": "/assets/ballard/images/photo-fleece-5.webp",
+              "imageAlt": "Fathom Fleece in Oat",
+              "badge": "Best seller",
+              "title": "Fathom Fleece",
+              "href": "/products/w-fathom-fleece",
+              "description": "Mid-layer for 30°F to 50°F under a shell.",
+              "price": "$139",
+              "colors": [
+                "#d8cdb8",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

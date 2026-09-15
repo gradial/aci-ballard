@@ -1,0 +1,28 @@
+{
+  "$type": "page",
+  "id": "application-error",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred while serving this Ballard page.",
+    "sitemap": { "visible": false }
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "application-error-message",
+        "component": "error_page",
+        "props": {
+          "code": "Error",
+          "heading": "Something went wrong.",
+          "description": "Give it another try, or head back to the shop.",
+          "links": [
+            { "id": "home", "label": "Home", "href": "/", "variant": "primary" },
+            { "id": "shop-mens", "label": "Shop men's", "href": "/shop/mens", "variant": "outline" }
+          ]
+        }
+      }
+    ]
+  }
+}

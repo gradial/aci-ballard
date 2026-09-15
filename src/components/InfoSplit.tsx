@@ -1,0 +1,2 @@
+import type { ContentProps } from '@/cms/contracts/components/infoSplit.contract';
+export function InfoSplit({ leftHeading, rows, rightSections }: ContentProps) { return <section className="info-split section-pad"><div><h2>{leftHeading}</h2><dl>{rows.map((row) => <div key={row.label}><dt>{row.label}</dt><dd>{row.value}</dd></div>)}</dl></div><div>{rightSections.map((section) => <article key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</article>)}</div></section>; }

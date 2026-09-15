@@ -1,0 +1,250 @@
+{
+  "$type": "page",
+  "id": "product-w-halyard-shirt-jacket",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Women's Halyard Shirt Jacket, waxed cotton",
+    "description": "60/40 waxed cotton shirt jacket, 10.5 oz, reproofable. Sheds rain for an hour. Made in Portugal."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Women's",
+              "href": "/shop/womens"
+            },
+            {
+              "label": "Jackets and shells",
+              "href": "/shop/womens?sub=jackets"
+            },
+            {
+              "label": "Halyard Shirt Jacket",
+              "href": "/products/w-halyard-shirt-jacket"
+            }
+          ],
+          "name": "Halyard Shirt Jacket",
+          "tagline": "Wind and drizzle under 60°F. Waxed cotton, reproofable.",
+          "price": "$189",
+          "colorName": "Olive",
+          "colors": [
+            "#5a5f3e",
+            "#b89a6a",
+            "#a8482a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Olive",
+              "hex": "#5a5f3e"
+            },
+            {
+              "name": "Tan",
+              "hex": "#b89a6a"
+            },
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-rain-shell-7.webp",
+              "alt": "Halyard Shirt Jacket",
+              "caption": "Olive"
+            },
+            {
+              "image": "/assets/ballard/images/photo-women-fleece-3.webp",
+              "alt": "Halyard Shirt Jacket",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "60/40 waxed cotton, 10.5 oz, reproofed with paraffin wax. Sheds rain for about an hour, blocks wind outright. Two chest pockets with snap flaps, two hand pockets, corduroy collar. Cut with a slight shape at the waist and a longer back hem.",
+            "Waxed cotton isn't fully waterproof; it's water-shedding. It also leaves wax on car seats for the first month."
+          ],
+          "tradeoff": "Waxed cotton isn't fully waterproof; it's water-shedding.",
+          "fit": "Runs true. Size up to wear over a heavy sweater.",
+          "care": "Never machine wash. Sponge with cold water, reproof yearly. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "60/40 cotton-nylon, 10.5 oz, paraffin waxed"
+            },
+            {
+              "label": "Weight",
+              "value": "790 g (size M)"
+            },
+            {
+              "label": "Hardware",
+              "value": "Brass snaps, YKK #8 zip"
+            },
+            {
+              "label": "Made in",
+              "value": "Portugal"
+            }
+          ],
+          "related": [
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-2.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "title": "Duwamish Work Pant",
+              "href": "/products/w-duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "0",
+                "2",
+                "4",
+                "6",
+                "8",
+                "10",
+                "12",
+                "14",
+                "16"
+              ]
+            },
+            {
+              "id": "w-fathom-fleece",
+              "image": "/assets/ballard/images/photo-fleece-5.webp",
+              "imageAlt": "Fathom Fleece in Oat",
+              "badge": "Best seller",
+              "title": "Fathom Fleece",
+              "href": "/products/w-fathom-fleece",
+              "description": "Mid-layer for 30°F to 50°F under a shell.",
+              "price": "$139",
+              "colors": [
+                "#d8cdb8",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

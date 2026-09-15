@@ -1,22 +1,25 @@
+@font-face { font-family: Archivo; src: url('/assets/ballard/fonts/archivo.woff2') format('woff2'); font-style: normal; font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Bowlby One"; src: url('/assets/ballard/fonts/bowlby-one.woff2') format('woff2'); font-style: normal; font-weight: 400; font-display: swap; }
 @theme {
-  --font-family-display: var(--font-roboto-slab), Rockwell, Georgia, serif;
-  --font-family-heading: var(--font-family-display);
-  --font-family-base: var(--font-roboto-condensed), "Arial Narrow", Arial, sans-serif;
-  --font-weight-regular: 400;
+  --font-family-base: Archivo, Arial, sans-serif;
+  --font-family-wordmark: "Bowlby One", Archivo, sans-serif;
+  --font-weight-normal: 400;
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
-  --font-weight-bold: 700;
-  --text-size-body: 1.05rem;
-  --text-size-body-large: clamp(1.15rem, 2vw, 1.4rem);
-  --text-size-eyebrow: 0.78rem;
-  --text-size-h1-mobile: clamp(3.4rem, 15vw, 5.8rem);
-  --text-size-h1: clamp(5rem, 10vw, 9.5rem);
-  --text-size-h2-mobile: 2.4rem;
-  --text-size-h2: clamp(3rem, 6vw, 5.6rem);
-  --text-size-h3: 1.65rem;
-  --leading-tight: 0.9;
-  --leading-heading: 0.98;
-  --leading-body: 1.55;
-  --letter-spacing-label: 0.14em;
-  --letter-spacing-tight: -0.045em;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-10: 0.625rem;
+  --text-11: 0.6875rem;
+  --text-15: 0.9375rem;
+  --text-24: 1.5rem;
+  --leading-footer-small: 1.4285714286;
+  --leading-footer-brand-flow: 1.375rem;
+  --leading-footer-base: 1.5rem;
+  --leading-footer-xs: 1rem;
+  --text-lg: 1.125rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
 }

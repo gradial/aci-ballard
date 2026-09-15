@@ -1,0 +1,198 @@
+{
+  "$type": "page",
+  "id": "shop-packs-gear",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Packs and gear | Ballard",
+    "description": "Duffels, daypacks, deck boots, gloves, and socks. Welded where it matters."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "listing",
+        "component": "product_listing",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Shop",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Packs and gear",
+              "href": "/shop/packs-gear"
+            }
+          ],
+          "heading": "Packs and gear",
+          "description": "Duffels, daypacks, deck boots, gloves, and socks. Welded where it matters.",
+          "categories": [
+            {
+              "label": "All",
+              "key": ""
+            },
+            {
+              "label": "Packs",
+              "key": "packs"
+            },
+            {
+              "label": "Duffels",
+              "key": "bags"
+            },
+            {
+              "label": "Footwear",
+              "key": "footwear"
+            },
+            {
+              "label": "Gloves and socks",
+              "key": "accessories"
+            }
+          ],
+          "products": [
+            {
+              "id": "bosun-duffel",
+              "image": "/assets/ballard/images/photo-backpack-product-3.webp",
+              "imageAlt": "Bosun Duffel in Dark Slate",
+              "title": "Bosun Duffel",
+              "href": "/products/bosun-duffel",
+              "description": "70 L. Thrown in a truck bed, left in the rain.",
+              "price": "$189",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "bags",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "70 L"
+              ]
+            },
+            {
+              "id": "deck-boot",
+              "image": "/assets/ballard/images/photo-boots-2.webp",
+              "imageAlt": "Deck Boot in Dark Slate",
+              "title": "Deck Boot",
+              "href": "/products/deck-boot",
+              "description": "Wet deck, fish slime, hose-down at the end of the day.",
+              "price": "$119",
+              "colors": [
+                "#2f3840",
+                "#b89a6a"
+              ],
+              "category": "footwear",
+              "conditions": [
+                "deck",
+                "rain"
+              ],
+              "materials": [
+                "rubber"
+              ],
+              "sizes": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13"
+              ]
+            },
+            {
+              "id": "deckhand-glove",
+              "image": "/assets/ballard/images/photo-gloves-1.webp",
+              "imageAlt": "Deckhand Glove in Tan",
+              "title": "Deckhand Glove",
+              "href": "/products/deckhand-glove",
+              "description": "Line handling, wet rope, cold hands.",
+              "price": "$48",
+              "colors": [
+                "#b89a6a",
+                "#151515"
+              ],
+              "category": "accessories",
+              "conditions": [
+                "deck",
+                "wind"
+              ],
+              "materials": [
+                "leather"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            },
+            {
+              "id": "foghorn-daypack",
+              "image": "/assets/ballard/images/photo-backpack-product-0.webp",
+              "imageAlt": "Foghorn Daypack in Dark Slate",
+              "badge": "Best seller",
+              "title": "Foghorn Daypack",
+              "href": "/products/foghorn-daypack",
+              "description": "22 L. Commute in rain without a cover.",
+              "price": "$129",
+              "colors": [
+                "#2f3840",
+                "#5a5f3e",
+                "#b89a6a"
+              ],
+              "category": "packs",
+              "conditions": [
+                "rain",
+                "commute",
+                "trail"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "22 L"
+              ]
+            },
+            {
+              "id": "ridgeline-sock",
+              "image": "/assets/ballard/images/photo-socks-1.webp",
+              "imageAlt": "Ridgeline Sock in Oat",
+              "title": "Ridgeline Sock",
+              "href": "/products/ridgeline-sock",
+              "description": "Boot sock for 12-hour days. 70% merino.",
+              "price": "$24",
+              "colors": [
+                "#d8cdb8",
+                "#3d3d3d",
+                "#a8482a"
+              ],
+              "category": "accessories",
+              "conditions": [
+                "cold",
+                "trail",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

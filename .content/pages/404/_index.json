@@ -1,0 +1,28 @@
+{
+  "$type": "page",
+  "id": "not-found",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Page not found",
+    "description": "The requested Ballard page could not be found.",
+    "sitemap": { "visible": false }
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "not-found-message",
+        "component": "error_page",
+        "props": {
+          "code": "404",
+          "heading": "That page isn't here.",
+          "description": "The link is wrong or the gear sold out. Drops do that.",
+          "links": [
+            { "id": "home", "label": "Home", "href": "/", "variant": "primary" },
+            { "id": "shop-mens", "label": "Shop men's", "href": "/shop/mens", "variant": "outline" }
+          ]
+        }
+      }
+    ]
+  }
+}

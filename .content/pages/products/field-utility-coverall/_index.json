@@ -1,0 +1,252 @@
+{
+  "$type": "page",
+  "id": "product-field-utility-coverall",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Field Utility Coverall",
+    "description": "8.5 oz twill coverall for issued programs, XS to 5XL, embroidery-ready. Not flame resistant."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Ballard Field",
+              "href": "/shop/field"
+            },
+            {
+              "label": "Coveralls",
+              "href": "/shop/field?sub=coveralls"
+            },
+            {
+              "label": "Field Utility Coverall",
+              "href": "/products/field-utility-coverall"
+            }
+          ],
+          "name": "Field Utility Coverall",
+          "tagline": "Issued coverall for facilities and utility crews.",
+          "price": "$139",
+          "colorName": "Navy",
+          "colors": [
+            "#22304a",
+            "#3d3d3d",
+            "#ff6a13"
+          ],
+          "colorOptions": [
+            {
+              "name": "Navy",
+              "hex": "#22304a"
+            },
+            {
+              "name": "Charcoal",
+              "hex": "#3d3d3d"
+            },
+            {
+              "name": "Hi-Vis Orange",
+              "hex": "#ff6a13"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL",
+            "4XL",
+            "5XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-workwear-3.webp",
+              "alt": "Field Utility Coverall",
+              "caption": "Navy"
+            },
+            {
+              "image": "/assets/ballard/images/photo-utility-work-3.webp",
+              "alt": "Field Utility Coverall",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "8.5 oz cotton-polyester twill, two-way front zip, action back for reach. Ten pockets including a hammer loop and a pass-through to your pants. Available in tall sizes and in a hi-vis variant with ANSI/ISEA 107-2020 Type R Class 3 tape. Embroidery field on the left chest, 10 × 5 cm.",
+            "Not flame resistant. For arc-rated programs, ask about the Field FR Coverall. Standard lead time on programs over 50 units is 6 weeks."
+          ],
+          "tradeoff": "Not flame resistant.",
+          "fit": "Runs large to fit over work clothes. Order your street size.",
+          "care": "Industrial launder compatible. Repair-eligible under program terms.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "65/35 polyester-cotton twill, 8.5 oz"
+            },
+            {
+              "label": "Sizes",
+              "value": "XS to 5XL, regular and tall"
+            },
+            {
+              "label": "Weight",
+              "value": "900 g (size L)"
+            },
+            {
+              "label": "Made in",
+              "value": "Mexico"
+            }
+          ],
+          "related": [
+            {
+              "id": "field-fr-coverall",
+              "image": "/assets/ballard/images/photo-workwear-2.webp",
+              "imageAlt": "Field FR Coverall in Navy",
+              "title": "Field FR Coverall",
+              "href": "/products/field-fr-coverall",
+              "description": "NFPA 70E CAT 2 arc-rated coverall for line and gas crews.",
+              "price": "$249",
+              "colors": [
+                "#22304a",
+                "#b8a37a"
+              ],
+              "category": "coveralls",
+              "conditions": [
+                "deck"
+              ],
+              "materials": [
+                "cotton",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-rain-jacket",
+              "image": "/assets/ballard/images/photo-hi-vis-1.webp",
+              "imageAlt": "Field Hi-Vis Rain Jacket in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Rain Jacket",
+              "href": "/products/field-hi-vis-rain-jacket",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3, waterproof to 15,000mm.",
+              "price": "$219",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-softshell",
+              "image": "/assets/ballard/images/photo-hi-vis-0.webp",
+              "imageAlt": "Field Hi-Vis Softshell in Hi-Vis Yellow",
+              "title": "Field Hi-Vis Softshell",
+              "href": "/products/field-hi-vis-softshell",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3 certified outer layer.",
+              "price": "$189",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "wind",
+                "cold"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-vest",
+              "image": "/assets/ballard/images/photo-workwear-0.webp",
+              "imageAlt": "Field Hi-Vis Vest in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Vest",
+              "href": "/products/field-hi-vis-vest",
+              "description": "ANSI/ISEA 107-2020 Type R Class 2 vest, zip front, five pockets.",
+              "price": "$32",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "vests",
+              "conditions": [
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

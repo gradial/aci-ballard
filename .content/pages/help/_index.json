@@ -1,0 +1,26 @@
+{
+  "$type": "page", "id": "ballard-help", "status": "published", "layout": "default",
+  "metadata": { "title": "Help center | Ballard", "description": "Short answers from Ballard." },
+  "regions": { "main": [{ "id": "help", "component": "help_center", "props": {
+    "heading": "Help center", "introduction": "Short answers. If yours isn't here, call 1-800-555-0163, Monday to Friday, 7 to 5 Pacific.",
+    "faqGroups": [
+      { "heading": "Orders and shipping", "questions": [
+        { "title": "When will my order ship", "answer": "In-stock gear ships in 1 to 2 business days from Kent, WA. Drops ship in 3. You'll get a tracking number by email." },
+        { "title": "Shipping cost", "answer": "Free over $99 in the US and Canada. Under that, $8 ground. Expedited is $22 and arrives in 2 business days." },
+        { "title": "International", "answer": "We ship to Germany, France, and Japan from local stock. Duties are included at checkout." },
+        { "title": "Order status", "answer": "Check the tracking link in your confirmation email, or sign in to your account." }
+      ] }, { "heading": "Returns and exchanges", "questions": [
+        { "title": "Return window", "answer": "60 days, worn or not. Bring it to a store or mail it back with the prepaid label from your account." },
+        { "title": "Exchanges", "answer": "Same as returns. Stores exchange on the spot if the size is in stock." },
+        { "title": "Repaired and Drops gear", "answer": "Same 60-day window. Drops can't be exchanged for a different size once the run has sold out." }
+      ] }, { "heading": "Repair", "questions": [
+        { "title": "What's covered", "answer": "Seams, zips, snaps, seam tape, reproofing, and re-knit wool on any Ballard gear, any age. Free, except reproofing at $35." },
+        { "title": "How long", "answer": "About two weeks from the day we receive it. Store repairs are usually faster." }
+      ] }
+    ],
+    "sizes": [{ "size": "XS", "chest": "34 to 36", "waist": "28 to 30" }, { "size": "S", "chest": "36 to 38", "waist": "30 to 32" }, { "size": "M", "chest": "38 to 40", "waist": "32 to 34" }, { "size": "L", "chest": "42 to 44", "waist": "36 to 38" }, { "size": "XL", "chest": "46 to 48", "waist": "40 to 42" }, { "size": "XXL", "chest": "50 to 52", "waist": "44 to 46" }],
+    "info": [
+      { "heading": "Account", "text": "Accounts, saved gear, and sign-in aren't wired up in this demo. Everything else on the site works without one." }, { "heading": "Pro purchase", "text": "Commercial fishing crews, guides, and trades get 30% off the main line with a current license or union card. Apply in any store." }, { "heading": "Accessibility", "text": "We build to WCAG 2.2 AA. If you're using a screen reader and something isn't working, call 1-800-555-0163 and we'll take the order by phone." }, { "heading": "Privacy and terms", "text": "This is a demo site. The bag is stored in your browser only. Nothing you type in a form is sent anywhere." }
+    ]
+  } }] }
+}

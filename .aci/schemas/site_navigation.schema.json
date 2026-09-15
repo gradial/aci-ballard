@@ -10,22 +10,9 @@
       "type": "string"
     },
     "brandLogo": {
-      "type": "object",
-      "properties": {
-        "src": {
-          "type": "string"
-        },
-        "alt": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "src",
-        "alt"
-      ],
-      "additionalProperties": false
+      "type": "string"
     },
-    "navigation": {
+    "utilityLinks": {
       "type": "array",
       "items": {
         "type": "object",
@@ -48,7 +35,7 @@
         "additionalProperties": false
       }
     },
-    "utility": {
+    "promo": {
       "type": "object",
       "properties": {
         "id": {
@@ -67,12 +54,123 @@
         "href"
       ],
       "additionalProperties": false
+    },
+    "announcements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "href"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "navigation": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "href": {
+            "type": "string"
+          },
+          "columns": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "links": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "label": {
+                        "type": "string"
+                      },
+                      "href": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "label",
+                      "href"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "title",
+                "links"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "tile": {
+            "type": "object",
+            "properties": {
+              "image": {
+                "type": "string"
+              },
+              "imageAlt": {
+                "type": "string"
+              },
+              "eyebrow": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "href": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "image",
+              "imageAlt",
+              "eyebrow",
+              "title",
+              "href"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "href"
+        ],
+        "additionalProperties": false
+      }
     }
   },
   "required": [
     "brandHref",
     "brandLabel",
     "brandLogo",
+    "utilityLinks",
+    "promo",
     "navigation"
   ],
   "additionalProperties": false

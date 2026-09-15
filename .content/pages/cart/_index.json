@@ -1,0 +1,27 @@
+{
+  "$type": "page",
+  "id": "cart",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Bag | Ballard",
+    "description": "Your Ballard bag."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "cart",
+        "component": "shopping_cart",
+        "props": {
+          "heading": "Bag",
+          "emptyMessage": "Your bag is empty.",
+          "mensHref": "/shop/mens",
+          "womensHref": "/shop/womens",
+          "mensLabel": "Shop men's",
+          "womensLabel": "Shop women's",
+          "checkoutMessage": "Checkout isn't wired up in this demo."
+        }
+      }
+    ]
+  }
+}

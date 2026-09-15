@@ -1,0 +1,253 @@
+{
+  "$type": "page",
+  "id": "product-halyard-shirt-jacket",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Halyard Shirt Jacket, 10.5 oz waxed cotton",
+    "description": "60/40 waxed cotton shirt jacket, 10.5 oz, reproofable. Sheds rain for an hour, blocks wind. Made in Portugal."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Men's",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Jackets and shells",
+              "href": "/shop/mens?sub=jackets"
+            },
+            {
+              "label": "Halyard Shirt Jacket",
+              "href": "/products/halyard-shirt-jacket"
+            }
+          ],
+          "name": "Halyard Shirt Jacket",
+          "tagline": "Wind and drizzle under 60°F. Waxed cotton, reproofable.",
+          "price": "$189",
+          "colorName": "Olive",
+          "colors": [
+            "#5a5f3e",
+            "#b89a6a",
+            "#2f3840"
+          ],
+          "colorOptions": [
+            {
+              "name": "Olive",
+              "hex": "#5a5f3e"
+            },
+            {
+              "name": "Tan",
+              "hex": "#b89a6a"
+            },
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-canvas-work-6.webp",
+              "alt": "Halyard Shirt Jacket",
+              "caption": "Olive"
+            },
+            {
+              "image": "/assets/ballard/images/photo-canvas-work-1.webp",
+              "alt": "Halyard Shirt Jacket",
+              "caption": "Model is 5'11\", wearing a size M"
+            },
+            {
+              "image": "/assets/ballard/images/photo-waxed-cotton-4.webp",
+              "alt": "Halyard Shirt Jacket"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "60/40 waxed cotton, 10.5 oz, reproofed with paraffin wax. Sheds rain for about an hour, blocks wind outright. Two chest pockets with snap flaps, two hand pockets, corduroy collar. Unlined, so it works from 40°F to 60°F over a flannel.",
+            "Waxed cotton isn't fully waterproof; it's water-shedding. It also leaves wax on car seats for the first month. Reproof it once a year and it'll outlast the rest of your closet."
+          ],
+          "tradeoff": "Waxed cotton isn't fully waterproof; it's water-shedding.",
+          "fit": "Runs a half size large. Order your usual size if you'll wear it over a sweater.",
+          "care": "Never machine wash. Brush off dirt, sponge with cold water, reproof yearly. We reproof and replace snaps; send it back.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "60/40 cotton-nylon, 10.5 oz, paraffin waxed"
+            },
+            {
+              "label": "Weight",
+              "value": "880 g (size M)"
+            },
+            {
+              "label": "Hardware",
+              "value": "Brass snaps, YKK #8 zip"
+            },
+            {
+              "label": "Collar",
+              "value": "8-wale cotton corduroy"
+            },
+            {
+              "label": "Made in",
+              "value": "Portugal"
+            }
+          ],
+          "related": [
+            {
+              "id": "bosun-sweater",
+              "image": "/assets/ballard/images/photo-sweater-2.webp",
+              "imageAlt": "Bosun Sweater in Oat",
+              "title": "Bosun Sweater",
+              "href": "/products/bosun-sweater",
+              "description": "8-gauge wool for wind on the water.",
+              "price": "$169",
+              "colors": [
+                "#d8cdb8",
+                "#22304a",
+                "#3d3d3d"
+              ],
+              "category": "sweaters",
+              "conditions": [
+                "cold",
+                "wind",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

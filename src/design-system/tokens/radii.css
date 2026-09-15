@@ -1,5 +1,1 @@
-@theme {
-  --radius-button: 0.5rem;
-  --radius-card: 0.875rem;
-  --radius-cta: 1rem;
-}
+@theme { --radius-card: 0.5rem; --radius-pill: 9999px; }

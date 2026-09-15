@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "data_table",
+  "type": "object",
+  "properties": {
+    "heading": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "string",
+      "enum": [
+        "white",
+        "paper"
+      ]
+    },
+    "columns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "cells": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "cells"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "heading",
+    "columns",
+    "rows"
+  ],
+  "additionalProperties": false
+}

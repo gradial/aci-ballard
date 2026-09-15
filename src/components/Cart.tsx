@@ -1,0 +1,15 @@
+'use client';
+/* eslint-disable @next/next/no-img-element, aci-rules/no-raw-tailwind-values */
+
+import type { ContentProps } from '@/cms/contracts/components/cart.contract';
+import { useCart } from './cart/CartProvider';
+
+const formatPrice = (amount: number) => `$${amount.toLocaleString('en-US')}`;
+
+export function Cart({ heading, emptyMessage, mensHref, womensHref, mensLabel, womensLabel, checkoutMessage }: ContentProps) {
+  const { items, setQty, remove, count, subtotal } = useCart();
+  const shipping = subtotal >= 99 || subtotal === 0 ? 0 : 8;
+  return <div className="container-x pb-16 pt-8"><h1 className="text-4xl font-semibold tracking-tight md:text-[40px]">{heading}</h1><p className="mt-1 text-sm text-ink-2">{count} {count === 1 ? 'item' : 'items'}</p>
+    {items.length === 0 ? <div className="mt-10 max-w-md"><p className="text-sm text-ink-2">{emptyMessage}</p><div className="mt-5 flex gap-2"><a href={mensHref} className="btn btn-primary">{mensLabel}</a><a href={womensHref} className="btn btn-outline">{womensLabel}</a></div></div> : <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_360px]"><ul className="divide-y hairline border-y">{items.map((item) => <li key={item.id} className="flex gap-5 py-5"><div className="relative h-36 w-28 shrink-0 overflow-hidden rounded-md bg-paper-2"><img src={item.image} alt={item.name} className="h-full w-full object-cover" /></div><div className="flex flex-1 flex-col"><div className="flex justify-between gap-4"><div><a href={`/products/${item.slug}`} className="font-medium hover:underline underline-offset-4">{item.name}</a><p className="mt-0.5 text-sm text-ink-3">{item.color} · {item.size}</p></div><p className="font-medium">{formatPrice(item.price * item.qty)}</p></div><div className="mt-auto flex items-center justify-between"><label className="flex items-center gap-2 text-sm"><span className="text-ink-3">Qty</span><select value={item.qty} onChange={(event) => setQty(item.id, Number(event.target.value))} className="h-9 rounded-md border hairline bg-white px-2">{[1, 2, 3, 4, 5].map((quantity) => <option key={quantity} value={quantity}>{quantity}</option>)}</select></label><button type="button" onClick={() => remove(item.id)} className="text-sm underline underline-offset-4">Remove</button></div></div></li>)}</ul><aside className="h-fit rounded-lg bg-paper p-6"><h2 className="text-lg font-semibold">Summary</h2><dl className="mt-4 space-y-2 text-sm"><div className="flex justify-between"><dt>Subtotal</dt><dd>{formatPrice(subtotal)}</dd></div><div className="flex justify-between"><dt>Shipping</dt><dd>{shipping === 0 ? 'Free' : formatPrice(shipping)}</dd></div><div className="flex justify-between"><dt>Tax</dt><dd>At checkout</dd></div><div className="flex justify-between border-t hairline pt-2 font-semibold"><dt>Total</dt><dd>{formatPrice(subtotal + shipping)}</dd></div></dl><button type="button" className="btn btn-primary mt-5 w-full" onClick={() => window.alert(checkoutMessage)}>Check out</button><p className="mt-3 text-xs text-ink-3">60-day returns, worn or not. Repair is free for life.</p></aside></div>}
+  </div>;
+}

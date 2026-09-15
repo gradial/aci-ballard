@@ -1,0 +1,251 @@
+{
+  "$type": "page",
+  "id": "product-chinook-bib",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Chinook Bib, 500D foul-weather bib",
+    "description": "500D PU-coated foul-weather bib, 15,000mm hydrostatic head, Cordura knees. No fly. Made for the deck."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Men's",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Pants and bibs",
+              "href": "/shop/mens?sub=pants"
+            },
+            {
+              "label": "Chinook Bib",
+              "href": "/products/chinook-bib"
+            }
+          ],
+          "name": "Chinook Bib",
+          "tagline": "Foul-weather bib for the deck. Kneels on wet steel.",
+          "price": "$259",
+          "colorName": "Dark Slate",
+          "colors": [
+            "#2f3840",
+            "#a8482a",
+            "#ff6a13"
+          ],
+          "colorOptions": [
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            },
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            },
+            {
+              "name": "Hi-Vis Orange",
+              "hex": "#ff6a13"
+            }
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "alt": "Chinook Bib",
+              "caption": "Dark Slate"
+            },
+            {
+              "image": "/assets/ballard/images/photo-hero-deck-4.webp",
+              "alt": "Chinook Bib",
+              "caption": "Model is 5'11\", wearing a size M"
+            },
+            {
+              "image": "/assets/ballard/images/photo-hero-deck-7.webp",
+              "alt": "Chinook Bib"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "A 500D nylon bib with a PU coating, 15,000mm (hydrostatic head), knee patches you can kneel on wet steel in. Suspenders are 50mm elastic with quick-release buckles. Leg zips run 40 cm so they go on over boots. Chest pocket is welded, not sewn.",
+            "No fly. You'll take the suspenders down. That's the tradeoff for a front panel with nothing to leak through."
+          ],
+          "tradeoff": "No fly. You'll take the suspenders down.",
+          "fit": "Runs long. Inseam is 34\" unhemmed. Waist is elastic and forgiving by two sizes.",
+          "care": "Hose off. Machine wash cold if you must, hang dry. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "500D nylon, PU coated, 15,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Knees",
+              "value": "1000D Cordura, double layer"
+            },
+            {
+              "label": "Weight",
+              "value": "1,050 g (size M)"
+            },
+            {
+              "label": "Leg zips",
+              "value": "40 cm, water-resistant"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "bosun-sweater",
+              "image": "/assets/ballard/images/photo-sweater-2.webp",
+              "imageAlt": "Bosun Sweater in Oat",
+              "title": "Bosun Sweater",
+              "href": "/products/bosun-sweater",
+              "description": "8-gauge wool for wind on the water.",
+              "price": "$169",
+              "colors": [
+                "#d8cdb8",
+                "#22304a",
+                "#3d3d3d"
+              ],
+              "category": "sweaters",
+              "conditions": [
+                "cold",
+                "wind",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "drop-chinook-rust",
+              "image": "/assets/ballard/images/photo-hero-deck-4.webp",
+              "imageAlt": "Chinook Bib in Rust",
+              "badge": "Limited run",
+              "title": "Chinook Bib",
+              "href": "/products/drop-chinook-rust",
+              "description": "Rust colorway with a hi-vis cuff. 120 made.",
+              "price": "$279",
+              "colors": [
+                "#a8482a"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "k-drizzle-rain-pant",
+              "image": "/assets/ballard/images/photo-kids-0.webp",
+              "imageAlt": "Drizzle Rain Pant in Navy",
+              "title": "Drizzle Rain Pant",
+              "href": "/products/k-drizzle-rain-pant",
+              "description": "Puddles and wet grass. Goes on over boots.",
+              "price": "$59",
+              "colors": [
+                "#22304a",
+                "#e8f01e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,16 +1,18 @@
 @theme {
-  --color-cedar: #a84a28;
-  --color-cedar-dark: #82381f;
-  --color-pine: #203a2d;
-  --color-pine-dark: #14261d;
-  --color-canvas: #f3efe5;
-  --color-coal: #292824;
-  --color-stone: #d9cfbb;
-  --color-white: #fffdf8;
-  --color-black: #151513;
-
-  --color-page: var(--color-canvas);
-  --color-fg: var(--color-coal);
-  --color-fg-muted: #655f54;
-  --color-focus: var(--color-cedar);
+  --color-paper: #f5f3ee;
+  --color-paper-2: #ebe8e1;
+  --color-ink: #111111;
+  --color-ink-2: #3a3a3a;
+  --color-ink-3: #6b6b6b;
+  --color-line: #d9d5cc;
+  --color-harbor: #1f3f5a;
+  --color-dark-slate: #2c343c;
+  --color-white: #ffffff;
+  --color-footer-statement: rgb(255 255 255 / 70%);
+  --color-footer-link: rgb(255 255 255 / 75%);
+  --color-footer-base: rgb(255 255 255 / 60%);
+  --color-footer-input-border: rgb(255 255 255 / 30%);
+  --color-footer-placeholder: rgb(255 255 255 / 50%);
+  --color-footer-border: rgb(255 255 255 / 15%);
+  --color-page: var(--color-white);
 }

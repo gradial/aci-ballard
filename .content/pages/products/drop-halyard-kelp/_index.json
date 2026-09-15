@@ -1,0 +1,231 @@
+{
+  "$type": "page",
+  "id": "product-drop-halyard-kelp",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Halyard Shirt Jacket, kelp, 180 made",
+    "description": "Halyard in 18 oz waxed cotton, kelp colorway. 180 made, numbered."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Ballard Drops",
+              "href": "/drops"
+            },
+            {
+              "label": "Jackets",
+              "href": "/drops?sub=jackets"
+            },
+            {
+              "label": "Halyard Shirt Jacket",
+              "href": "/products/drop-halyard-kelp"
+            }
+          ],
+          "name": "Halyard Shirt Jacket",
+          "tagline": "Kelp colorway, 18 oz wax. 180 made.",
+          "price": "$219",
+          "colorName": "Kelp",
+          "colors": [
+            "#3b4a3a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Kelp",
+              "hex": "#3b4a3a"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "made": 180,
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-canvas-work-0.webp",
+              "alt": "Halyard Shirt Jacket",
+              "caption": "Kelp"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "The Halyard in an 18 oz waxed cotton instead of the standard 10.5 oz, dyed kelp. Same pattern, same brass snaps. Heavier hand, longer water-shedding time, about two hours in steady rain. 180 made. Numbered on the inside pocket.",
+            "Stiff. 18 oz wax takes a month of wear to soften and it's hot above 55°F. When these are gone, they're gone; we won't run the fabric again."
+          ],
+          "tradeoff": "Stiff for the first month and hot above 55°F.",
+          "fit": "Runs a half size large. Same block as the standard Halyard.",
+          "care": "Never machine wash. Reproof yearly. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "100% cotton, 18 oz, paraffin waxed"
+            },
+            {
+              "label": "Run",
+              "value": "180 made"
+            },
+            {
+              "label": "Weight",
+              "value": "1,240 g (size M)"
+            },
+            {
+              "label": "Made in",
+              "value": "Portugal"
+            }
+          ],
+          "related": [
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "drop-chinook-rust",
+              "image": "/assets/ballard/images/photo-hero-deck-4.webp",
+              "imageAlt": "Chinook Bib in Rust",
+              "badge": "Limited run",
+              "title": "Chinook Bib",
+              "href": "/products/drop-chinook-rust",
+              "description": "Rust colorway with a hi-vis cuff. 120 made.",
+              "price": "$279",
+              "colors": [
+                "#a8482a"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-fathom-shell",
+              "image": "/assets/ballard/images/photo-women-jackets-7.webp",
+              "imageAlt": "Fathom Shell in Rust",
+              "badge": "New",
+              "title": "Fathom Shell",
+              "href": "/products/w-fathom-shell",
+              "description": "Rain you didn't plan for. Packs into its own pocket.",
+              "price": "$229",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#3b4a3a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

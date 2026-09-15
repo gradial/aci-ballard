@@ -1,0 +1,248 @@
+{
+  "$type": "page",
+  "id": "product-field-work-pant",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Field Work Pant, program twill",
+    "description": "8.5 oz poly-cotton work pant, double knees, 50 industrial launder cycles. Waist 28 to 54."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Ballard Field",
+              "href": "/shop/field"
+            },
+            {
+              "label": "Pants and bibs",
+              "href": "/shop/field?sub=pants"
+            },
+            {
+              "label": "Field Work Pant",
+              "href": "/products/field-work-pant"
+            }
+          ],
+          "name": "Field Work Pant",
+          "tagline": "Program work pant, 8.5 oz twill, 50 industrial launder cycles.",
+          "price": "$68",
+          "colorName": "Navy",
+          "colors": [
+            "#22304a",
+            "#3d3d3d",
+            "#b8a37a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Navy",
+              "hex": "#22304a"
+            },
+            {
+              "name": "Charcoal",
+              "hex": "#3d3d3d"
+            },
+            {
+              "name": "Khaki",
+              "hex": "#b8a37a"
+            }
+          ],
+          "sizes": [
+            "28",
+            "30",
+            "32",
+            "34",
+            "36",
+            "38",
+            "40",
+            "42",
+            "44",
+            "48",
+            "54"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-workwear-4.webp",
+              "alt": "Field Work Pant",
+              "caption": "Navy"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "8.5 oz polyester-cotton twill with a stain-release finish, rated to 50 industrial launder cycles. Straight leg, double front knees with pad openings, ruler pocket, and a phone pocket that closes. Unhemmed inseams from 28 to 36 so your program can hem to the wearer.",
+            "Polyester-cotton holds odor longer than pure cotton and is less comfortable in heat. That is the tradeoff for a pant that survives industrial laundry."
+          ],
+          "tradeoff": "Holds odor longer than cotton.",
+          "fit": "Straight leg, sits at the waist. Runs true to labeled waist.",
+          "care": "Industrial launder compatible. Repair-eligible under program terms.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "65/35 polyester-cotton twill, 8.5 oz, stain release"
+            },
+            {
+              "label": "Knees",
+              "value": "Double layer, pad-ready"
+            },
+            {
+              "label": "Sizes",
+              "value": "Waist 28 to 54, inseams 28 to 36 unhemmed"
+            },
+            {
+              "label": "Launder rating",
+              "value": "50 industrial cycles"
+            },
+            {
+              "label": "Made in",
+              "value": "Mexico"
+            }
+          ],
+          "related": [
+            {
+              "id": "drop-chinook-rust",
+              "image": "/assets/ballard/images/photo-hero-deck-4.webp",
+              "imageAlt": "Chinook Bib in Rust",
+              "badge": "Limited run",
+              "title": "Chinook Bib",
+              "href": "/products/drop-chinook-rust",
+              "description": "Rust colorway with a hi-vis cuff. 120 made.",
+              "price": "$279",
+              "colors": [
+                "#a8482a"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "k-drizzle-rain-pant",
+              "image": "/assets/ballard/images/photo-kids-0.webp",
+              "imageAlt": "Drizzle Rain Pant in Navy",
+              "title": "Drizzle Rain Pant",
+              "href": "/products/k-drizzle-rain-pant",
+              "description": "Puddles and wet grass. Goes on over boots.",
+              "price": "$59",
+              "colors": [
+                "#22304a",
+                "#e8f01e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            },
+            {
+              "id": "w-duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-2.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "title": "Duwamish Work Pant",
+              "href": "/products/w-duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "0",
+                "2",
+                "4",
+                "6",
+                "8",
+                "10",
+                "12",
+                "14",
+                "16"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

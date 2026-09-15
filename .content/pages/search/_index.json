@@ -1,0 +1,5 @@
+{
+  "$type": "page", "id": "search", "status": "published", "layout": "default",
+  "metadata": { "title": "Search | Ballard", "description": "Search Ballard gear and stories." },
+  "regions": { "main": [{ "id": "search", "component": "search_panel", "props": { "description": "Try a condition, a material, or a model name.", "suggestions": ["rain", "waxed cotton", "salmon bay", "wool", "deck", "kids"] } }] }
+}

@@ -1,18 +1,40 @@
-import type { ContentProps } from '@/cms/contracts/components/siteNavigation.contract';
-import Image from 'next/image';
+'use client';
+/* eslint-disable @next/next/no-html-link-for-pages, @next/next/no-img-element */
 
-export function SiteNavigation({ brandHref, brandLabel, brandLogo, navigation, utility }: ContentProps) {
-  return (
-    <header className="site-header">
-      <a className="site-header__brand" href={brandHref} aria-label={`${brandLabel} home`}>
-        <Image src={brandLogo.src} alt={brandLogo.alt} width={1200} height={340} priority />
-      </a>
-      <nav aria-label="Primary navigation">
-        <ul className="site-header__links">
-          {navigation.map((link) => <li key={link.id}><a href={link.href}>{link.label}</a></li>)}
-        </ul>
-      </nav>
-      {utility && <a className="button button--small" href={utility.href}>{utility.label}</a>}
-    </header>
-  );
+import { useEffect, useRef, useState } from 'react';
+import type { ContentProps } from '@/cms/contracts/components/siteNavigation.contract';
+import { useCart } from './cart/CartProvider';
+
+function IconSearch() { return <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.5" cy="6.5" r="5" fill="none" stroke="currentColor" strokeWidth="1.5" /><path d="M10.5 10.5 15 15" stroke="currentColor" strokeWidth="1.5" /></svg>; }
+function IconHeart() { return <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z" /></svg>; }
+function IconUser() { return <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.6"><circle cx="12" cy="8" r="4" /><path d="M4 20c0-4 4-6 8-6s8 2 8 6" /></svg>; }
+function IconBag() { return <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M5 8h14l-1 12H6L5 8z" /><path d="M9 8V6a3 3 0 0 1 6 0v2" /></svg>; }
+function IconMenu({ open }: { open: boolean }) { return open ? <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 4l12 12M16 4L4 16" stroke="currentColor" strokeWidth="1.6" /></svg> : <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" strokeWidth="1.6" /></svg>; }
+
+export function SiteNavigation({ brandHref, brandLabel, brandLogo, utilityLinks, promo, announcements = [promo], navigation }: ContentProps) {
+  const { count, setOpen } = useCart();
+  const [active, setActive] = useState<string | null>(null);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileSection, setMobileSection] = useState<string | null>(null);
+  const [announcement, setAnnouncement] = useState(0);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => { if (announcements.length < 2) return; const timer = window.setInterval(() => setAnnouncement((value) => (value + 1) % announcements.length), 6000); return () => window.clearInterval(timer); }, [announcements.length]);
+  useEffect(() => { document.body.style.overflow = mobileOpen ? 'hidden' : ''; return () => { document.body.style.overflow = ''; }; }, [mobileOpen]);
+  const openMenu = (label: string) => { if (closeTimer.current) clearTimeout(closeTimer.current); setActive(label); };
+  const scheduleClose = () => { if (closeTimer.current) clearTimeout(closeTimer.current); closeTimer.current = setTimeout(() => setActive(null), 120); };
+  const activeItem = navigation.find((item) => item.label === active && item.columns?.length);
+  const current = announcements[announcement % announcements.length] ?? promo;
+  return <header className="site-header relative z-50 bg-white">
+    <div className="bg-ink text-white"><div className="container-x grid h-9 grid-cols-[var(--header-utility-grid)] items-center text-xs"><ul className="hidden gap-4 md:flex">{utilityLinks.map((link) => <li key={link.id}><a href={link.href} className="hover:underline underline-offset-4">{link.label}</a></li>)}</ul><div className="md:hidden" /><a href={current.href} className="truncate font-medium hover:underline underline-offset-4" aria-live="polite">{current.label}</a><div className="hidden justify-end md:flex"><a href="/stores" className="hover:underline underline-offset-4">Find a store</a></div></div></div>
+    <div className="border-b hairline" onMouseLeave={scheduleClose}><div className="container-x flex h-[var(--header-mobile-main-height)] items-center gap-6 lg:h-[var(--header-main-height)]">
+      <button type="button" className="-ml-2 rounded-full p-2 lg:hidden" aria-label={mobileOpen ? 'Close menu' : 'Open menu'} aria-expanded={mobileOpen} onClick={() => setMobileOpen((value) => !value)}><IconMenu open={mobileOpen} /></button>
+      <div className="flex flex-col justify-center gap-1.5"><SourceBrand href={brandHref} label={brandLabel} logo={brandLogo} /><nav aria-label="Primary" className="hidden lg:block"><ul className="flex gap-6">{navigation.map((item) => <li key={item.id} onMouseEnter={() => openMenu(item.label)} onFocus={() => openMenu(item.label)}><a href={item.href} className={`inline-block border-b-2 pb-1 text-[length:var(--text-15)] font-medium transition-colors ${active === item.label ? 'border-ink' : 'border-transparent'}`} aria-expanded={item.columns?.length ? active === item.label : undefined}>{item.label}</a></li>)}</ul></nav></div>
+      <div className="ml-auto flex items-center gap-1"><form role="search" action="/search" className="hidden items-center gap-2 rounded-full bg-paper px-3.5 md:flex"><IconSearch /><input name="q" type="search" placeholder="Search" aria-label="Search" className="h-9 w-28 bg-transparent text-sm outline-none placeholder:text-ink-3 focus:w-44 transition-[width]" /></form><a href="/search" className="rounded-full p-2 hover:bg-paper md:hidden" aria-label="Search"><IconSearch /></a><a href="/help#wishlist" className="hidden rounded-full p-2 hover:bg-paper md:inline-flex" aria-label="Saved gear"><IconHeart /></a><a href="/help#account" className="rounded-full p-2 hover:bg-paper" aria-label="Account"><IconUser /></a><button type="button" onClick={() => setOpen(true)} className="relative rounded-full p-2 hover:bg-paper" aria-label={`Bag, ${count} items`}><IconBag />{count > 0 && <span className="absolute -right-0.5 -top-0.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-ink px-1 text-[length:var(--text-10)] font-semibold text-white">{count}</span>}</button></div>
+    </div>
+    {activeItem && <div className="absolute inset-x-0 top-full hidden border-b hairline bg-white shadow-[var(--shadow-card)] lg:block" onMouseEnter={() => openMenu(activeItem.label)}><div className="container-x grid grid-cols-[var(--header-mega-grid)] gap-8 py-8">{(activeItem.columns ?? []).map((column) => <div key={column.title}><h3 className="text-xs font-semibold uppercase tracking-wider text-ink-3">{column.title}</h3><ul className="mt-3 space-y-2">{column.links.map((link) => <li key={`${link.label}-${link.href}`}><a href={link.href} className="text-[length:var(--text-15)] hover:underline underline-offset-4">{link.label}</a></li>)}</ul></div>)}{activeItem.tile && <a href={activeItem.tile.href} className="group relative col-start-4 aspect-[5/4] overflow-hidden rounded-lg"><img src={activeItem.tile.image} alt={activeItem.tile.imageAlt} className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-[var(--scale-hover)]" /><span className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" /><span className="absolute inset-x-0 bottom-0 p-4 text-white"><span className="block text-[length:var(--text-11)] font-medium uppercase tracking-wider opacity-80">{activeItem.tile.eyebrow}</span><span className="mt-1 block text-lg font-semibold leading-tight">{activeItem.tile.title}</span></span></a>}</div></div>}
+    </div>
+    {mobileOpen && <div className="fixed inset-x-0 bottom-0 top-[var(--header-mobile-menu-top)] z-50 overflow-y-auto bg-white lg:hidden"><form role="search" action="/search" className="container-x py-3"><div className="flex items-center gap-2 rounded-full bg-paper px-4"><IconSearch /><input name="q" type="search" placeholder="Search" aria-label="Search" className="h-11 w-full bg-transparent text-base outline-none" /></div></form><ul className="divide-y hairline border-y">{navigation.map((item) => <li key={item.id}>{item.columns?.length ? <><button type="button" onClick={() => setMobileSection((value) => value === item.label ? null : item.label)} aria-expanded={mobileSection === item.label} className="container-x flex w-full items-center justify-between py-4 text-left text-base font-medium">{item.label}<span aria-hidden="true">{mobileSection === item.label ? '−' : '+'}</span></button>{mobileSection === item.label && <div className="container-x space-y-5 bg-paper pb-5 pt-2"><a href={item.href} className="block text-sm font-semibold underline underline-offset-4">All {item.label.toLowerCase()}</a>{(item.columns ?? []).map((column) => <div key={column.title}><h3 className="text-xs font-semibold uppercase tracking-wider text-ink-3">{column.title}</h3><ul className="mt-2 space-y-2">{column.links.map((link) => <li key={`${link.label}-${link.href}`}><a href={link.href} className="text-sm">{link.label}</a></li>)}</ul></div>)}</div>}</> : <a href={item.href} className="container-x block py-4 text-base font-medium">{item.label}</a>}</li>)}</ul><ul className="container-x space-y-3 py-5 text-sm">{[...utilityLinks, { id: 'stores', label: 'Find a store', href: '/stores' }].map((link) => <li key={link.id}><a href={link.href}>{link.label}</a></li>)}</ul></div>}
+  </header>;
 }
+
+function SourceBrand({ href, label, logo }: { href: string; label: string; logo: string }) { return <a href={href} aria-label={`${label} home`} className="source-brand inline-flex items-center gap-2"><img src={logo} alt="" width="36" height="36" className="h-9 w-9" /><span className="wordmark text-[length:var(--text-24)] leading-none">{label}</span></a>; }

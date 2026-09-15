@@ -1,0 +1,249 @@
+{
+  "$type": "page",
+  "id": "product-shilshole-rain-jacket",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Shilshole Rain Jacket, PU deck jacket",
+    "description": "PU-coated deck jacket, welded seams, 25,000mm hydrostatic head. Made in Seattle since 1968. No breathability at all."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Men's",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Jackets and shells",
+              "href": "/shop/mens?sub=jackets"
+            },
+            {
+              "label": "Shilshole Rain Jacket",
+              "href": "/products/shilshole-rain-jacket"
+            }
+          ],
+          "name": "Shilshole Rain Jacket",
+          "tagline": "Hosing down a boat. Nothing gets through.",
+          "price": "$199",
+          "colorName": "Hi-Vis Orange",
+          "colors": [
+            "#ff6a13",
+            "#2f3840",
+            "#e8f01e"
+          ],
+          "colorOptions": [
+            {
+              "name": "Hi-Vis Orange",
+              "hex": "#ff6a13"
+            },
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            },
+            {
+              "name": "Hi-Vis Yellow",
+              "hex": "#e8f01e"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-hero-deck-3.webp",
+              "alt": "Shilshole Rain Jacket",
+              "caption": "Hi-Vis Orange"
+            },
+            {
+              "image": "/assets/ballard/images/photo-hero-deck-0.webp",
+              "alt": "Shilshole Rain Jacket",
+              "caption": "Model is 5'11\", wearing a size M"
+            },
+            {
+              "image": "/assets/ballard/images/photo-fishing-7.webp",
+              "alt": "Shilshole Rain Jacket"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "A PU-coated deck jacket in the pattern we've made since 1968. 300D polyester with a 0.35mm PU face, welded seams, no membrane to fail. Storm cuffs inside the sleeves, a hood that snaps off, and a back length that covers you bent over a rail.",
+            "No breathability at all. It's a rubber coat. Work hard in it and you'll be wet from sweat instead of rain. For anything more than standing and hosing, look at the Salmon Bay Parka."
+          ],
+          "tradeoff": "No breathability at all. It's a rubber coat.",
+          "fit": "Runs large. Size down unless you're wearing it over a bib and two layers.",
+          "care": "Hose off. Don't machine wash. Repair-eligible; we re-weld seams.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "300D polyester, 0.35mm PU face, 25,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Seams",
+              "value": "High-frequency welded"
+            },
+            {
+              "label": "Weight",
+              "value": "980 g (size M)"
+            },
+            {
+              "label": "Made in",
+              "value": "USA (Seattle, WA)"
+            }
+          ],
+          "related": [
+            {
+              "id": "bosun-sweater",
+              "image": "/assets/ballard/images/photo-sweater-2.webp",
+              "imageAlt": "Bosun Sweater in Oat",
+              "title": "Bosun Sweater",
+              "href": "/products/bosun-sweater",
+              "description": "8-gauge wool for wind on the water.",
+              "price": "$169",
+              "colors": [
+                "#d8cdb8",
+                "#22304a",
+                "#3d3d3d"
+              ],
+              "category": "sweaters",
+              "conditions": [
+                "cold",
+                "wind",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

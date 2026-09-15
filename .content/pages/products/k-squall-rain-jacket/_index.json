@@ -1,0 +1,251 @@
+{
+  "$type": "page",
+  "id": "product-k-squall-rain-jacket",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Kids' Squall Rain Jacket, grows one size",
+    "description": "Kids' 2.5-layer rain jacket, 10,000mm hydrostatic head, fold-out grow room at cuff and hem."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Kids'",
+              "href": "/shop/kids"
+            },
+            {
+              "label": "Rain jackets",
+              "href": "/shop/kids?sub=jackets"
+            },
+            {
+              "label": "Squall Rain Jacket",
+              "href": "/products/k-squall-rain-jacket"
+            }
+          ],
+          "name": "Squall Rain Jacket",
+          "tagline": "School-day rain. Grows one size with the cuffs let out.",
+          "price": "$89",
+          "colorName": "Hi-Vis Yellow",
+          "colors": [
+            "#e8f01e",
+            "#a8482a",
+            "#22304a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Hi-Vis Yellow",
+              "hex": "#e8f01e"
+            },
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            },
+            {
+              "name": "Navy",
+              "hex": "#22304a"
+            }
+          ],
+          "sizes": [
+            "2T",
+            "3T",
+            "4T",
+            "5T",
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-kids-2.webp",
+              "alt": "Squall Rain Jacket",
+              "caption": "Hi-Vis Yellow"
+            },
+            {
+              "image": "/assets/ballard/images/photo-kids-6.webp",
+              "alt": "Squall Rain Jacket",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "2.5-layer shell, 10,000mm (hydrostatic head), seam-taped, with a hood that stays up in wind. Cuffs and hem have a fold-out extension that adds 4 cm, so the jacket lasts two seasons instead of one. Reflective tape on the back and sleeves.",
+            "Not warm on its own. It's a shell. Put a fleece under it below 50°F."
+          ],
+          "tradeoff": "Not warm on its own. Put a fleece under it below 50°F.",
+          "fit": "Runs large by design. Buy your kid's current size.",
+          "care": "Machine wash cold, tumble dry low. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Shell",
+              "value": "2.5-layer 70D nylon, 10,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Weight",
+              "value": "260 g (size M)"
+            },
+            {
+              "label": "Grow room",
+              "value": "4 cm at cuff and hem"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "k-drizzle-rain-pant",
+              "image": "/assets/ballard/images/photo-kids-0.webp",
+              "imageAlt": "Drizzle Rain Pant in Navy",
+              "title": "Drizzle Rain Pant",
+              "href": "/products/k-drizzle-rain-pant",
+              "description": "Puddles and wet grass. Goes on over boots.",
+              "price": "$59",
+              "colors": [
+                "#22304a",
+                "#e8f01e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            },
+            {
+              "id": "w-fathom-shell",
+              "image": "/assets/ballard/images/photo-women-jackets-7.webp",
+              "imageAlt": "Fathom Shell in Rust",
+              "badge": "New",
+              "title": "Fathom Shell",
+              "href": "/products/w-fathom-shell",
+              "description": "Rain you didn't plan for. Packs into its own pocket.",
+              "price": "$229",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#3b4a3a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

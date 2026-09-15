@@ -1,0 +1,291 @@
+{
+  "$type": "page",
+  "id": "shop-womens",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Women's | Ballard",
+    "description": "Cut on a women's block, built to the same standard. Every piece has a tradeoff line."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "listing",
+        "component": "product_listing",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Shop",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Women's",
+              "href": "/shop/womens"
+            }
+          ],
+          "heading": "Women's",
+          "description": "Cut on a women's block, built to the same standard. Every piece has a tradeoff line.",
+          "categories": [
+            {
+              "label": "All",
+              "key": ""
+            },
+            {
+              "label": "Jackets and shells",
+              "key": "jackets"
+            },
+            {
+              "label": "Fleece",
+              "key": "fleece"
+            },
+            {
+              "label": "Shirts and flannels",
+              "key": "shirts"
+            },
+            {
+              "label": "Pants and bibs",
+              "key": "pants"
+            },
+            {
+              "label": "Sweaters",
+              "key": "sweaters"
+            },
+            {
+              "label": "Hats and accessories",
+              "key": "accessories"
+            }
+          ],
+          "products": [
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-2.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "title": "Duwamish Work Pant",
+              "href": "/products/w-duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "0",
+                "2",
+                "4",
+                "6",
+                "8",
+                "10",
+                "12",
+                "14",
+                "16"
+              ]
+            },
+            {
+              "id": "w-fathom-fleece",
+              "image": "/assets/ballard/images/photo-fleece-5.webp",
+              "imageAlt": "Fathom Fleece in Oat",
+              "badge": "Best seller",
+              "title": "Fathom Fleece",
+              "href": "/products/w-fathom-fleece",
+              "description": "Mid-layer for 30°F to 50°F under a shell.",
+              "price": "$139",
+              "colors": [
+                "#d8cdb8",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-fathom-shell",
+              "image": "/assets/ballard/images/photo-women-jackets-7.webp",
+              "imageAlt": "Fathom Shell in Rust",
+              "badge": "New",
+              "title": "Fathom Shell",
+              "href": "/products/w-fathom-shell",
+              "description": "Rain you didn't plan for. Packs into its own pocket.",
+              "price": "$229",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#3b4a3a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-halyard-shirt-jacket",
+              "image": "/assets/ballard/images/photo-rain-shell-7.webp",
+              "imageAlt": "Halyard Shirt Jacket in Olive",
+              "title": "Halyard Shirt Jacket",
+              "href": "/products/w-halyard-shirt-jacket",
+              "description": "Wind and drizzle under 60°F. Waxed cotton, reproofable.",
+              "price": "$189",
+              "colors": [
+                "#5a5f3e",
+                "#b89a6a",
+                "#a8482a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "wind",
+                "commute",
+                "rain"
+              ],
+              "materials": [
+                "waxed-cotton"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-salmon-bay-parka",
+              "image": "/assets/ballard/images/photo-women-jackets-2.webp",
+              "imageAlt": "Salmon Bay Parka in Slate",
+              "badge": "Best seller",
+              "title": "Salmon Bay Parka",
+              "href": "/products/w-salmon-bay-parka",
+              "description": "Standing on a wet deck for eight hours.",
+              "price": "$349",
+              "colors": [
+                "#5b6670",
+                "#2f3840",
+                "#a8482a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "deck",
+                "wind"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-sound-rain-jacket",
+              "image": "/assets/ballard/images/photo-women-jackets-4.webp",
+              "imageAlt": "Sound Rain Jacket in Kelp",
+              "badge": "New",
+              "title": "Sound Rain Jacket",
+              "href": "/products/w-sound-rain-jacket",
+              "description": "Daily rain, 12,000mm, long enough to cover a seat.",
+              "price": "$179",
+              "colors": [
+                "#3b4a3a",
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "commute"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

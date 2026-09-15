@@ -1,0 +1,233 @@
+{
+  "$type": "page",
+  "id": "product-foghorn-daypack",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Foghorn Daypack, 22 L roll-top",
+    "description": "22 L roll-top daypack, 630D PU-faced nylon. Commute in rain without a cover. No laptop padding."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Packs and gear",
+              "href": "/shop/packs-gear"
+            },
+            {
+              "label": "Packs",
+              "href": "/shop/packs-gear?sub=packs"
+            },
+            {
+              "label": "Foghorn Daypack",
+              "href": "/products/foghorn-daypack"
+            }
+          ],
+          "name": "Foghorn Daypack",
+          "tagline": "22 L. Commute in rain without a cover.",
+          "price": "$129",
+          "colorName": "Dark Slate",
+          "colors": [
+            "#2f3840",
+            "#5a5f3e",
+            "#b89a6a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            },
+            {
+              "name": "Olive",
+              "hex": "#5a5f3e"
+            },
+            {
+              "name": "Tan",
+              "hex": "#b89a6a"
+            }
+          ],
+          "sizes": [
+            "22 L"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-backpack-product-0.webp",
+              "alt": "Foghorn Daypack",
+              "caption": "Dark Slate"
+            },
+            {
+              "image": "/assets/ballard/images/photo-backpacking-2.webp",
+              "alt": "Foghorn Daypack",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "630D nylon with a PU face and a roll-top closure, so there's no zipper on top to leak. 22 L. One internal sleeve, one external zipped pocket with a water-resistant zip, and a front daisy chain. Shoulder straps are 8mm foam with a sternum strap.",
+            "No laptop padding. The internal sleeve holds a 15-inch laptop, but it's a fabric sleeve. If you drop the pack, you drop the laptop."
+          ],
+          "tradeoff": "No laptop padding.",
+          "fit": "",
+          "care": "Wipe down. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "630D nylon, PU face, 10,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Volume",
+              "value": "22 L"
+            },
+            {
+              "label": "Weight",
+              "value": "720 g"
+            },
+            {
+              "label": "Closure",
+              "value": "Roll-top, 3 rolls to seal"
+            },
+            {
+              "label": "Made in",
+              "value": "Philippines"
+            }
+          ],
+          "related": [
+            {
+              "id": "bosun-duffel",
+              "image": "/assets/ballard/images/photo-backpack-product-3.webp",
+              "imageAlt": "Bosun Duffel in Dark Slate",
+              "title": "Bosun Duffel",
+              "href": "/products/bosun-duffel",
+              "description": "70 L. Thrown in a truck bed, left in the rain.",
+              "price": "$189",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "bags",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "70 L"
+              ]
+            },
+            {
+              "id": "deck-boot",
+              "image": "/assets/ballard/images/photo-boots-2.webp",
+              "imageAlt": "Deck Boot in Dark Slate",
+              "title": "Deck Boot",
+              "href": "/products/deck-boot",
+              "description": "Wet deck, fish slime, hose-down at the end of the day.",
+              "price": "$119",
+              "colors": [
+                "#2f3840",
+                "#b89a6a"
+              ],
+              "category": "footwear",
+              "conditions": [
+                "deck",
+                "rain"
+              ],
+              "materials": [
+                "rubber"
+              ],
+              "sizes": [
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13"
+              ]
+            },
+            {
+              "id": "deckhand-glove",
+              "image": "/assets/ballard/images/photo-gloves-1.webp",
+              "imageAlt": "Deckhand Glove in Tan",
+              "title": "Deckhand Glove",
+              "href": "/products/deckhand-glove",
+              "description": "Line handling, wet rope, cold hands.",
+              "price": "$48",
+              "colors": [
+                "#b89a6a",
+                "#151515"
+              ],
+              "category": "accessories",
+              "conditions": [
+                "deck",
+                "wind"
+              ],
+              "materials": [
+                "leather"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            },
+            {
+              "id": "ridgeline-sock",
+              "image": "/assets/ballard/images/photo-socks-1.webp",
+              "imageAlt": "Ridgeline Sock in Oat",
+              "title": "Ridgeline Sock",
+              "href": "/products/ridgeline-sock",
+              "description": "Boot sock for 12-hour days. 70% merino.",
+              "price": "$24",
+              "colors": [
+                "#d8cdb8",
+                "#3d3d3d",
+                "#a8482a"
+              ],
+              "category": "accessories",
+              "conditions": [
+                "cold",
+                "trail",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "$type": "page",
+  "id": "story-what-we-repair-and-what-we-dont",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "What we repair and what we don't | Ballard",
+    "description": "Seams, zips, snaps, tape, and wax. Not socks. Not boots. Here's the list."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "article",
+        "component": "story_detail",
+        "props": {
+          "kind": "Repair",
+          "title": "What we repair and what we don't",
+          "description": "Seams, zips, snaps, tape, and wax. Not socks. Not boots. Here's the list.",
+          "author": "Ballard repair",
+          "date": "April 10, 2026",
+          "readTime": "3 min read",
+          "image": "/assets/ballard/images/photo-repair-1.webp",
+          "imageAlt": "What we repair and what we don't",
+          "paragraphs": [
+            "We repair anything with a seam, a zip, a snap, or a coating: shells, bibs, fleece, waxed cotton, sweaters, packs, and duffels. Repairs on Ballard gear are free for the life of the gear. You pay shipping one way.",
+            "We don't repair socks, gloves, or boots. Socks and gloves wear through where they're supposed to. Boots are rubber, and a patched rubber boot leaks. When these wear out, they're worn out.",
+            "Turnaround is about two weeks from the day we receive it. Repairs done at the Fremont and Bellingham stores are usually faster. Bring it in, or start a repair request online."
+          ],
+          "more": [
+            {
+              "id": "how-to-reproof-waxed-cotton",
+              "image": "/assets/ballard/images/photo-repair-3.webp",
+              "imageAlt": "How to reproof waxed cotton",
+              "title": "How to reproof waxed cotton",
+              "description": "Once a year, 40 minutes, a hair dryer. Here's the whole process.",
+              "readTime": "4 min read",
+              "href": "/stories/how-to-reproof-waxed-cotton"
+            },
+            {
+              "id": "eight-hours-on-the-deck",
+              "image": "/assets/ballard/images/photo-fishing-7.webp",
+              "imageAlt": "Eight hours on the deck",
+              "title": "Eight hours on the deck",
+              "description": "What a shift on a Bristol Bay gillnetter asks of a jacket, measured.",
+              "readTime": "6 min read",
+              "href": "/stories/eight-hours-on-the-deck"
+            },
+            {
+              "id": "we-have-made-this-jacket-since-1971",
+              "image": "/assets/ballard/images/photo-factory-2.webp",
+              "imageAlt": "We've made this jacket since 1971",
+              "title": "We've made this jacket since 1971",
+              "description": "The Salmon Bay Parka pattern has changed twice. Here's what changed and why.",
+              "readTime": "5 min read",
+              "href": "/stories/we-have-made-this-jacket-since-1971"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

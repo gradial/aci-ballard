@@ -1,0 +1,240 @@
+{
+  "$type": "page",
+  "id": "product-field-insulated-bib",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Field Insulated Bib, ANSI Class E",
+    "description": "ANSI/ISEA 107-2020 Class E insulated bib, 10,000mm shell, 200 g insulation. S to 5XL."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Ballard Field",
+              "href": "/shop/field"
+            },
+            {
+              "label": "Pants and bibs",
+              "href": "/shop/field?sub=pants"
+            },
+            {
+              "label": "Field Insulated Bib",
+              "href": "/products/field-insulated-bib"
+            }
+          ],
+          "name": "Field Insulated Bib",
+          "tagline": "ANSI/ISEA 107-2020 Class E insulated bib for winter crews.",
+          "price": "$189",
+          "colorName": "Hi-Vis Yellow",
+          "colors": [
+            "#e8f01e",
+            "#ff6a13"
+          ],
+          "colorOptions": [
+            {
+              "name": "Hi-Vis Yellow",
+              "hex": "#e8f01e"
+            },
+            {
+              "name": "Hi-Vis Orange",
+              "hex": "#ff6a13"
+            }
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL",
+            "4XL",
+            "5XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-hi-vis-2.webp",
+              "alt": "Field Insulated Bib",
+              "caption": "Hi-Vis Yellow"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "Certified to ANSI/ISEA 107-2020 Class E. Paired with any Class 2 or Class 3 upper it makes a Class 3 ensemble. 300D fluorescent polyester shell, 200 g polyester insulation, PU coating to 10,000mm (hydrostatic head). Full-length leg zips go on over boots. Reinforced knees and seat.",
+            "Warm enough that your crew will overheat above 40°F. For shoulder seasons, pair the Field Work Pant with the Field Hi-Vis Rain Jacket instead."
+          ],
+          "tradeoff": "Too warm above 40°F.",
+          "fit": "Runs large to fit over work pants. Order street size.",
+          "care": "Machine wash warm. Repair-eligible under program terms.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Certification",
+              "value": "ANSI/ISEA 107-2020 Class E (Class 3 as an ensemble)"
+            },
+            {
+              "label": "Shell",
+              "value": "300D polyester, PU coated, 10,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Insulation",
+              "value": "200 g/m² polyester"
+            },
+            {
+              "label": "Sizes",
+              "value": "S to 5XL, regular and tall"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "drop-chinook-rust",
+              "image": "/assets/ballard/images/photo-hero-deck-4.webp",
+              "imageAlt": "Chinook Bib in Rust",
+              "badge": "Limited run",
+              "title": "Chinook Bib",
+              "href": "/products/drop-chinook-rust",
+              "description": "Rust colorway with a hi-vis cuff. 120 made.",
+              "price": "$279",
+              "colors": [
+                "#a8482a"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "k-drizzle-rain-pant",
+              "image": "/assets/ballard/images/photo-kids-0.webp",
+              "imageAlt": "Drizzle Rain Pant in Navy",
+              "title": "Drizzle Rain Pant",
+              "href": "/products/k-drizzle-rain-pant",
+              "description": "Puddles and wet grass. Goes on over boots.",
+              "price": "$59",
+              "colors": [
+                "#22304a",
+                "#e8f01e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "2T",
+                "3T",
+                "4T",
+                "5T",
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            },
+            {
+              "id": "w-duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-2.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "title": "Duwamish Work Pant",
+              "href": "/products/w-duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "0",
+                "2",
+                "4",
+                "6",
+                "8",
+                "10",
+                "12",
+                "14",
+                "16"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

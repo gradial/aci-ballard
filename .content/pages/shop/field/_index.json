@@ -1,0 +1,355 @@
+{
+  "$type": "page",
+  "id": "shop-field",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Ballard Field | Ballard",
+    "description": "Uniform and workwear programs. Specs lead. Compliance is stated with the standard number."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "listing",
+        "component": "product_listing",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Shop",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Ballard Field",
+              "href": "/shop/field"
+            }
+          ],
+          "heading": "Ballard Field",
+          "description": "Uniform and workwear programs. Specs lead. Compliance is stated with the standard number.",
+          "categories": [
+            {
+              "label": "All",
+              "key": ""
+            },
+            {
+              "label": "Coveralls",
+              "key": "coveralls"
+            },
+            {
+              "label": "Hi-vis outerwear",
+              "key": "jackets"
+            },
+            {
+              "label": "Vests",
+              "key": "vests"
+            },
+            {
+              "label": "Work shirts",
+              "key": "shirts"
+            },
+            {
+              "label": "Pants and bibs",
+              "key": "pants"
+            }
+          ],
+          "products": [
+            {
+              "id": "field-fr-coverall",
+              "image": "/assets/ballard/images/photo-workwear-2.webp",
+              "imageAlt": "Field FR Coverall in Navy",
+              "title": "Field FR Coverall",
+              "href": "/products/field-fr-coverall",
+              "description": "NFPA 70E CAT 2 arc-rated coverall for line and gas crews.",
+              "price": "$249",
+              "colors": [
+                "#22304a",
+                "#b8a37a"
+              ],
+              "category": "coveralls",
+              "conditions": [
+                "deck"
+              ],
+              "materials": [
+                "cotton",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-rain-jacket",
+              "image": "/assets/ballard/images/photo-hi-vis-1.webp",
+              "imageAlt": "Field Hi-Vis Rain Jacket in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Rain Jacket",
+              "href": "/products/field-hi-vis-rain-jacket",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3, waterproof to 15,000mm.",
+              "price": "$219",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-softshell",
+              "image": "/assets/ballard/images/photo-hi-vis-0.webp",
+              "imageAlt": "Field Hi-Vis Softshell in Hi-Vis Yellow",
+              "title": "Field Hi-Vis Softshell",
+              "href": "/products/field-hi-vis-softshell",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3 certified outer layer.",
+              "price": "$189",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "wind",
+                "cold"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-vest",
+              "image": "/assets/ballard/images/photo-workwear-0.webp",
+              "imageAlt": "Field Hi-Vis Vest in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Vest",
+              "href": "/products/field-hi-vis-vest",
+              "description": "ANSI/ISEA 107-2020 Type R Class 2 vest, zip front, five pockets.",
+              "price": "$32",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "vests",
+              "conditions": [
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-insulated-bib",
+              "image": "/assets/ballard/images/photo-hi-vis-2.webp",
+              "imageAlt": "Field Insulated Bib in Hi-Vis Yellow",
+              "title": "Field Insulated Bib",
+              "href": "/products/field-insulated-bib",
+              "description": "ANSI/ISEA 107-2020 Class E insulated bib for winter crews.",
+              "price": "$189",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "cold",
+                "rain"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-polo",
+              "image": "/assets/ballard/images/photo-workwear-5.webp",
+              "imageAlt": "Field Polo in Navy",
+              "title": "Field Polo",
+              "href": "/products/field-polo",
+              "description": "Program polo, moisture-wicking, embroidery-ready on both chests.",
+              "price": "$42",
+              "colors": [
+                "#22304a",
+                "#3d3d3d",
+                "#9fb4c7",
+                "#e8f01e"
+              ],
+              "category": "shirts",
+              "conditions": [
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-utility-coverall",
+              "image": "/assets/ballard/images/photo-workwear-3.webp",
+              "imageAlt": "Field Utility Coverall in Navy",
+              "title": "Field Utility Coverall",
+              "href": "/products/field-utility-coverall",
+              "description": "Issued coverall for facilities and utility crews.",
+              "price": "$139",
+              "colors": [
+                "#22304a",
+                "#3d3d3d",
+                "#ff6a13"
+              ],
+              "category": "coveralls",
+              "conditions": [
+                "deck"
+              ],
+              "materials": [
+                "cotton",
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-work-pant",
+              "image": "/assets/ballard/images/photo-workwear-4.webp",
+              "imageAlt": "Field Work Pant in Navy",
+              "title": "Field Work Pant",
+              "href": "/products/field-work-pant",
+              "description": "Program work pant, 8.5 oz twill, 50 industrial launder cycles.",
+              "price": "$68",
+              "colors": [
+                "#22304a",
+                "#3d3d3d",
+                "#b8a37a"
+              ],
+              "category": "pants",
+              "conditions": [
+                "commute"
+              ],
+              "materials": [
+                "cotton",
+                "polyester"
+              ],
+              "sizes": [
+                "28",
+                "30",
+                "32",
+                "34",
+                "36",
+                "38",
+                "40",
+                "42",
+                "44",
+                "48",
+                "54"
+              ]
+            },
+            {
+              "id": "field-work-shirt",
+              "image": "/assets/ballard/images/photo-hi-vis-4.webp",
+              "imageAlt": "Field Work Shirt in Navy",
+              "title": "Field Work Shirt",
+              "href": "/products/field-work-shirt",
+              "description": "Program work shirt, industrial launder rated.",
+              "price": "$58",
+              "colors": [
+                "#22304a",
+                "#3d3d3d",
+                "#9fb4c7"
+              ],
+              "category": "shirts",
+              "conditions": [
+                "commute"
+              ],
+              "materials": [
+                "cotton",
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

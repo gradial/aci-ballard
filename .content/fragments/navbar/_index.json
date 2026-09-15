@@ -5,13 +5,476 @@
   "props": {
     "brandHref": "/",
     "brandLabel": "Ballard",
-    "brandLogo": { "src": "/assets/ballard-horizontal-lockup.svg", "alt": "Ballard. Gear that earns its keep." },
-    "navigation": [
-      { "id": "gear", "label": "Gear", "href": "/gear/" },
-      { "id": "field", "label": "Ballard Field", "href": "/field/" },
-      { "id": "repair", "label": "Repair", "href": "/repair/" },
-      { "id": "about", "label": "About", "href": "/about/" }
+    "brandLogo": "/assets/ballard/images/ballard-logo-black-transparent.svg",
+    "utilityLinks": [
+      {
+        "id": "repair",
+        "label": "Repair",
+        "href": "/repair"
+      },
+      {
+        "id": "stories",
+        "label": "Stories",
+        "href": "/stories"
+      },
+      {
+        "id": "ballard-field",
+        "label": "Ballard Field",
+        "href": "/field"
+      }
     ],
-    "utility": { "id": "find-store", "label": "Find a store", "href": "/stores/" }
+    "promo": {
+      "id": "promo",
+      "label": "Free repair on any Ballard gear, any age",
+      "href": "/repair"
+    },
+    "announcements": [
+      {
+        "id": "free-repair-on-any-ballard-gear-any-age",
+        "label": "Free repair on any Ballard gear, any age",
+        "href": "/repair"
+      },
+      {
+        "id": "free-shipping-on-orders-over-99",
+        "label": "Free shipping on orders over $99",
+        "href": "/help"
+      },
+      {
+        "id": "the-salmon-bay-is-back-in-slate",
+        "label": "The Salmon Bay is back in slate",
+        "href": "/products/salmon-bay-parka"
+      }
+    ],
+    "navigation": [
+      {
+        "id": "featured",
+        "label": "Featured",
+        "href": "/shop/new",
+        "columns": [
+          {
+            "title": "This season",
+            "links": [
+              {
+                "label": "New this season",
+                "href": "/shop/new"
+              },
+              {
+                "label": "Best sellers",
+                "href": "/shop/best-sellers"
+              },
+              {
+                "label": "Waxed cotton",
+                "href": "/shop/mens?sub=jackets&material=waxed-cotton"
+              },
+              {
+                "label": "Foul-weather gear",
+                "href": "/shop/mens?condition=rain"
+              },
+              {
+                "label": "Ballard Drops",
+                "href": "/drops"
+              },
+              {
+                "label": "Wrenfield",
+                "href": "/wrenfield"
+              }
+            ]
+          },
+          {
+            "title": "Programs",
+            "links": [
+              {
+                "label": "Repair",
+                "href": "/repair"
+              },
+              {
+                "label": "Ballard Field",
+                "href": "/field"
+              },
+              {
+                "label": "Find a store",
+                "href": "/stores"
+              },
+              {
+                "label": "Size and fit",
+                "href": "/help#sizing"
+              }
+            ]
+          }
+        ],
+        "tile": {
+          "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+          "eyebrow": "Back in stock",
+          "title": "Salmon Bay Parka in slate",
+          "href": "/products/salmon-bay-parka",
+          "imageAlt": "Salmon Bay Parka in slate"
+        }
+      },
+      {
+        "id": "men-s",
+        "label": "Men's",
+        "href": "/shop/mens",
+        "columns": [
+          {
+            "title": "Shop by category",
+            "links": [
+              {
+                "label": "Jackets and shells",
+                "href": "/shop/mens?sub=jackets"
+              },
+              {
+                "label": "Fleece",
+                "href": "/shop/mens?sub=fleece"
+              },
+              {
+                "label": "Shirts and flannels",
+                "href": "/shop/mens?sub=shirts"
+              },
+              {
+                "label": "Pants and bibs",
+                "href": "/shop/mens?sub=pants"
+              },
+              {
+                "label": "Sweaters",
+                "href": "/shop/mens?sub=sweaters"
+              },
+              {
+                "label": "Hats and gloves",
+                "href": "/shop/mens?sub=accessories"
+              },
+              {
+                "label": "Socks",
+                "href": "/shop/mens?sub=accessories"
+              },
+              {
+                "label": "Workwear",
+                "href": "/field"
+              }
+            ]
+          },
+          {
+            "title": "Shop by condition",
+            "links": [
+              {
+                "label": "Rain",
+                "href": "/shop/mens?condition=rain"
+              },
+              {
+                "label": "Cold",
+                "href": "/shop/mens?condition=cold"
+              },
+              {
+                "label": "Wind",
+                "href": "/shop/mens?condition=wind"
+              },
+              {
+                "label": "Deck work",
+                "href": "/shop/mens?condition=deck"
+              },
+              {
+                "label": "Trail",
+                "href": "/shop/mens?condition=trail"
+              },
+              {
+                "label": "Commute",
+                "href": "/shop/mens?condition=commute"
+              }
+            ]
+          },
+          {
+            "title": "Featured",
+            "links": [
+              {
+                "label": "New this season",
+                "href": "/shop/new"
+              },
+              {
+                "label": "Best sellers",
+                "href": "/shop/best-sellers"
+              },
+              {
+                "label": "Waxed cotton",
+                "href": "/shop/mens?material=waxed-cotton"
+              },
+              {
+                "label": "Repair-eligible gear",
+                "href": "/repair"
+              }
+            ]
+          }
+        ],
+        "tile": {
+          "image": "/assets/ballard/images/photo-men-jackets-6.webp",
+          "eyebrow": "Men's",
+          "title": "Fathom Shell, packable to a fist",
+          "href": "/products/fathom-shell",
+          "imageAlt": "Fathom Shell, packable to a fist"
+        }
+      },
+      {
+        "id": "women-s",
+        "label": "Women's",
+        "href": "/shop/womens",
+        "columns": [
+          {
+            "title": "Shop by category",
+            "links": [
+              {
+                "label": "Jackets and shells",
+                "href": "/shop/womens?sub=jackets"
+              },
+              {
+                "label": "Fleece",
+                "href": "/shop/womens?sub=fleece"
+              },
+              {
+                "label": "Shirts and flannels",
+                "href": "/shop/womens?sub=shirts"
+              },
+              {
+                "label": "Pants and bibs",
+                "href": "/shop/womens?sub=pants"
+              },
+              {
+                "label": "Sweaters",
+                "href": "/shop/womens?sub=sweaters"
+              },
+              {
+                "label": "Hats and gloves",
+                "href": "/shop/womens?sub=accessories"
+              }
+            ]
+          },
+          {
+            "title": "Shop by condition",
+            "links": [
+              {
+                "label": "Rain",
+                "href": "/shop/womens?condition=rain"
+              },
+              {
+                "label": "Cold",
+                "href": "/shop/womens?condition=cold"
+              },
+              {
+                "label": "Wind",
+                "href": "/shop/womens?condition=wind"
+              },
+              {
+                "label": "Trail",
+                "href": "/shop/womens?condition=trail"
+              },
+              {
+                "label": "Commute",
+                "href": "/shop/womens?condition=commute"
+              }
+            ]
+          },
+          {
+            "title": "Featured",
+            "links": [
+              {
+                "label": "New this season",
+                "href": "/shop/new"
+              },
+              {
+                "label": "Best sellers",
+                "href": "/shop/best-sellers"
+              },
+              {
+                "label": "Waxed cotton",
+                "href": "/shop/womens?material=waxed-cotton"
+              },
+              {
+                "label": "Repair-eligible gear",
+                "href": "/repair"
+              }
+            ]
+          }
+        ],
+        "tile": {
+          "image": "/assets/ballard/images/photo-women-hike-5.webp",
+          "eyebrow": "Women's",
+          "title": "Sound Rain Jacket, 12,000mm",
+          "href": "/products/w-sound-rain-jacket",
+          "imageAlt": "Sound Rain Jacket, 12,000mm"
+        }
+      },
+      {
+        "id": "kids",
+        "label": "Kids'",
+        "href": "/shop/kids",
+        "columns": [
+          {
+            "title": "Shop by category",
+            "links": [
+              {
+                "label": "Rain jackets",
+                "href": "/shop/kids?sub=jackets"
+              },
+              {
+                "label": "Rain pants",
+                "href": "/shop/kids?sub=pants"
+              },
+              {
+                "label": "Fleece",
+                "href": "/shop/kids?sub=fleece"
+              },
+              {
+                "label": "Hats and gloves",
+                "href": "/shop/kids?sub=accessories"
+              }
+            ]
+          },
+          {
+            "title": "By age",
+            "links": [
+              {
+                "label": "Toddler, 2T to 5T",
+                "href": "/shop/kids"
+              },
+              {
+                "label": "Kids, XS to XL",
+                "href": "/shop/kids"
+              }
+            ]
+          }
+        ],
+        "tile": {
+          "image": "/assets/ballard/images/photo-kids-6.webp",
+          "eyebrow": "Kids'",
+          "title": "Squall Rain Jacket, grows one size",
+          "href": "/products/k-squall-rain-jacket",
+          "imageAlt": "Squall Rain Jacket, grows one size"
+        }
+      },
+      {
+        "id": "packs-gear",
+        "label": "Packs & gear",
+        "href": "/shop/packs-gear",
+        "columns": [
+          {
+            "title": "Packs and bags",
+            "links": [
+              {
+                "label": "Daypacks",
+                "href": "/shop/packs-gear?sub=packs"
+              },
+              {
+                "label": "Duffels",
+                "href": "/shop/packs-gear?sub=bags"
+              },
+              {
+                "label": "Dry bags",
+                "href": "/shop/packs-gear?sub=bags"
+              }
+            ]
+          },
+          {
+            "title": "Footwear and gloves",
+            "links": [
+              {
+                "label": "Deck boots",
+                "href": "/shop/packs-gear?sub=footwear"
+              },
+              {
+                "label": "Work gloves",
+                "href": "/shop/packs-gear?sub=accessories"
+              },
+              {
+                "label": "Socks",
+                "href": "/shop/packs-gear?sub=accessories"
+              }
+            ]
+          },
+          {
+            "title": "Care",
+            "links": [
+              {
+                "label": "Reproofing wax",
+                "href": "/shop/packs-gear?sub=care"
+              },
+              {
+                "label": "Repair kits",
+                "href": "/shop/packs-gear?sub=care"
+              }
+            ]
+          }
+        ],
+        "tile": {
+          "image": "/assets/ballard/images/photo-backpacking-4.webp",
+          "eyebrow": "Packs",
+          "title": "Foghorn Daypack, 22 L",
+          "href": "/products/foghorn-daypack",
+          "imageAlt": "Foghorn Daypack, 22 L"
+        }
+      },
+      {
+        "id": "ballard-field",
+        "label": "Ballard Field",
+        "href": "/field",
+        "columns": [
+          {
+            "title": "Programs",
+            "links": [
+              {
+                "label": "Uniform programs",
+                "href": "/field#programs"
+              },
+              {
+                "label": "Hi-vis and compliance",
+                "href": "/field#compliance"
+              },
+              {
+                "label": "Embroidery and marking",
+                "href": "/field#programs"
+              },
+              {
+                "label": "Request a quote",
+                "href": "/field#quote"
+              }
+            ]
+          },
+          {
+            "title": "Gear",
+            "links": [
+              {
+                "label": "Coveralls",
+                "href": "/shop/field?sub=coveralls"
+              },
+              {
+                "label": "Hi-vis outerwear",
+                "href": "/shop/field?sub=jackets"
+              },
+              {
+                "label": "Work shirts",
+                "href": "/shop/field?sub=shirts"
+              },
+              {
+                "label": "All Ballard Field gear",
+                "href": "/shop/field"
+              }
+            ]
+          }
+        ],
+        "tile": {
+          "image": "/assets/ballard/images/photo-utility-work-3.webp",
+          "eyebrow": "Ballard Field",
+          "title": "ANSI/ISEA 107-2020 Type R Class 3 options in nine styles",
+          "href": "/field",
+          "imageAlt": "ANSI/ISEA 107-2020 Type R Class 3 options in nine styles"
+        }
+      },
+      {
+        "id": "wrenfield",
+        "label": "Wrenfield",
+        "href": "/wrenfield"
+      },
+      {
+        "id": "drops",
+        "label": "Drops",
+        "href": "/drops"
+      }
+    ]
   }
 }

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "newsletter_callout",
+  "type": "object",
+  "properties": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "formDescription": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "heading",
+    "description",
+    "label",
+    "formDescription"
+  ],
+  "additionalProperties": false
+}

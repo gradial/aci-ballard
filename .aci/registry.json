@@ -1,21 +1,96 @@
 {
   "manifestVersion": "1",
-  "generatedAt": "2026-08-12T03:57:53.944Z",
+  "generatedAt": "2026-09-13T23:57:09.291Z",
   "components": [
     {
-      "id": "field_hero",
-      "name": "field_hero",
-      "props": "schemas/field_hero.schema.json"
+      "id": "category_rail",
+      "name": "category_rail",
+      "props": "schemas/category_rail.schema.json"
     },
     {
-      "id": "gear_grid",
-      "name": "gear_grid",
-      "props": "schemas/gear_grid.schema.json"
+      "id": "shopping_cart",
+      "name": "shopping_cart",
+      "props": "schemas/shopping_cart.schema.json"
     },
     {
-      "id": "process_steps",
-      "name": "process_steps",
-      "props": "schemas/process_steps.schema.json"
+      "id": "contact_form",
+      "name": "contact_form",
+      "props": "schemas/contact_form.schema.json"
+    },
+    {
+      "id": "data_table",
+      "name": "data_table",
+      "props": "schemas/data_table.schema.json"
+    },
+    {
+      "id": "editorial_hero",
+      "name": "editorial_hero",
+      "props": "schemas/editorial_hero.schema.json"
+    },
+    {
+      "id": "error_page",
+      "name": "error_page",
+      "props": "schemas/error_page.schema.json"
+    },
+    {
+      "id": "featured_stories",
+      "name": "featured_stories",
+      "props": "schemas/featured_stories.schema.json"
+    },
+    {
+      "id": "home_hero",
+      "name": "home_hero",
+      "props": "schemas/home_hero.schema.json"
+    },
+    {
+      "id": "help_center",
+      "name": "help_center",
+      "props": "schemas/help_center.schema.json"
+    },
+    {
+      "id": "image_card_grid",
+      "name": "image_card_grid",
+      "props": "schemas/image_card_grid.schema.json"
+    },
+    {
+      "id": "info_split",
+      "name": "info_split",
+      "props": "schemas/info_split.schema.json"
+    },
+    {
+      "id": "link_columns",
+      "name": "link_columns",
+      "props": "schemas/link_columns.schema.json"
+    },
+    {
+      "id": "newsletter_callout",
+      "name": "newsletter_callout",
+      "props": "schemas/newsletter_callout.schema.json"
+    },
+    {
+      "id": "product_grid",
+      "name": "product_grid",
+      "props": "schemas/product_grid.schema.json"
+    },
+    {
+      "id": "product_detail",
+      "name": "product_detail",
+      "props": "schemas/product_detail.schema.json"
+    },
+    {
+      "id": "product_listing",
+      "name": "product_listing",
+      "props": "schemas/product_listing.schema.json"
+    },
+    {
+      "id": "repair_banner",
+      "name": "repair_banner",
+      "props": "schemas/repair_banner.schema.json"
+    },
+    {
+      "id": "service_hero",
+      "name": "service_hero",
+      "props": "schemas/service_hero.schema.json"
     },
     {
       "id": "site_footer",
@@ -28,9 +103,39 @@
       "props": "schemas/site_navigation.schema.json"
     },
     {
-      "id": "working_standard",
-      "name": "working_standard",
-      "props": "schemas/working_standard.schema.json"
+      "id": "search_panel",
+      "name": "search_panel",
+      "props": "schemas/search_panel.schema.json"
+    },
+    {
+      "id": "store_locator",
+      "name": "store_locator",
+      "props": "schemas/store_locator.schema.json"
+    },
+    {
+      "id": "story_grid",
+      "name": "story_grid",
+      "props": "schemas/story_grid.schema.json"
+    },
+    {
+      "id": "story_detail",
+      "name": "story_detail",
+      "props": "schemas/story_detail.schema.json"
+    },
+    {
+      "id": "step_grid",
+      "name": "step_grid",
+      "props": "schemas/step_grid.schema.json"
+    },
+    {
+      "id": "trust_bar",
+      "name": "trust_bar",
+      "props": "schemas/trust_bar.schema.json"
+    },
+    {
+      "id": "text_feature",
+      "name": "text_feature",
+      "props": "schemas/text_feature.schema.json"
     }
   ],
   "layouts": [

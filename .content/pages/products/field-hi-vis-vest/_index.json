@@ -1,0 +1,254 @@
+{
+  "$type": "page",
+  "id": "product-field-hi-vis-vest",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Field Hi-Vis Vest, ANSI Class 2",
+    "description": "ANSI/ISEA 107-2020 Type R Class 2 safety vest, zip front, five pockets. S to 5XL."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Ballard Field",
+              "href": "/shop/field"
+            },
+            {
+              "label": "Vests",
+              "href": "/shop/field?sub=vests"
+            },
+            {
+              "label": "Field Hi-Vis Vest",
+              "href": "/products/field-hi-vis-vest"
+            }
+          ],
+          "name": "Field Hi-Vis Vest",
+          "tagline": "ANSI/ISEA 107-2020 Type R Class 2 vest, zip front, five pockets.",
+          "price": "$32",
+          "colorName": "Hi-Vis Yellow",
+          "colors": [
+            "#e8f01e",
+            "#ff6a13"
+          ],
+          "colorOptions": [
+            {
+              "name": "Hi-Vis Yellow",
+              "hex": "#e8f01e"
+            },
+            {
+              "name": "Hi-Vis Orange",
+              "hex": "#ff6a13"
+            }
+          ],
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "2XL",
+            "3XL",
+            "4XL",
+            "5XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-workwear-0.webp",
+              "alt": "Field Hi-Vis Vest",
+              "caption": "Hi-Vis Yellow"
+            },
+            {
+              "image": "/assets/ballard/images/photo-workwear-7.webp",
+              "alt": "Field Hi-Vis Vest",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "Certified to ANSI/ISEA 107-2020 Type R Class 2. Solid fluorescent polyester front, mesh back, 50mm reflective tape. Zip front, five pockets including a clear ID pocket, and a mic tab. The lowest-cost way to bring a crew into Class 2 compliance over their own clothing.",
+            "A vest is Class 2 on its own only when worn closed over a non-fluorescent layer. Worn over a hi-vis jacket it adds nothing, and worn open it is not compliant."
+          ],
+          "tradeoff": "Not compliant worn open.",
+          "fit": "Runs large to fit over a jacket. Order street size.",
+          "care": "Machine wash warm, 25 cycles rated. Not repair-eligible.",
+          "repairEligible": false,
+          "specs": [
+            {
+              "label": "Certification",
+              "value": "ANSI/ISEA 107-2020 Type R Class 2"
+            },
+            {
+              "label": "Fabric",
+              "value": "100% polyester, solid front, mesh back"
+            },
+            {
+              "label": "Tape",
+              "value": "50mm, 3M Scotchlite"
+            },
+            {
+              "label": "Sizes",
+              "value": "S to 5XL"
+            },
+            {
+              "label": "Launder rating",
+              "value": "25 industrial cycles"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "field-fr-coverall",
+              "image": "/assets/ballard/images/photo-workwear-2.webp",
+              "imageAlt": "Field FR Coverall in Navy",
+              "title": "Field FR Coverall",
+              "href": "/products/field-fr-coverall",
+              "description": "NFPA 70E CAT 2 arc-rated coverall for line and gas crews.",
+              "price": "$249",
+              "colors": [
+                "#22304a",
+                "#b8a37a"
+              ],
+              "category": "coveralls",
+              "conditions": [
+                "deck"
+              ],
+              "materials": [
+                "cotton",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-rain-jacket",
+              "image": "/assets/ballard/images/photo-hi-vis-1.webp",
+              "imageAlt": "Field Hi-Vis Rain Jacket in Hi-Vis Yellow",
+              "badge": "Best seller",
+              "title": "Field Hi-Vis Rain Jacket",
+              "href": "/products/field-hi-vis-rain-jacket",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3, waterproof to 15,000mm.",
+              "price": "$219",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "rain",
+                "wind"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-hi-vis-softshell",
+              "image": "/assets/ballard/images/photo-hi-vis-0.webp",
+              "imageAlt": "Field Hi-Vis Softshell in Hi-Vis Yellow",
+              "title": "Field Hi-Vis Softshell",
+              "href": "/products/field-hi-vis-softshell",
+              "description": "ANSI/ISEA 107-2020 Type R Class 3 certified outer layer.",
+              "price": "$189",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "wind",
+                "cold"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-insulated-bib",
+              "image": "/assets/ballard/images/photo-hi-vis-2.webp",
+              "imageAlt": "Field Insulated Bib in Hi-Vis Yellow",
+              "title": "Field Insulated Bib",
+              "href": "/products/field-insulated-bib",
+              "description": "ANSI/ISEA 107-2020 Class E insulated bib for winter crews.",
+              "price": "$189",
+              "colors": [
+                "#e8f01e",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "cold",
+                "rain"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

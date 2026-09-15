@@ -1,0 +1,62 @@
+{
+  "$type": "page",
+  "id": "story-layering-for-northwest-rain",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Layering for Northwest rain | Ballard",
+    "description": "Three layers, two of which you'll take off. A guide by temperature."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "article",
+        "component": "story_detail",
+        "props": {
+          "kind": "Guide",
+          "title": "Layering for Northwest rain",
+          "description": "Three layers, two of which you'll take off. A guide by temperature.",
+          "author": "Ballard",
+          "date": "May 22, 2026",
+          "readTime": "5 min read",
+          "image": "/assets/ballard/images/photo-seattle-rain-2.webp",
+          "imageAlt": "Layering for Northwest rain",
+          "paragraphs": [
+            "Rain here is rarely cold enough to be dangerous and rarely warm enough to ignore. The usual mistake is one big jacket. You'll be too hot walking and too cold standing.",
+            "Below 40°F: a wool or synthetic base, a fleece, and a shell. Between 40°F and 55°F: base and shell, fleece in the pack. Above 55°F: shell only, and vent it. The shell is the only layer that has to be waterproof. The other two just have to stay warm when they're damp, which is why we don't make cotton mid-layers.",
+            "If you're working hard, the shell is the layer you take off first, not last. You'll get wet either way; wet from rain is colder than wet from sweat because it keeps coming."
+          ],
+          "more": [
+            {
+              "id": "how-to-reproof-waxed-cotton",
+              "image": "/assets/ballard/images/photo-repair-3.webp",
+              "imageAlt": "How to reproof waxed cotton",
+              "title": "How to reproof waxed cotton",
+              "description": "Once a year, 40 minutes, a hair dryer. Here's the whole process.",
+              "readTime": "4 min read",
+              "href": "/stories/how-to-reproof-waxed-cotton"
+            },
+            {
+              "id": "eight-hours-on-the-deck",
+              "image": "/assets/ballard/images/photo-fishing-7.webp",
+              "imageAlt": "Eight hours on the deck",
+              "title": "Eight hours on the deck",
+              "description": "What a shift on a Bristol Bay gillnetter asks of a jacket, measured.",
+              "readTime": "6 min read",
+              "href": "/stories/eight-hours-on-the-deck"
+            },
+            {
+              "id": "we-have-made-this-jacket-since-1971",
+              "image": "/assets/ballard/images/photo-factory-2.webp",
+              "imageAlt": "We've made this jacket since 1971",
+              "title": "We've made this jacket since 1971",
+              "description": "The Salmon Bay Parka pattern has changed twice. Here's what changed and why.",
+              "readTime": "5 min read",
+              "href": "/stories/we-have-made-this-jacket-since-1971"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

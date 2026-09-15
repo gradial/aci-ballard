@@ -1,0 +1,244 @@
+{
+  "$type": "page",
+  "id": "product-wrenfield-mill-shirt",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Wrenfield Mill Shirt, 12 oz wool",
+    "description": "12 oz fulled wool shirt, horn buttons, cut like it was in 1948. Made in Vermont."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Wrenfield",
+              "href": "/wrenfield"
+            },
+            {
+              "label": "Shirts",
+              "href": "/wrenfield?sub=shirts"
+            },
+            {
+              "label": "Wrenfield Mill Shirt",
+              "href": "/products/wrenfield-mill-shirt"
+            }
+          ],
+          "name": "Wrenfield Mill Shirt",
+          "tagline": "12 oz wool shirt for the cold months, cut like it was in 1948.",
+          "price": "$198",
+          "colorName": "Barn Red",
+          "colors": [
+            "#7a2e26",
+            "#8a8781",
+            "#22304a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Barn Red",
+              "hex": "#7a2e26"
+            },
+            {
+              "name": "Heather Grey",
+              "hex": "#8a8781"
+            },
+            {
+              "name": "Navy",
+              "hex": "#22304a"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-wool-shirt-1.webp",
+              "alt": "Wrenfield Mill Shirt",
+              "caption": "Barn Red"
+            },
+            {
+              "image": "/assets/ballard/images/photo-wool-shirt-2.webp",
+              "alt": "Wrenfield Mill Shirt",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "The Mill Shirt was what the weavers wore to work, and it's cut the same way it was in 1948: long in the body, roomy in the arm, with a two-button cuff and a chest pocket sized for a pencil and a notebook. 12 oz wool, fulled after weaving so it sheds a light rain. Buttons are horn.",
+            "Wool this heavy needs a shirt under it, and it's warm enough that you'll take it off indoors. It'll last a couple of decades if you keep the moths off it and don't put it in a dryer."
+          ],
+          "tradeoff": "Too warm to wear indoors.",
+          "fit": "Runs large and long. Size down for a closer fit.",
+          "care": "Dry clean or hand wash cold. Never tumble dry. Wrenfield replaces buttons and elbows.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "100% wool, 12 oz, fulled"
+            },
+            {
+              "label": "Buttons",
+              "value": "Horn, 20L"
+            },
+            {
+              "label": "Weight",
+              "value": "780 g (size M)"
+            },
+            {
+              "label": "Made in",
+              "value": "USA (Bridgewater, VT)"
+            }
+          ],
+          "related": [
+            {
+              "id": "field-polo",
+              "image": "/assets/ballard/images/photo-workwear-5.webp",
+              "imageAlt": "Field Polo in Navy",
+              "title": "Field Polo",
+              "href": "/products/field-polo",
+              "description": "Program polo, moisture-wicking, embroidery-ready on both chests.",
+              "price": "$42",
+              "colors": [
+                "#22304a",
+                "#3d3d3d",
+                "#9fb4c7",
+                "#e8f01e"
+              ],
+              "category": "shirts",
+              "conditions": [
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "field-work-shirt",
+              "image": "/assets/ballard/images/photo-hi-vis-4.webp",
+              "imageAlt": "Field Work Shirt in Navy",
+              "title": "Field Work Shirt",
+              "href": "/products/field-work-shirt",
+              "description": "Program work shirt, industrial launder rated.",
+              "price": "$58",
+              "colors": [
+                "#22304a",
+                "#3d3d3d",
+                "#9fb4c7"
+              ],
+              "category": "shirts",
+              "conditions": [
+                "commute"
+              ],
+              "materials": [
+                "cotton",
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL",
+                "4XL",
+                "5XL"
+              ]
+            },
+            {
+              "id": "whidbey-flannel",
+              "image": "/assets/ballard/images/photo-flannel-0.webp",
+              "imageAlt": "Whidbey Flannel in Barn Red",
+              "title": "Whidbey Flannel",
+              "href": "/products/whidbey-flannel",
+              "description": "7 oz brushed cotton for 45°F to 65°F.",
+              "price": "$89",
+              "colors": [
+                "#7a2e26",
+                "#3b4a3a",
+                "#22304a"
+              ],
+              "category": "shirts",
+              "conditions": [
+                "commute",
+                "cold"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "wrenfield-camp-blanket",
+              "image": "/assets/ballard/images/photo-wool-0.webp",
+              "imageAlt": "Wrenfield Camp Blanket in Barn Red",
+              "title": "Wrenfield Camp Blanket",
+              "href": "/products/wrenfield-camp-blanket",
+              "description": "Vermont wool, woven on the same looms since 1931.",
+              "price": "$249",
+              "colors": [
+                "#7a2e26",
+                "#8a8781",
+                "#3b4a3a"
+              ],
+              "category": "accessories",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "Throw",
+                "Queen"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

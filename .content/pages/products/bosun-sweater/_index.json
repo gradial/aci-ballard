@@ -1,0 +1,249 @@
+{
+  "$type": "page",
+  "id": "product-bosun-sweater",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Bosun Sweater, 8-gauge wool",
+    "description": "100% wool 8-gauge crew sweater, 620 g, saddle shoulders. Same pattern since 1974. Itchy against skin."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Men's",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Sweaters",
+              "href": "/shop/mens?sub=sweaters"
+            },
+            {
+              "label": "Bosun Sweater",
+              "href": "/products/bosun-sweater"
+            }
+          ],
+          "name": "Bosun Sweater",
+          "tagline": "8-gauge wool for wind on the water.",
+          "price": "$169",
+          "colorName": "Oat",
+          "colors": [
+            "#d8cdb8",
+            "#22304a",
+            "#3d3d3d"
+          ],
+          "colorOptions": [
+            {
+              "name": "Oat",
+              "hex": "#d8cdb8"
+            },
+            {
+              "name": "Navy",
+              "hex": "#22304a"
+            },
+            {
+              "name": "Charcoal",
+              "hex": "#3d3d3d"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-sweater-2.webp",
+              "alt": "Bosun Sweater",
+              "caption": "Oat"
+            },
+            {
+              "image": "/assets/ballard/images/photo-sweater-1.webp",
+              "alt": "Bosun Sweater",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "100% wool, 8-gauge, knit dense enough to slow wind. Crew neck, ribbed cuffs and hem, saddle shoulders so the seam doesn't sit under a pack strap. 620 g. The pattern hasn't changed since 1974.",
+            "Itchy against skin. This is a working wool, not merino. Wear it over a shirt."
+          ],
+          "tradeoff": "Itchy against skin. Wear it over a shirt.",
+          "fit": "Runs large. Size down for a fit that works under a shell.",
+          "care": "Hand wash cold, lay flat. Repair-eligible; we re-knit cuffs and elbows.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fiber",
+              "value": "100% wool, 28 micron"
+            },
+            {
+              "label": "Gauge",
+              "value": "8 gg"
+            },
+            {
+              "label": "Weight",
+              "value": "620 g (size M)"
+            },
+            {
+              "label": "Made in",
+              "value": "Ireland"
+            }
+          ],
+          "related": [
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-1.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "badge": "Best seller",
+              "title": "Duwamish Work Pant",
+              "href": "/products/duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e",
+                "#2f3840"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "30",
+                "32",
+                "33",
+                "34",
+                "36",
+                "38",
+                "40"
+              ]
+            },
+            {
+              "id": "fathom-fleece",
+              "image": "/assets/ballard/images/photo-fleece-0.webp",
+              "imageAlt": "Fathom Fleece in Oat",
+              "badge": "Best seller",
+              "title": "Fathom Fleece",
+              "href": "/products/fathom-fleece",
+              "description": "Mid-layer for 30°F to 50°F under a shell.",
+              "price": "$139",
+              "colors": [
+                "#d8cdb8",
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "fleece",
+              "conditions": [
+                "cold",
+                "trail",
+                "commute"
+              ],
+              "materials": [
+                "polyester"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

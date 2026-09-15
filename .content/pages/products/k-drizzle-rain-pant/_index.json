@@ -1,0 +1,235 @@
+{
+  "$type": "page",
+  "id": "product-k-drizzle-rain-pant",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Kids' Drizzle Rain Pant",
+    "description": "Kids' PU-coated rain pant, 8,000mm hydrostatic head, ankle zips over boots. Doesn't breathe."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Kids'",
+              "href": "/shop/kids"
+            },
+            {
+              "label": "Rain pants",
+              "href": "/shop/kids?sub=pants"
+            },
+            {
+              "label": "Drizzle Rain Pant",
+              "href": "/products/k-drizzle-rain-pant"
+            }
+          ],
+          "name": "Drizzle Rain Pant",
+          "tagline": "Puddles and wet grass. Goes on over boots.",
+          "price": "$59",
+          "colorName": "Navy",
+          "colors": [
+            "#22304a",
+            "#e8f01e"
+          ],
+          "colorOptions": [
+            {
+              "name": "Navy",
+              "hex": "#22304a"
+            },
+            {
+              "name": "Hi-Vis Yellow",
+              "hex": "#e8f01e"
+            }
+          ],
+          "sizes": [
+            "2T",
+            "3T",
+            "4T",
+            "5T",
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-kids-0.webp",
+              "alt": "Drizzle Rain Pant",
+              "caption": "Navy"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "PU-coated nylon, 8,000mm (hydrostatic head), elastic waist, ankle zips so they pull on over boots. Reinforced seat and knees where kids actually sit and kneel.",
+            "They don't breathe. On a warm day your kid will be damp inside from sweat. They're for rain, not for running around in sun."
+          ],
+          "tradeoff": "They don't breathe.",
+          "fit": "Runs long. Buy current size; hem folds up 5 cm.",
+          "care": "Hose off or machine wash cold. Hang dry. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "PU-coated 210D nylon, 8,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Weight",
+              "value": "180 g (size M)"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "drop-chinook-rust",
+              "image": "/assets/ballard/images/photo-hero-deck-4.webp",
+              "imageAlt": "Chinook Bib in Rust",
+              "badge": "Limited run",
+              "title": "Chinook Bib",
+              "href": "/products/drop-chinook-rust",
+              "description": "Rust colorway with a hi-vis cuff. 120 made.",
+              "price": "$279",
+              "colors": [
+                "#a8482a"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-2.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "title": "Duwamish Work Pant",
+              "href": "/products/w-duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "0",
+                "2",
+                "4",
+                "6",
+                "8",
+                "10",
+                "12",
+                "14",
+                "16"
+              ]
+            },
+            {
+              "id": "duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-1.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "badge": "Best seller",
+              "title": "Duwamish Work Pant",
+              "href": "/products/duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e",
+                "#2f3840"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "30",
+                "32",
+                "33",
+                "34",
+                "36",
+                "38",
+                "40"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

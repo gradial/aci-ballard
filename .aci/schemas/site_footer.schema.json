@@ -4,23 +4,40 @@
   "type": "object",
   "properties": {
     "brandLogo": {
-      "type": "object",
-      "properties": {
-        "src": {
-          "type": "string"
-        },
-        "alt": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "src",
-        "alt"
-      ],
-      "additionalProperties": false
+      "type": "string"
+    },
+    "brandHref": {
+      "default": "/",
+      "type": "string"
+    },
+    "brandName": {
+      "default": "Ballard",
+      "type": "string",
+      "minLength": 1
     },
     "statement": {
       "type": "string"
+    },
+    "newsletterLabel": {
+      "type": "string"
+    },
+    "newsletterDescription": {
+      "type": "string"
+    },
+    "newsletterPlaceholder": {
+      "default": "Email",
+      "type": "string",
+      "minLength": 1
+    },
+    "newsletterSubmitLabel": {
+      "default": "Sign up",
+      "type": "string",
+      "minLength": 1
+    },
+    "newsletterSuccessMessage": {
+      "default": "You're on the list. First email goes out within two weeks.",
+      "type": "string",
+      "minLength": 1
     },
     "columns": {
       "type": "array",
@@ -88,15 +105,28 @@
         "additionalProperties": false
       }
     },
+    "countryLabel": {
+      "default": "United States (USD)",
+      "type": "string",
+      "minLength": 1
+    },
     "copyright": {
       "type": "string"
     }
   },
   "required": [
     "brandLogo",
+    "brandHref",
+    "brandName",
     "statement",
+    "newsletterLabel",
+    "newsletterDescription",
+    "newsletterPlaceholder",
+    "newsletterSubmitLabel",
+    "newsletterSuccessMessage",
     "columns",
     "legalLinks",
+    "countryLabel",
     "copyright"
   ],
   "additionalProperties": false

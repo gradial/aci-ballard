@@ -1,0 +1,2 @@
+import type { ContentProps } from '@/cms/contracts/components/stepGrid.contract';
+export function StepGrid({ heading, steps }: ContentProps) { return <section className="step-section section-pad"><h2>{heading}</h2><ol>{steps.map((step, index) => <li className={step.number ? '' : 'step-section__unnumbered'} key={`${step.number}-${step.title}`}>{step.number && <span>{step.number || index + 1}</span>}<h3>{step.title}</h3><p>{step.description}</p></li>)}</ol></section>; }

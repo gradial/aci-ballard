@@ -1,0 +1,17 @@
+{
+  "$type": "page", "id": "stores", "status": "published", "layout": "default",
+  "metadata": { "title": "Find a store | Ballard", "description": "400+ Ballard stores across North America. Every one of them does repair." },
+  "regions": { "main": [{ "id": "locator", "component": "store_locator", "props": {
+    "heading": "Find a store", "description": "400+ stores across North America, including 60 outlets. Every store takes repairs. Fremont and Bellingham carry the full Ballard Field line.", "image": "/assets/ballard/images/photo-store-1.webp", "imageAlt": "Store interior with racks of jackets and a repair counter",
+    "stores": [
+      { "id": "fremont", "name": "Ballard Fremont", "address": "3410 Fremont Ave N, Seattle, WA 98103", "hours": "Mon to Sat 10 to 7, Sun 11 to 6", "services": ["Repair", "Hemming Tue to Sat", "Ballard Field line", "Wrenfield"] },
+      { "id": "salmon-bay", "name": "Ballard Salmon Bay", "address": "5231 Shilshole Ave NW, Seattle, WA 98107", "hours": "Mon to Sat 9 to 7, Sun 10 to 6", "services": ["Repair", "Deck gear", "Reproofing"] },
+      { "id": "bellingham", "name": "Ballard Bellingham", "address": "1210 Railroad Ave, Bellingham, WA 98225", "hours": "Mon to Sat 10 to 6, Sun 11 to 5", "services": ["Repair", "Ballard Field line"] },
+      { "id": "portland", "name": "Ballard Portland", "address": "1104 NW Glisan St, Portland, OR 97209", "hours": "Mon to Sat 10 to 7, Sun 11 to 6", "services": ["Repair", "Wrenfield"] },
+      { "id": "anchorage", "name": "Ballard Anchorage", "address": "601 W 5th Ave, Anchorage, AK 99501", "hours": "Mon to Sat 10 to 6, Sun 12 to 5", "services": ["Repair", "Deck gear", "Ballard Field line"] },
+      { "id": "vancouver", "name": "Ballard Vancouver", "address": "2116 W 4th Ave, Vancouver, BC V6K 1N6", "hours": "Mon to Sat 10 to 7, Sun 11 to 6", "services": ["Repair"] },
+      { "id": "tukwila", "name": "Ballard Tukwila outlet", "badge": "Outlet", "address": "17900 Southcenter Pkwy, Tukwila, WA 98188", "hours": "Mon to Sun 10 to 8", "services": ["Past-season gear"] },
+      { "id": "minneapolis", "name": "Ballard Minneapolis", "address": "3001 Hennepin Ave, Minneapolis, MN 55408", "hours": "Mon to Sat 10 to 7, Sun 11 to 6", "services": ["Repair", "Wrenfield"] }
+    ]
+  } }] }
+}

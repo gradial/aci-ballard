@@ -1,0 +1,62 @@
+{
+  "$type": "page",
+  "id": "story-wrenfield-the-mill-at-bridgewater",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Wrenfield: the mill at Bridgewater | Ballard",
+    "description": "A wool mill on the Ottauquechee has been running since 1919. It still is."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "article",
+        "component": "story_detail",
+        "props": {
+          "kind": "Company",
+          "title": "Wrenfield: the mill at Bridgewater",
+          "description": "A wool mill on the Ottauquechee has been running since 1919. It still is.",
+          "author": "Wrenfield",
+          "date": "March 2, 2026",
+          "readTime": "7 min read",
+          "image": "/assets/ballard/images/photo-wool-6.webp",
+          "imageAlt": "Wrenfield: the mill at Bridgewater",
+          "paragraphs": [
+            "The mill sits on the Ottauquechee River in Bridgewater, Vermont, in a brick building that was a woolen mill before Wrenfield bought it in 1919. The river ran the looms until 1952. Now it runs past them.",
+            "Wrenfield weaves blankets and shirt cloth on eleven looms, four of which are older than anyone who works there. The wool comes from Vermont and New York farms, scoured in Pennsylvania, spun on site. The heather grey is a blend of three undyed fleeces, and it's been the same three since the forties because the farms are the same farms.",
+            "Ballard bought Wrenfield in 2025. The mill kept its name, its people, and its way of talking. What changed is that the blankets now get repaired at the Ballard stores, and the Mill Shirt is in a few of them. The rest is up to Bridgewater."
+          ],
+          "more": [
+            {
+              "id": "how-to-reproof-waxed-cotton",
+              "image": "/assets/ballard/images/photo-repair-3.webp",
+              "imageAlt": "How to reproof waxed cotton",
+              "title": "How to reproof waxed cotton",
+              "description": "Once a year, 40 minutes, a hair dryer. Here's the whole process.",
+              "readTime": "4 min read",
+              "href": "/stories/how-to-reproof-waxed-cotton"
+            },
+            {
+              "id": "eight-hours-on-the-deck",
+              "image": "/assets/ballard/images/photo-fishing-7.webp",
+              "imageAlt": "Eight hours on the deck",
+              "title": "Eight hours on the deck",
+              "description": "What a shift on a Bristol Bay gillnetter asks of a jacket, measured.",
+              "readTime": "6 min read",
+              "href": "/stories/eight-hours-on-the-deck"
+            },
+            {
+              "id": "we-have-made-this-jacket-since-1971",
+              "image": "/assets/ballard/images/photo-factory-2.webp",
+              "imageAlt": "We've made this jacket since 1971",
+              "title": "We've made this jacket since 1971",
+              "description": "The Salmon Bay Parka pattern has changed twice. Here's what changed and why.",
+              "readTime": "5 min read",
+              "href": "/stories/we-have-made-this-jacket-since-1971"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

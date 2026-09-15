@@ -1,0 +1,231 @@
+{
+  "$type": "page",
+  "id": "product-deck-boot",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Deck Boot, natural rubber",
+    "description": "40 cm natural rubber deck boot, siped non-marking sole. Same last since 1966. No insulation."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Packs and gear",
+              "href": "/shop/packs-gear"
+            },
+            {
+              "label": "Footwear",
+              "href": "/shop/packs-gear?sub=footwear"
+            },
+            {
+              "label": "Deck Boot",
+              "href": "/products/deck-boot"
+            }
+          ],
+          "name": "Deck Boot",
+          "tagline": "Wet deck, fish slime, hose-down at the end of the day.",
+          "price": "$119",
+          "colorName": "Dark Slate",
+          "colors": [
+            "#2f3840",
+            "#b89a6a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            },
+            {
+              "name": "Tan",
+              "hex": "#b89a6a"
+            }
+          ],
+          "sizes": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-boots-2.webp",
+              "alt": "Deck Boot",
+              "caption": "Dark Slate"
+            },
+            {
+              "image": "/assets/ballard/images/photo-boots-0.webp",
+              "alt": "Deck Boot",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "Natural rubber, 40 cm tall, with a non-marking siped sole that grips wet fiberglass. Removable felt insole. Pull tabs at the back. We've made this boot with the same last since 1966.",
+            "Zero insulation and no arch support. Below 40°F you'll want a wool sock and a footbed. They're a rubber boot, not a work boot."
+          ],
+          "tradeoff": "Zero insulation and no arch support.",
+          "fit": "Runs a half size large. Order down, or your size if you'll wear a thick sock.",
+          "care": "Rinse. Store out of sun. Not repair-eligible.",
+          "repairEligible": false,
+          "specs": [
+            {
+              "label": "Upper",
+              "value": "Natural rubber, 3mm"
+            },
+            {
+              "label": "Sole",
+              "value": "Siped rubber, non-marking"
+            },
+            {
+              "label": "Height",
+              "value": "40 cm"
+            },
+            {
+              "label": "Weight",
+              "value": "1.1 kg (pair, size 10)"
+            },
+            {
+              "label": "Made in",
+              "value": "USA (Seattle, WA)"
+            }
+          ],
+          "related": [
+            {
+              "id": "bosun-duffel",
+              "image": "/assets/ballard/images/photo-backpack-product-3.webp",
+              "imageAlt": "Bosun Duffel in Dark Slate",
+              "title": "Bosun Duffel",
+              "href": "/products/bosun-duffel",
+              "description": "70 L. Thrown in a truck bed, left in the rain.",
+              "price": "$189",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "bags",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "70 L"
+              ]
+            },
+            {
+              "id": "deckhand-glove",
+              "image": "/assets/ballard/images/photo-gloves-1.webp",
+              "imageAlt": "Deckhand Glove in Tan",
+              "title": "Deckhand Glove",
+              "href": "/products/deckhand-glove",
+              "description": "Line handling, wet rope, cold hands.",
+              "price": "$48",
+              "colors": [
+                "#b89a6a",
+                "#151515"
+              ],
+              "category": "accessories",
+              "conditions": [
+                "deck",
+                "wind"
+              ],
+              "materials": [
+                "leather"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            },
+            {
+              "id": "foghorn-daypack",
+              "image": "/assets/ballard/images/photo-backpack-product-0.webp",
+              "imageAlt": "Foghorn Daypack in Dark Slate",
+              "badge": "Best seller",
+              "title": "Foghorn Daypack",
+              "href": "/products/foghorn-daypack",
+              "description": "22 L. Commute in rain without a cover.",
+              "price": "$129",
+              "colors": [
+                "#2f3840",
+                "#5a5f3e",
+                "#b89a6a"
+              ],
+              "category": "packs",
+              "conditions": [
+                "rain",
+                "commute",
+                "trail"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "22 L"
+              ]
+            },
+            {
+              "id": "ridgeline-sock",
+              "image": "/assets/ballard/images/photo-socks-1.webp",
+              "imageAlt": "Ridgeline Sock in Oat",
+              "title": "Ridgeline Sock",
+              "href": "/products/ridgeline-sock",
+              "description": "Boot sock for 12-hour days. 70% merino.",
+              "price": "$24",
+              "colors": [
+                "#d8cdb8",
+                "#3d3d3d",
+                "#a8482a"
+              ],
+              "category": "accessories",
+              "conditions": [
+                "cold",
+                "trail",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

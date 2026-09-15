@@ -1,0 +1,241 @@
+{
+  "$type": "page",
+  "id": "product-gale-beanie",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Gale Beanie, 100% merino",
+    "description": "100% merino wool beanie, 18.5 micron, double cuff. Warm when damp. Pills under a hood."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Men's",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Hats and accessories",
+              "href": "/shop/mens?sub=accessories"
+            },
+            {
+              "label": "Gale Beanie",
+              "href": "/products/gale-beanie"
+            }
+          ],
+          "name": "Gale Beanie",
+          "tagline": "Merino for wet wind. Doesn't smell after a week.",
+          "price": "$34",
+          "colorName": "Oat",
+          "colors": [
+            "#d8cdb8",
+            "#3d3d3d",
+            "#a8482a",
+            "#3b4a3a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Oat",
+              "hex": "#d8cdb8"
+            },
+            {
+              "name": "Charcoal",
+              "hex": "#3d3d3d"
+            },
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            },
+            {
+              "name": "Kelp",
+              "hex": "#3b4a3a"
+            }
+          ],
+          "sizes": [
+            "One size"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-beanie-3.webp",
+              "alt": "Gale Beanie",
+              "caption": "Oat"
+            },
+            {
+              "image": "/assets/ballard/images/photo-beanie-6.webp",
+              "alt": "Gale Beanie",
+              "caption": "Model is 5'11\", wearing a size M"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "100% merino wool, 18.5 micron, knit on a 7-gauge machine with a double-folded cuff. Covers the ears. Stays warm damp and doesn't smell after a week on the boat.",
+            "It pills. Merino this fine pills under a hood or a hard hat. Shave it once a season and it'll last years."
+          ],
+          "tradeoff": "Pills under a hood or hard hat.",
+          "fit": "",
+          "care": "Hand wash cold, lay flat. Not repair-eligible.",
+          "repairEligible": false,
+          "specs": [
+            {
+              "label": "Fiber",
+              "value": "100% merino wool, 18.5 micron"
+            },
+            {
+              "label": "Gauge",
+              "value": "7 gg, double cuff"
+            },
+            {
+              "label": "Weight",
+              "value": "70 g"
+            },
+            {
+              "label": "Made in",
+              "value": "USA (Portland, OR)"
+            }
+          ],
+          "related": [
+            {
+              "id": "bosun-sweater",
+              "image": "/assets/ballard/images/photo-sweater-2.webp",
+              "imageAlt": "Bosun Sweater in Oat",
+              "title": "Bosun Sweater",
+              "href": "/products/bosun-sweater",
+              "description": "8-gauge wool for wind on the water.",
+              "price": "$169",
+              "colors": [
+                "#d8cdb8",
+                "#22304a",
+                "#3d3d3d"
+              ],
+              "category": "sweaters",
+              "conditions": [
+                "cold",
+                "wind",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "deckhand-glove",
+              "image": "/assets/ballard/images/photo-gloves-1.webp",
+              "imageAlt": "Deckhand Glove in Tan",
+              "title": "Deckhand Glove",
+              "href": "/products/deckhand-glove",
+              "description": "Line handling, wet rope, cold hands.",
+              "price": "$48",
+              "colors": [
+                "#b89a6a",
+                "#151515"
+              ],
+              "category": "accessories",
+              "conditions": [
+                "deck",
+                "wind"
+              ],
+              "materials": [
+                "leather"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

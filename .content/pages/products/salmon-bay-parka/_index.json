@@ -1,0 +1,261 @@
+{
+  "$type": "page",
+  "id": "product-salmon-bay-parka",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Salmon Bay Parka, 3-layer 20,000mm shell",
+    "description": "3-layer waterproof parka, 20,000mm hydrostatic head, fully seam-sealed. Built for eight hours on a wet deck. Made since 1971."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Men's",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Jackets and shells",
+              "href": "/shop/mens?sub=jackets"
+            },
+            {
+              "label": "Salmon Bay Parka",
+              "href": "/products/salmon-bay-parka"
+            }
+          ],
+          "name": "Salmon Bay Parka",
+          "tagline": "Standing on a wet deck for eight hours.",
+          "price": "$349",
+          "colorName": "Slate",
+          "colors": [
+            "#5b6670",
+            "#2f3840",
+            "#a8482a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Slate",
+              "hex": "#5b6670"
+            },
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            },
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-kayak-0.webp",
+              "alt": "Salmon Bay Parka",
+              "caption": "Slate"
+            },
+            {
+              "image": "/assets/ballard/images/photo-hero-deck-2.webp",
+              "alt": "Salmon Bay Parka",
+              "caption": "Model is 5'11\", wearing a size M"
+            },
+            {
+              "image": "/assets/ballard/images/photo-kayak-2.webp",
+              "alt": "Salmon Bay Parka"
+            },
+            {
+              "image": "/assets/ballard/images/photo-hero-deck-6.webp",
+              "alt": "Salmon Bay Parka"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "Built for standing on a wet deck for eight hours. 3-layer waterproof shell, 20,000mm (hydrostatic head), fully seam-sealed, with a hood that turns with your head instead of against it. Pockets sit above a harness line. Two-way front zip with a storm flap that snaps shut, so you can vent from the bottom without opening the top.",
+            "Heavy. This is not a jacket you carry in case of rain. It's one you put on when you know. If you want something packable, look at the Fathom Shell."
+          ],
+          "tradeoff": "Heavy for its warmth. You won't want to carry it in a pack.",
+          "fit": "Runs large through the shoulder. Size down if you're layering a shell over it. Length hits mid-thigh on a 5'10\" wearer.",
+          "care": "Machine wash cold, tech wash only. Tumble dry low to reactivate the DWR. We reproof and re-tape these; send them back.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Shell",
+              "value": "3-layer 70D nylon, PU membrane, 20,000mm (hydrostatic head)"
+            },
+            {
+              "label": "Breathability",
+              "value": "15,000 g/m²/24h (JIS L1099 B1)"
+            },
+            {
+              "label": "Weight",
+              "value": "1,120 g (size M)"
+            },
+            {
+              "label": "Seams",
+              "value": "Fully taped, 13mm tape"
+            },
+            {
+              "label": "Hood",
+              "value": "3-point adjustable, wire brim"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "bosun-sweater",
+              "image": "/assets/ballard/images/photo-sweater-2.webp",
+              "imageAlt": "Bosun Sweater in Oat",
+              "title": "Bosun Sweater",
+              "href": "/products/bosun-sweater",
+              "description": "8-gauge wool for wind on the water.",
+              "price": "$169",
+              "colors": [
+                "#d8cdb8",
+                "#22304a",
+                "#3d3d3d"
+              ],
+              "category": "sweaters",
+              "conditions": [
+                "cold",
+                "wind",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "w-cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-parka-2.webp",
+              "imageAlt": "Cascade Down Jacket in Rust",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/w-cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#a8482a",
+                "#2f3840",
+                "#d8cdb8"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

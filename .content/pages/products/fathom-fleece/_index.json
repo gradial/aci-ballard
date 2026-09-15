@@ -1,0 +1,256 @@
+{
+  "$type": "page",
+  "id": "product-fathom-fleece",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "Fathom Fleece, 300-weight mid-layer",
+    "description": "300-weight polyester fleece, 380 g. Mid-layer for 30°F to 50°F under a shell. No wind resistance on its own."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "product",
+        "component": "product_detail",
+        "props": {
+          "breadcrumb": [
+            {
+              "label": "Home",
+              "href": "/"
+            },
+            {
+              "label": "Men's",
+              "href": "/shop/mens"
+            },
+            {
+              "label": "Fleece",
+              "href": "/shop/mens?sub=fleece"
+            },
+            {
+              "label": "Fathom Fleece",
+              "href": "/products/fathom-fleece"
+            }
+          ],
+          "name": "Fathom Fleece",
+          "tagline": "Mid-layer for 30°F to 50°F under a shell.",
+          "price": "$139",
+          "colorName": "Oat",
+          "colors": [
+            "#d8cdb8",
+            "#2f3840",
+            "#a8482a",
+            "#22304a"
+          ],
+          "colorOptions": [
+            {
+              "name": "Oat",
+              "hex": "#d8cdb8"
+            },
+            {
+              "name": "Dark Slate",
+              "hex": "#2f3840"
+            },
+            {
+              "name": "Rust",
+              "hex": "#a8482a"
+            },
+            {
+              "name": "Navy",
+              "hex": "#22304a"
+            }
+          ],
+          "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+          ],
+          "gallery": [
+            {
+              "image": "/assets/ballard/images/photo-fleece-0.webp",
+              "alt": "Fathom Fleece",
+              "caption": "Oat"
+            },
+            {
+              "image": "/assets/ballard/images/photo-fleece-4.webp",
+              "alt": "Fathom Fleece",
+              "caption": "Model is 5'11\", wearing a size M"
+            },
+            {
+              "image": "/assets/ballard/images/photo-fleece-7.webp",
+              "alt": "Fathom Fleece"
+            }
+          ],
+          "delivery": [
+            {
+              "label": "Delivery",
+              "value": "Free shipping over $99. Ships in 1 to 2 business days."
+            },
+            {
+              "label": "Store pickup",
+              "value": "Ballard Fremont, usually same day."
+            },
+            {
+              "label": "Returns",
+              "value": "60 days, worn or not. Repair is free for life."
+            }
+          ],
+          "paragraphs": [
+            "300-weight polyester fleece, 380 g in a size M. Full zip, two zipped hand pockets, one chest pocket. Cuffs are lycra-bound so they stay put under a shell. Drops a hair below the waist so it doesn't ride up under a harness.",
+            "It picks up lint and has no wind resistance on its own. Over 10 mph, put a shell on top or you'll feel it."
+          ],
+          "tradeoff": "No wind resistance on its own. Picks up lint.",
+          "fit": "Runs true. Sleeves are long by design so they cover your wrists when you reach.",
+          "care": "Machine wash cold, tumble dry low. Repair-eligible.",
+          "repairEligible": true,
+          "specs": [
+            {
+              "label": "Fabric",
+              "value": "100% polyester, 300 g/m² double-face fleece"
+            },
+            {
+              "label": "Weight",
+              "value": "380 g (size M)"
+            },
+            {
+              "label": "Zip",
+              "value": "YKK #5 Vislon, two-way"
+            },
+            {
+              "label": "Made in",
+              "value": "Vietnam"
+            }
+          ],
+          "related": [
+            {
+              "id": "bosun-sweater",
+              "image": "/assets/ballard/images/photo-sweater-2.webp",
+              "imageAlt": "Bosun Sweater in Oat",
+              "title": "Bosun Sweater",
+              "href": "/products/bosun-sweater",
+              "description": "8-gauge wool for wind on the water.",
+              "price": "$169",
+              "colors": [
+                "#d8cdb8",
+                "#22304a",
+                "#3d3d3d"
+              ],
+              "category": "sweaters",
+              "conditions": [
+                "cold",
+                "wind",
+                "deck"
+              ],
+              "materials": [
+                "wool"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "cascade-down-jacket",
+              "image": "/assets/ballard/images/photo-men-hike-6.webp",
+              "imageAlt": "Cascade Down Jacket in Dark Slate",
+              "badge": "New",
+              "title": "Cascade Down Jacket",
+              "href": "/products/cascade-down-jacket",
+              "description": "Dry cold below 30°F. Warmest thing we make per gram.",
+              "price": "$279",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#22304a"
+              ],
+              "category": "jackets",
+              "conditions": [
+                "cold"
+              ],
+              "materials": [
+                "down",
+                "nylon"
+              ],
+              "sizes": [
+                "XS",
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "chinook-bib",
+              "image": "/assets/ballard/images/photo-hero-deck-1.webp",
+              "imageAlt": "Chinook Bib in Dark Slate",
+              "title": "Chinook Bib",
+              "href": "/products/chinook-bib",
+              "description": "Foul-weather bib for the deck. Kneels on wet steel.",
+              "price": "$259",
+              "colors": [
+                "#2f3840",
+                "#a8482a",
+                "#ff6a13"
+              ],
+              "category": "pants",
+              "conditions": [
+                "rain",
+                "deck"
+              ],
+              "materials": [
+                "nylon"
+              ],
+              "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+              ]
+            },
+            {
+              "id": "duwamish-work-pant",
+              "image": "/assets/ballard/images/photo-work-pants-1.webp",
+              "imageAlt": "Duwamish Work Pant in Tan",
+              "badge": "Best seller",
+              "title": "Duwamish Work Pant",
+              "href": "/products/duwamish-work-pant",
+              "description": "12 oz duck canvas. Kneel, climb, sit on wet ground.",
+              "price": "$98",
+              "colors": [
+                "#b89a6a",
+                "#3d3d3d",
+                "#5a5f3e",
+                "#2f3840"
+              ],
+              "category": "pants",
+              "conditions": [
+                "deck",
+                "commute"
+              ],
+              "materials": [
+                "cotton"
+              ],
+              "sizes": [
+                "30",
+                "32",
+                "33",
+                "34",
+                "36",
+                "38",
+                "40"
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

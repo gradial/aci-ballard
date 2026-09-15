@@ -1,0 +1,62 @@
+{
+  "$type": "page",
+  "id": "story-we-have-made-this-jacket-since-1971",
+  "status": "published",
+  "layout": "default",
+  "metadata": {
+    "title": "We've made this jacket since 1971 | Ballard",
+    "description": "The Salmon Bay Parka pattern has changed twice. Here's what changed and why."
+  },
+  "regions": {
+    "main": [
+      {
+        "id": "article",
+        "component": "story_detail",
+        "props": {
+          "kind": "Company",
+          "title": "We've made this jacket since 1971",
+          "description": "The Salmon Bay Parka pattern has changed twice. Here's what changed and why.",
+          "author": "Ballard",
+          "date": "June 18, 2026",
+          "readTime": "5 min read",
+          "image": "/assets/ballard/images/photo-factory-2.webp",
+          "imageAlt": "We've made this jacket since 1971",
+          "paragraphs": [
+            "The first Salmon Bay Parka was a PVC-coated cotton shell with taped seams and a drawstring hood. It weighed 1.6 kg. The fishing fleet bought it because it didn't leak, and they put up with the weight because the alternative leaked.",
+            "The first pattern change was in 1988, when we moved to a nylon shell with a PU membrane. That cut 400 g and added breathability, and it's the point where the jacket stopped being a marine product and started being an outdoor one. The second change was in 2014: we moved the hand pockets up above the harness line and added the two-way zip. Both came from the fleet.",
+            "The hood, the storm flap, and the length haven't changed. If we change them, it'll be because someone standing on a deck told us to."
+          ],
+          "more": [
+            {
+              "id": "how-to-reproof-waxed-cotton",
+              "image": "/assets/ballard/images/photo-repair-3.webp",
+              "imageAlt": "How to reproof waxed cotton",
+              "title": "How to reproof waxed cotton",
+              "description": "Once a year, 40 minutes, a hair dryer. Here's the whole process.",
+              "readTime": "4 min read",
+              "href": "/stories/how-to-reproof-waxed-cotton"
+            },
+            {
+              "id": "eight-hours-on-the-deck",
+              "image": "/assets/ballard/images/photo-fishing-7.webp",
+              "imageAlt": "Eight hours on the deck",
+              "title": "Eight hours on the deck",
+              "description": "What a shift on a Bristol Bay gillnetter asks of a jacket, measured.",
+              "readTime": "6 min read",
+              "href": "/stories/eight-hours-on-the-deck"
+            },
+            {
+              "id": "layering-for-northwest-rain",
+              "image": "/assets/ballard/images/photo-seattle-rain-2.webp",
+              "imageAlt": "Layering for Northwest rain",
+              "title": "Layering for Northwest rain",
+              "description": "Three layers, two of which you'll take off. A guide by temperature.",
+              "readTime": "5 min read",
+              "href": "/stories/layering-for-northwest-rain"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
